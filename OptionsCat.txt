@@ -1,4 +1,4 @@
-{'agricole': ['a', 'agricole', 'agriculture', 'agriculture generale'],
+{'agrecole': ['a', 'agricole', 'agriculture', 'agriculture generale'],
  'agronomie': ['agronomie'],
  'batiment': ['b', 'batiment'],
  'bio-chimie': ['bc',
