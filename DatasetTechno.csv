@@ -1,0 +1,904 @@
+,ID,SCHOOLSTATUS,SCHOOL_RIGHT,OPTION_RIGHT,FAC,SCHOOLPROVINCE,GENDER,DIPPERC,AGE,CGPA,DistinctionRatio,EchecRatio,NACADYEAR,Pass1stSessionRatio
+51,10124,protestant,zanner,commmerciale et adm,FSTA,NORD-KIVU,H,50.0,21,47.0,G,A,1.0,G
+58,10560,protestant,zanner,latin philo,FSTA,NORD-KIVU,H,51.0,22,42.0,G,A,1.0,G
+72,11697,protestant,zanner,commmerciale et adm,FSTA,NORD-KIVU,F,52.0,22,45.0999984741,G,A,1.0,G
+78,3289,publique,edap/isp,math-physique,FSTA,SUD-KIVU,H,61.0,32,47.0,G,A,1.0,G
+79,3691,publique,edap/isp,commmerciale et adm,FSTA,SUD-KIVU,H,59.0,30,64.3000011445,G,G,2.0,G
+80,4617,publique,edap/isp,bio-chimie,FSTA,SUD-KIVU,H,61.0,25,75.0,A,G,2.0,D
+81,6626,publique,edap/isp,math-physique,FSTA,SUD-KIVU,H,62.0,25,62.2666676839,G,G,3.0,G
+82,7611,publique,edap/isp,bio-chimie,FSTA,SUD-KIVU,H,55.0,24,56.3333320618,G,E,3.0,C
+84,9309,publique,edap/isp,math-physique,FSTA,SUD-KIVU,F,50.0,25,58.0999997457,G,G,3.0,E
+87,11525,publique,edap/isp,math-physique,FSTA,NORD-KIVU,H,60.0,22,54.2000007629,G,G,1.0,G
+91,11662,publique,mululusake,pedagogie,FSTA,NORD-KIVU,H,73.0,19,68.5,G,G,1.0,A
+94,3440,publique,ibanda,pedagogie,FSTA,SUD-KIVU,H,50.0,30,41.0,G,A,1.0,G
+95,3643,publique,ibanda,pedagogie,FSTA,SUD-KIVU,H,60.0,30,58.1666666667,G,G,3.0,G
+103,6662,publique,ibanda,math-physique,FSTA,SUD-KIVU,H,68.0,25,60.3000005086,G,G,3.0,G
+106,7672,publique,ibanda,bio-chimie,FSTA,SUD-KIVU,H,54.0,25,53.6499996185,G,D,2.0,G
+107,7685,publique,ibanda,bio-chimie,FSTA,NORD-KIVU,H,60.0,26,52.8333333333,G,C,3.0,G
+109,8326,publique,ibanda,bio-chimie,FSTA,NORD-KIVU,H,59.0,24,65.8333333333,E,G,3.0,E
+112,9506,publique,ibanda,math-physique,FSTA,SUD-KIVU,F,55.0,22,48.9666659037,G,C,3.0,G
+114,9829,publique,ibanda,math-physique,FSTA,SUD-KIVU,H,52.0,20,62.7000007629,G,G,2.0,A
+115,10201,publique,ibanda,math-physique,FSTA,SUD-KIVU,H,62.0,21,57.3500003815,G,G,2.0,G
+117,10358,publique,ibanda,math-physique,FSTA,SUD-KIVU,H,52.0,24,57.3500003815,G,G,2.0,G
+118,10484,publique,ibanda,pedagogie,FSTA,SUD-KIVU,H,50.0,20,68.4499969482,D,G,2.0,A
+123,11791,publique,ibanda,bio-chimie,FSTA,NORD-KIVU,H,51.0,20,42.0,G,A,1.0,G
+130,4307,catholique,iti gombe,mecanique machines outils,FSTA,KINSHASA,H,69.0,27,63.2999992371,G,G,2.0,G
+135,10582,catholique,iti gombe,electronique générale,FSTA,ORIENTALE,H,60.0,25,48.0,G,A,1.0,G
+136,11371,catholique,iti gombe,mec gene,FSTA,NORD-KIVU,H,56.0,21,55.7999992371,G,G,1.0,G
+137,11378,publique,iti gombe,elec,FSTA,KINSHASA,H,52.0,26,47.7999992371,G,A,1.0,G
+138,11455,catholique,iti gombe,elec,FSTA,NORD-KIVU,H,65.0,19,60.9000015259,G,G,1.0,G
+139,11636,catholique,iti gombe,mec gene,FSTA,NORD-KIVU,H,52.0,21,60.2000007629,G,G,1.0,G
+140,11648,catholique,iti gombe,elec,FSTA,NORD-KIVU,H,68.0,20,69.3000030518,G,G,1.0,A
+141,11678,catholique,iti gombe,elec,FSTA,NORD-KIVU,H,56.0,19,59.7000007629,G,G,1.0,G
+142,11679,catholique,iti gombe,mec gene,FSTA,NORD-KIVU,H,60.0,20,60.0999984741,G,G,1.0,G
+148,9126,publique,butembo,sociale,FSTA,NORD-KIVU,H,58.0,27,46.0,G,A,1.0,G
+154,10867,publique,butembo,elec indust,FSTA,NORD-KIVU,H,58.0,23,57.5,G,G,2.0,G
+158,11558,publique,butembo,math-physique,FSTA,NORD-KIVU,H,65.0,21,61.5,G,G,1.0,A
+162,12111,publique,butembo,construction,FSTA,NORD-KIVU,H,62.0,21,40.0,G,A,1.0,G
+164,12167,publique,butembo,construction,FSTA,NORD-KIVU,H,60.0,23,42.0,G,A,1.0,G
+165,12186,publique,butembo,agrecole,FSTA,NORD-KIVU,H,67.0,20,54.5,G,G,1.0,G
+169,11624,protestant,masisi,sociale,FSTA,NORD-KIVU,H,52.0,22,44.0,G,A,1.0,G
+235,10221,publique,ndosho,bio-chimie,FSTA,NORD-KIVU,H,65.0,21,65.25,G,G,2.0,D
+238,10549,publique,ndosho,bio-chimie,FSTA,NORD-KIVU,F,61.0,21,60.9500007629,G,G,2.0,D
+244,11778,privé,ndosho,sociale,FSTA,SUD-KIVU,F,55.0,23,49.0,G,A,1.0,G
+245,11969,privé,ndosho,sociale,FSTA,NORD-KIVU,F,59.0,18,49.0,G,A,1.0,G
+264,6614,protestant,himbi,latin philo,FSTA,NORD-KIVU,H,65.0,27,58.5333328247,G,E,3.0,G
+270,7547,protestant,himbi,commmerciale et adm,FSTA,NORD-KIVU,H,60.0,23,39.5,G,A,1.0,G
+287,9162,protestant,himbi,latin philo,FSTA,KASAI ORIENTAL,H,66.0,22,61.5999984741,G,G,3.0,G
+299,9684,protestant,himbi,pedagogie,FSTA,NORD-KIVU,H,60.0,23,52.1000003815,G,D,2.0,G
+300,9921,protestant,himbi,commmerciale et adm,FSTA,NORD-KIVU,H,58.0,21,48.0,G,A,1.0,G
+301,9930,protestant,himbi,pedagogie,FSTA,NORD-KIVU,H,71.0,21,66.7000007629,G,G,2.0,A
+310,10624,protestant,himbi,commmerciale et adm,FSTA,NORD-KIVU,H,56.0,22,58.5,G,G,2.0,G
+318,11542,protestant,himbi,latin philo,FSTA,NORD-KIVU,F,65.0,21,55.7999992371,G,G,1.0,A
+338,8682,catholique,kambali,math-physique,FSTA,NORD-KIVU,H,61.0,27,71.6999969482,A,G,1.0,G
+340,9337,catholique,kambali,latin philo,FSTA,NORD-KIVU,H,60.0,21,55.6666666667,G,E,3.0,E
+342,10170,catholique,kambali,latin philo,FSTA,NORD-KIVU,H,76.0,21,65.3999996185,G,G,2.0,D
+344,10901,catholique,kambali,math-physique,FSTA,NORD-KIVU,H,57.0,21,57.3500003815,G,G,2.0,G
+357,7597,catholique,mwanga/ uvira,math-physique,FSTA,SUD-KIVU,H,59.0,23,58.3999996185,G,G,4.0,F
+364,11506,catholique,mwanga/ uvira,bio-chimie,FSTA,SUD-KIVU,H,59.0,23,43.0,G,A,1.0,G
+367,11901,catholique,mwanga/ uvira,math-physique,FSTA,NORD-KIVU,H,67.0,22,66.8000030518,G,G,1.0,A
+372,9893,protestant,kimua,pedagogie,FSTA,NORD-KIVU,F,57.0,24,40.0,G,A,1.0,G
+377,12099,catholique,it kasabinyole,mec gene,FSTA,NORD-KIVU,H,60.0,21,46.7000007629,G,A,1.0,G
+382,11673,catholique,mgr henri pierrard,bio-chimie,FSTA,NORD-KIVU,H,51.0,21,46.7999992371,G,A,1.0,G
+396,8151,publique,uzima,commerciale informatique,FSTA,NORD-KIVU,H,67.0,22,67.2749996185,D,G,4.0,B
+401,8205,publique,uzima,commerciale informatique,FSTA,NORD-KIVU,H,50.0,23,51.5999997457,G,E,3.0,G
+416,11327,publique,uzima,commerciale informatique,FSTA,NORD-KIVU,F,56.0,21,45.2999992371,G,A,1.0,G
+421,11863,publique,uzima,sociale,FSTA,NORD-KIVU,F,63.0,19,46.0,G,A,1.0,G
+468,7588,protestant,maendeleo,commmerciale et adm,FSTA,NORD-KIVU,H,56.8765221107,23,54.2250003815,G,D,4.0,F
+505,9299,protestant,maendeleo,commmerciale et adm,FSTA,MANIEMA,H,50.0,21,53.8500003815,G,D,2.0,G
+514,9957,protestant,maendeleo,latin philo,FSTA,NORD-KIVU,H,54.0,21,56.5,G,G,2.0,G
+532,10682,protestant,maendeleo,commmerciale et adm,FSTA,NORD-KIVU,H,59.0,20,54.6499996185,G,D,2.0,G
+537,11343,protestant,maendeleo,commmerciale et adm,FSTA,NORD-KIVU,H,52.0,20,43.2999992371,G,A,1.0,G
+539,11514,protestant,maendeleo,latin philo,FSTA,NORD-KIVU,H,52.0,19,41.0,G,A,1.0,G
+543,11633,protestant,maendeleo,commmerciale et adm,FSTA,NORD-KIVU,H,50.0,19,43.0,G,A,1.0,G
+554,10403,privé,bakita,bio-chimie,FSTA,SUD-KIVU,H,52.0,23,51.2000007629,G,A,1.0,G
+555,11324,privé,bakita,bio-chimie,FSTA,SUD-KIVU,H,55.0,21,62.2000007629,G,G,1.0,G
+557,11800,catholique,rambo,commmerciale et adm,FSTA,SUD-KIVU,H,65.0,22,44.0,G,A,1.0,G
+559,3320,publique,ngoma,sociale,FSTA,NORD-KIVU,H,52.0,30,40.0,G,A,1.0,G
+587,8265,publique,ngoma,bio-chimie,FSTA,NORD-KIVU,H,60.0,24,61.9250011444,G,F,4.0,F
+589,8681,publique,ngoma,math-physique,FSTA,NORD-KIVU,H,51.0,23,53.5999997457,G,E,3.0,G
+592,8871,publique,ngoma,math-physique,FSTA,NORD-KIVU,H,50.0,22,42.0,G,A,1.0,G
+596,9091,publique,ngoma,pedagogie,FSTA,NORD-KIVU,H,56.0,25,55.9333343506,G,E,3.0,E
+611,9945,publique,ngoma,math-physique,FSTA,NORD-KIVU,H,59.0,20,48.0,G,A,1.0,G
+612,9948,publique,ngoma,math-physique,FSTA,NORD-KIVU,H,59.0,21,59.3500003815,G,G,2.0,G
+616,10011,publique,ngoma,pedagogie,FSTA,NORD-KIVU,H,63.0,21,59.5499992371,G,G,2.0,D
+621,10111,publique,ngoma,bio-chimie,FSTA,NORD-KIVU,H,51.0,24,54.0,G,A,1.0,G
+628,10220,publique,ngoma,math-physique,FSTA,NORD-KIVU,H,64.0,21,54.8999996185,G,D,2.0,G
+632,10331,publique,ngoma,pedagogie,FSTA,KATANGA,H,50.0,24,44.0,G,A,1.0,G
+640,10639,publique,ngoma,pedagogie,FSTA,NORD-KIVU,H,52.0,21,52.3000011444,G,D,2.0,G
+644,10764,publique,ngoma,math-physique,FSTA,NORD-KIVU,H,68.0,23,58.8999996185,G,G,2.0,D
+648,10864,publique,ngoma,bio-chimie,FSTA,NORD-KIVU,H,54.0,22,57.25,G,G,2.0,G
+653,11504,publique,ngoma,pedagogie,FSTA,NORD-KIVU,H,59.0,22,52.5,G,G,1.0,G
+663,12195,privé,ngoma,sociale,FSTA,NORD-KIVU,H,52.0,20,48.5,G,A,1.0,G
+673,9482,protestant,kishanga,math-physique,FSTA,NORD-KIVU,H,63.0,23,44.2999992371,G,A,1.0,G
+674,9523,protestant,kishanga,pedagogie,FSTA,NORD-KIVU,F,63.0,22,46.0,G,A,1.0,G
+684,4372,privé,mama yetu,bio-chimie,FSTA,NORD-KIVU,H,51.0,27,46.0,G,A,1.0,G
+691,5179,privé,mama yetu,bio-chimie,FSTA,NORD-KIVU,F,53.0,27,65.0499992371,G,G,2.0,G
+721,10875,privé,mama yetu,bio-chimie,FSTA,NORD-KIVU,H,62.0,23,54.8999996185,G,D,2.0,G
+728,11913,protestant,kirimavolo,elec,FSTA,NORD-KIVU,H,55.0,20,55.2999992371,G,G,1.0,G
+729,2457,catholique,itfm/bukavu,elec indust,FSTA,SUD-KIVU,H,56.0,29,76.4000015259,A,G,1.0,A
+730,11582,catholique,itfm/bukavu,mecanique machines outils,FSTA,SUD-KIVU,H,64.0,20,54.5,G,G,1.0,G
+744,4091,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,H,60.0,27,72.1999994914,A,G,3.0,G
+746,4119,protestant,metanoia,commmerciale et adm,FSTA,NORD-KIVU,H,50.0,27,43.5,G,A,2.0,G
+750,4298,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,H,61.0,26,49.8500003815,G,D,2.0,G
+751,4309,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,F,71.0,26,71.4500007629,D,G,2.0,D
+757,4388,protestant,metanoia,latin philo,FSTA,NORD-KIVU,H,53.0,26,61.866666158,G,E,3.0,G
+762,4492,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,H,61.0,23,54.133333842,G,E,3.0,G
+763,4505,protestant,metanoia,bio-chimie,FSTA,inconnu,H,63.0,27,66.5499992371,G,G,2.0,G
+807,6492,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,H,62.0,25,56.0333328247,G,E,3.0,G
+808,6493,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,H,57.0,24,61.8999989827,G,G,3.0,E
+845,7654,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,H,65.0,23,63.0333340963,G,G,3.0,G
+860,8221,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,F,50.0,21,62.5,G,G,4.0,B
+899,9130,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,H,61.0,21,59.6333325704,G,E,3.0,G
+910,9267,protestant,metanoia,commmerciale et adm,FSTA,NORD-KIVU,H,64.0,23,48.0,G,A,1.0,G
+927,9576,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,H,62.0,24,70.3999989827,C,G,3.0,G
+951,10000,protestant,metanoia,commmerciale et adm,FSTA,NORD-KIVU,H,63.0,21,60.3999996185,G,G,2.0,D
+966,10489,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,H,64.0,23,60.9500007629,G,G,2.0,A
+967,10502,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,H,53.0,24,56.4000015259,G,G,2.0,G
+973,10636,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,H,68.0,21,61.3500003815,G,G,2.0,A
+979,10731,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,H,73.0,20,58.2000007629,G,G,2.0,D
+980,10745,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,H,65.0,21,55.7000007629,G,G,1.0,G
+1002,11484,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,H,86.0,19,76.0,A,G,1.0,A
+1003,11485,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,H,60.0,20,62.9000015259,G,G,1.0,G
+1018,11718,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,H,77.0,20,65.0,G,G,1.0,A
+1029,12017,privé,metanoia,latin philo,FSTA,NORD-KIVU,H,63.0,19,46.0,G,A,1.0,G
+1034,12058,protestant,metanoia,commmerciale et adm,FSTA,NORD-KIVU,H,55.0,20,52.9000015259,G,G,1.0,G
+1036,12227,protestant,metanoia,commmerciale et adm,FSTA,NORD-KIVU,H,65.0,23,64.5,G,G,1.0,G
+1037,12229,protestant,metanoia,bio-chimie,FSTA,NORD-KIVU,H,62.0,24,59.75,D,D,2.0,G
+1040,10457,privé,tumba,commmerciale et adm,FSTA,NORD-KIVU,H,59.0,23,53.6000003815,G,D,2.0,G
+1048,4107,publique,namurera,pedagogie,FSTA,SUD-KIVU,H,56.0,27,54.9500007629,G,D,2.0,G
+1053,10151,publique,namurera,pedagogie,FSTA,SUD-KIVU,H,52.0,22,57.5,G,D,2.0,G
+1055,11513,publique,namurera,pedagogie,FSTA,NORD-KIVU,H,53.0,22,49.0999984741,G,A,1.0,G
+1073,10853,protestant,chidasa,math-physique,FSTA,NORD-KIVU,H,54.0,23,44.0,G,A,1.0,G
+1074,12118,protestant,chidasa,pedagogie,FSTA,SUD-KIVU,H,64.0,21,46.0,G,A,1.0,G
+1077,10347,privé,de l'unite,sociale,FSTA,SUD-KIVU,H,53.0,21,49.0,G,A,1.0,G
+1078,11350,privé,de l'unite,sociale,FSTA,NORD-KIVU,H,54.0,21,46.7000007629,G,A,1.0,G
+1079,11710,privé,de l'unite,mec gene,FSTA,NORD-KIVU,H,51.0,22,42.0,G,A,1.0,G
+1080,11871,privé,de l'unite,pedagogie,FSTA,NORD-KIVU,H,57.0,19,51.4000015259,G,G,1.0,G
+1084,12081,catholique,busimba,pedagogie,FSTA,NORD-KIVU,H,53.0,23,46.9000015259,G,A,1.0,G
+1092,7667,protestant,lukanga,bio-chimie,FSTA,NORD-KIVU,H,63.0,24,65.5333340963,E,G,3.0,G
+1096,9263,protestant,lukanga,machine outil,FSTA,NORD-KIVU,H,57.0,23,46.0,G,A,1.0,G
+1097,9517,protestant,lukanga,mecanique machines outils,FSTA,NORD-KIVU,H,61.0,23,48.0,G,A,1.0,G
+1100,10640,protestant,lukanga,elec,FSTA,NORD-KIVU,H,58.0,23,59.1000003815,G,G,2.0,G
+1124,7661,protestant,kalungu,latin philo,FSTA,SUD-KIVU,H,55.0,27,47.4000002543,G,C,3.0,G
+1138,9924,protestant,kalungu,sociale,FSTA,NORD-KIVU,H,60.0,21,56.8000011444,G,G,2.0,G
+1140,10211,protestant,kalungu,pedagogie,FSTA,NORD-KIVU,H,60.0,21,54.0999984741,G,G,1.0,G
+1142,10369,protestant,kalungu,math-physique,FSTA,NORD-KIVU,H,62.0,22,64.8499984741,G,G,2.0,D
+1143,10381,protestant,kalungu,math-physique,FSTA,NORD-KIVU,H,55.0,21,62.9499988555,G,G,2.0,D
+1153,12126,privé,kalungu,pedagogie,FSTA,NORD-KIVU,H,62.0,20,49.0,G,A,1.0,G
+1159,11823,privé,la pereaux,construction,FSTA,SUD-KIVU,H,58.0,21,43.0,G,A,1.0,G
+1164,4490,privé,pilote de katana,math-physique,FSTA,MANIEMA,H,50.0,31,48.8999996185,G,D,2.0,G
+1168,10568,privé,pilote de katana,bio-chimie,FSTA,SUD-KIVU,H,59.0,21,62.8000011444,G,G,2.0,D
+1171,4300,catholique,malikia wa bingu,commerciale informatique,FSTA,NORD-KIVU,F,66.0,26,64.6500015259,G,G,2.0,G
+1174,4612,catholique,malikia wa bingu,commerciale informatique,FSTA,NORD-KIVU,F,58.0,26,46.5,G,A,2.0,G
+1181,7604,catholique,malikia wa bingu,commmerciale et adm,FSTA,NORD-KIVU,F,53.0,23,55.066666921,G,E,3.0,E
+1208,8193,privé,moria,pedagogie,FSTA,SUD-KIVU,H,52.0,24,49.7000007629,G,A,1.0,G
+1236,10641,privé,moria,commmerciale et adm,FSTA,NORD-KIVU,H,52.0,24,53.2999992371,G,A,1.0,G
+1238,10740,privé,moria,commmerciale et adm,FSTA,NORD-KIVU,H,62.0,21,56.0500011444,G,G,2.0,G
+1243,11748,privé,moria,sociale,FSTA,SUD-KIVU,H,61.0,22,47.0,G,A,1.0,G
+1244,11769,publique,moria,sociale,FSTA,NORD-KIVU,F,51.0,21,42.0,G,A,1.0,G
+1246,11873,privé,moria,pedagogie,FSTA,SUD-KIVU,H,51.0,22,41.0,G,A,1.0,G
+1263,7647,publique,mawato,math-physique,FSTA,SUD-KIVU,H,61.0,25,62.5749998093,G,G,4.0,F
+1272,9231,publique,mawato,math-physique,FSTA,SUD-KIVU,H,56.0,24,51.8666674296,G,E,3.0,G
+1273,9456,publique,mawato,pedagogie,FSTA,NORD-KIVU,F,61.0,25,49.0,G,A,1.0,G
+1275,9853,publique,mawato,math-physique,FSTA,SUD-KIVU,H,51.0,24,64.2000007629,G,G,2.0,G
+1290,4947,publique,mikeno nc,sociale,FSTA,NORD-KIVU,H,53.0,27,52.0,G,D,2.0,G
+1318,9938,publique,mikeno nc,commmerciale et adm,FSTA,NORD-KIVU,H,61.0,21,45.0,G,A,1.0,G
+1324,10341,publique,mikeno nc,sociale,FSTA,NORD-KIVU,H,54.0,22,45.0,G,A,1.0,G
+1326,10414,publique,mikeno nc,commmerciale et adm,FSTA,NORD-KIVU,H,57.0,21,59.1000003815,G,G,2.0,D
+1370,8648,catholique,sainte ursule,nutr,FSTA,NORD-KIVU,F,69.0,22,63.7333335877,G,G,3.0,G
+1394,9831,catholique,sainte ursule,sociale,FSTA,NORD-KIVU,F,65.0,20,58.6999988556,G,G,2.0,D
+1414,10340,catholique,sainte ursule,bio-chimie,FSTA,NORD-KIVU,F,67.0,21,62.1000003815,G,G,2.0,G
+1439,11536,catholique,sainte ursule,sociale,FSTA,NORD-KIVU,F,56.0,19,46.0999984741,G,A,1.0,G
+1442,11594,catholique,sainte ursule,sociale,FSTA,NORD-KIVU,F,60.0,20,56.2000007629,G,G,1.0,G
+1463,5745,protestant,visoke,mec gene,FSTA,NORD-KIVU,H,61.0,25,43.0,G,A,1.0,G
+1467,7584,protestant,visoke,mec gene,FSTA,NORD-KIVU,H,62.0,24,63.9499988556,G,G,4.0,D
+1471,8745,protestant,visoke,mec gene,FSTA,NORD-KIVU,H,60.0,27,40.0,G,A,1.0,G
+1473,9136,protestant,visoke,mec gene,FSTA,NORD-KIVU,H,58.0,22,65.4333356222,G,G,3.0,E
+1474,9303,protestant,visoke,pedagogie,FSTA,NORD-KIVU,H,52.0,24,43.5,G,A,1.0,G
+1483,10643,protestant,visoke,mec gene,FSTA,NORD-KIVU,H,54.0,21,71.0,A,G,1.0,G
+1484,11342,protestant,visoke,elec,FSTA,NORD-KIVU,H,50.0,20,44.7999992371,G,A,1.0,G
+1486,11777,protestant,visoke,pedagogie,FSTA,NORD-KIVU,H,74.0,21,43.0999984741,G,A,1.0,G
+1492,9022,protestant,lasagesse,math-physique,FSTA,NORD-KIVU,H,52.0,22,62.3333320618,E,G,3.0,G
+1494,11742,protestant,lasagesse,pedagogie,FSTA,SUD-KIVU,H,57.0,21,49.5,G,A,1.0,G
+1523,10885,publique,kalimba,bio-chimie,FSTA,MANIEMA,F,51.0,22,53.75,G,D,2.0,G
+1534,10158,catholique,kashofu,pedagogie,FSTA,SUD-KIVU,H,68.0,24,59.4500007629,G,G,2.0,G
+1539,11637,catholique,kashofu,bio-chimie,FSTA,NORD-KIVU,H,50.0,21,55.0,G,G,1.0,G
+1563,9116,catholique,nyamukola,pedagogie,FSTA,SUD-KIVU,H,65.0,22,56.2000007629,G,D,2.0,D
+1565,9928,catholique,nyamukola,pedagogie,FSTA,NORD-KIVU,H,52.0,23,48.5499992371,G,D,2.0,G
+1583,11585,catholique,thabiti,bio-chimie,FSTA,KATANGA,H,60.0,21,53.4000015259,G,G,1.0,G
+1584,2436,catholique,itfm/bukavu,machine outil,FSTA,SUD-KIVU,H,58.0,32,48.0,G,A,1.0,G
+1585,4071,catholique,itfm/bukavu,machine outil,FSTA,SUD-KIVU,F,63.0,28,71.1999969482,A,G,1.0,G
+1586,4083,catholique,itfm/bukavu,mecanique machines outils,FSTA,SUD-KIVU,H,53.0,30,59.5499992371,G,G,2.0,G
+1587,4097,catholique,itfm/bukavu,mec gene,FSTA,SUD-KIVU,H,63.0,27,64.7000007629,G,G,2.0,D
+1588,4117,catholique,itfm/bukavu,machine outil,FSTA,SUD-KIVU,H,57.0,28,65.8000030518,G,G,1.0,G
+1589,4282,catholique,itfm/bukavu,elec indust,FSTA,SUD-KIVU,H,54.0,26,70.75,D,G,2.0,G
+1590,4284,catholique,itfm/bukavu,elec indust,FSTA,SUD-KIVU,H,53.0,27,50.8000005086,G,C,3.0,G
+1591,4313,catholique,itfm/bukavu,elec,FSTA,SUD-KIVU,F,51.0,26,68.6000022888,D,G,2.0,G
+1592,4371,catholique,itfm/bukavu,machine outil,FSTA,SUD-KIVU,H,58.0,28,64.75,G,G,2.0,G
+1593,4489,catholique,itfm/bukavu,elec,FSTA,SUD-KIVU,H,60.0,27,66.4500007629,D,G,2.0,G
+1594,4498,catholique,itfm/bukavu,elec indust,FSTA,inconnu,F,52.0,27,61.1499996185,G,G,2.0,G
+1595,6720,catholique,itfm/bukavu,mecanique machines outils,FSTA,SUD-KIVU,H,56.0,29,46.0,G,A,1.0,G
+1597,8270,catholique,itfm/bukavu,machine outil,FSTA,NORD-KIVU,H,58.0,24,60.4250001907,G,G,4.0,B
+1598,8325,catholique,itfm/bukavu,elec indust,FSTA,SUD-KIVU,H,65.0,22,62.9749994278,G,G,4.0,D
+1599,8346,catholique,itfm/bukavu,secretariat,FSTA,NORD-KIVU,F,75.0,22,64.9499998093,G,G,4.0,D
+1600,9958,catholique,itfm/bukavu,mecanique machines outils,FSTA,SUD-KIVU,H,59.0,22,71.6999969482,D,G,2.0,A
+1601,10043,catholique,itfm/bukavu,elec indust,FSTA,SUD-KIVU,H,58.0,21,79.0999984741,A,G,1.0,A
+1602,10051,catholique,itfm/bukavu,elec indust,FSTA,SUD-KIVU,H,60.0,22,72.5,A,G,2.0,D
+1603,10142,catholique,itfm/bukavu,elec indust,FSTA,NORD-KIVU,H,56.0,20,69.6500015259,D,G,2.0,A
+1604,10165,catholique,itfm/bukavu,elec indust,FSTA,SUD-KIVU,H,57.0,20,67.1500015259,D,G,2.0,D
+1605,10166,catholique,itfm/bukavu,elec indust,FSTA,SUD-KIVU,H,56.0,22,65.9500007629,G,G,2.0,D
+1606,10199,catholique,itfm/bukavu,mecanique machines outils,FSTA,SUD-KIVU,H,65.0,21,83.5499992371,A,G,2.0,D
+1607,10200,catholique,itfm/bukavu,mecanique machines outils,FSTA,SUD-KIVU,H,57.0,23,71.0499992371,D,G,2.0,D
+1608,10388,catholique,itfm/bukavu,elec indust,FSTA,SUD-KIVU,H,62.0,20,74.1499977112,A,G,2.0,A
+1609,10574,catholique,itfm/bukavu,mec gene,FSTA,SUD-KIVU,H,63.0,22,74.9500007629,A,G,2.0,A
+1610,11532,catholique,itfm/bukavu,mec gene,FSTA,NORD-KIVU,H,62.0,20,64.9000015259,G,G,1.0,G
+1611,11538,catholique,itfm/bukavu,mecanique machines outils,FSTA,NORD-KIVU,H,68.0,21,53.5,G,G,1.0,G
+1612,11609,catholique,itfm/bukavu,mecanique machines outils,FSTA,NORD-KIVU,H,61.0,24,59.7999992371,G,G,1.0,A
+1613,11708,catholique,itfm/bukavu,elec,FSTA,NORD-KIVU,H,57.0,19,59.2000007629,G,G,1.0,A
+1614,11753,catholique,itfm/bukavu,mec gene,FSTA,NORD-KIVU,H,62.0,20,48.0,G,A,1.0,G
+1631,4481,protestant,mgr guido,commerciale informatique,FSTA,SUD-KIVU,H,63.0,28,60.5,G,G,2.0,G
+1636,9963,protestant,mgr guido,commmerciale et adm,FSTA,NORD-KIVU,F,57.0,22,55.8000011444,G,G,2.0,G
+1637,10711,protestant,mgr guido,commerciale informatique,FSTA,SUD-KIVU,H,51.0,21,64.3000011445,G,G,2.0,D
+1644,3285,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,59.0,30,65.5999984741,G,G,1.0,G
+1646,3591,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,50.0,27,73.9000015259,A,G,1.0,G
+1676,5204,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,63.0,29,44.0,G,A,1.0,G
+1681,6196,catholique,mwanga,math-physique,FSTA,SUD-KIVU,H,70.0,25,64.0333353679,G,G,3.0,G
+1698,6539,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,66.0,26,61.2333335877,G,G,3.0,E
+1701,6584,catholique,mwanga,commmerciale et adm,FSTA,SUD-KIVU,H,52.0,25,63.133333842,G,G,3.0,G
+1702,6677,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,F,61.0,24,65.6666666667,C,G,3.0,E
+1703,6757,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,63.0,26,66.0,G,G,2.0,G
+1717,7589,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,66.0,23,61.6000003815,G,G,4.0,D
+1718,7646,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,66.0,24,63.3499994278,F,G,4.0,F
+1719,7669,catholique,mwanga,latin philo,FSTA,SUD-KIVU,H,62.0,26,45.0,G,A,2.0,G
+1737,8222,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,64.0,22,59.5,G,G,3.0,G
+1739,8300,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,62.0,25,49.8999996185,G,D,4.0,D
+1743,8447,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,67.0,23,72.9500017167,B,G,4.0,B
+1744,8452,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,61.0,23,66.0,E,G,3.0,C
+1745,8468,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,67.0,24,58.1999994914,G,E,3.0,E
+1746,8474,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,66.0,22,65.2666676839,G,G,3.0,E
+1747,8481,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,F,68.0,24,61.1666679383,G,G,3.0,G
+1755,8762,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,63.0,22,61.3000005087,G,G,3.0,G
+1763,8903,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,61.0,23,63.133333842,G,G,3.0,C
+1769,8981,catholique,mwanga,commmerciale et adm,FSTA,NORD-KIVU,F,74.0,22,70.4333343506,E,G,3.0,A
+1770,8998,catholique,mwanga,commmerciale et adm,FSTA,NORD-KIVU,H,72.0,22,52.3500003815,G,D,2.0,D
+1783,9143,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,65.0,25,55.2999992371,G,D,2.0,G
+1786,9224,catholique,mwanga,bio-chimie,FSTA,SUD-KIVU,F,66.0,22,43.0,G,A,1.0,G
+1790,9286,catholique,mwanga,math-physique,FSTA,SUD-KIVU,H,64.0,23,62.2333323161,G,G,3.0,E
+1791,9324,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,60.0,25,48.566666921,G,C,3.0,G
+1792,9341,catholique,mwanga,commmerciale et adm,FSTA,NORD-KIVU,H,62.0,21,41.0,G,A,1.0,G
+1804,9540,catholique,mwanga,math-physique,FSTA,SUD-KIVU,H,67.0,21,66.6666641235,G,G,3.0,C
+1813,9881,catholique,mwanga,latin philo,FSTA,NORD-KIVU,H,65.0,21,54.7999992371,G,D,2.0,G
+1817,9913,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,63.0,24,68.7999992371,D,G,2.0,D
+1823,9951,catholique,mwanga,math-physique,FSTA,SUD-KIVU,H,62.0,25,52.6499996185,G,A,2.0,G
+1831,10061,catholique,mwanga,math-physique,FSTA,SUD-KIVU,H,70.0,21,75.5499992371,A,G,2.0,A
+1835,10080,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,79.0,20,75.2000007629,A,G,2.0,A
+1837,10109,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,65.0,21,62.1000003815,G,G,2.0,A
+1838,10135,catholique,mwanga,commmerciale et adm,FSTA,NORD-KIVU,F,62.0,22,51.2000007629,G,A,1.0,G
+1841,10195,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,58.0,25,55.3000011444,G,D,2.0,G
+1850,10359,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,F,64.0,21,68.1000022888,G,G,2.0,A
+1857,10422,catholique,mwanga,commmerciale et adm,FSTA,NORD-KIVU,H,62.0,21,57.6499996185,G,G,2.0,D
+1858,10433,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,F,68.0,20,58.3500003815,G,G,2.0,D
+1861,10488,catholique,mwanga,commmerciale et adm,FSTA,NORD-KIVU,H,57.0,20,51.6499996185,G,D,2.0,G
+1862,10507,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,F,60.0,23,60.4499988556,G,G,2.0,G
+1863,10517,catholique,mwanga,math-physique,FSTA,SUD-KIVU,H,72.0,22,69.5,D,G,2.0,A
+1864,10518,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,64.0,20,67.1999969482,G,G,1.0,G
+1868,10576,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,65.0,21,61.5500011444,G,G,2.0,A
+1886,10869,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,65.0,22,62.4499988556,G,G,2.0,G
+1889,10900,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,67.0,19,60.6999988556,G,G,2.0,G
+1893,11328,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,60.0,20,43.0,G,A,1.0,G
+1894,11374,catholique,mwanga,commmerciale et adm,FSTA,NORD-KIVU,F,65.0,20,41.0,G,A,1.0,G
+1895,11384,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,65.0,20,54.4000015259,G,G,1.0,A
+1913,11503,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,52.0,21,48.2000007629,G,A,1.0,G
+1915,11543,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,F,69.0,19,66.5999984741,G,G,1.0,G
+1916,11547,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,63.0,19,64.8000030518,G,G,1.0,G
+1917,11555,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,63.0,19,57.4000015259,G,G,1.0,G
+1920,11587,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,69.0,19,60.5999984741,G,G,1.0,G
+1921,11588,catholique,mwanga,commmerciale et adm,FSTA,NORD-KIVU,H,58.0,22,40.0,G,A,1.0,G
+1939,11905,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,70.0,19,56.4000015259,G,G,1.0,G
+1941,11974,catholique,mwanga,bio-chimie,FSTA,NORD-KIVU,H,60.0,21,42.0,G,A,1.0,G
+1944,12067,catholique,mwanga,commmerciale et adm,FSTA,NORD-KIVU,H,63.0,18,51.9000015259,G,G,1.0,G
+1947,12153,catholique,mwanga,commmerciale et adm,FSTA,NORD-KIVU,H,58.0,24,53.0,G,G,1.0,G
+1952,9520,privé,asseco,pedagogie,FSTA,SUD-KIVU,H,55.0,24,42.0,G,A,1.0,G
+1962,7537,privé,mukaba,math-physique,FSTA,KASAI OCCIDENTAL,H,56.0,24,55.433333079,G,C,3.0,G
+1972,11473,privé,mukaba,sociale,FSTA,NORD-KIVU,F,54.0,21,46.0,G,A,1.0,G
+1977,4378,privé,etoile,bio-chimie,FSTA,SUD-KIVU,H,58.0,28,56.9500007629,G,D,2.0,G
+1982,6302,privé,action kusaidiya,commmerciale et adm,FSTA,SUD-KIVU,H,51.0,31,60.3666674296,G,G,3.0,G
+1987,10309,privé,action kusaidiya,sociale,FSTA,SUD-KIVU,H,52.0,22,50.5999984741,G,A,1.0,G
+2006,4246,publique,nengapeta,pedagogie,FSTA,SUD-KIVU,H,51.0,30,42.3999996185,G,A,2.0,G
+2016,9444,protestant,kigonza,pedagogie,FSTA,SUD-KIVU,H,56.0,23,51.7999992371,G,A,1.0,G
+2046,11405,publique,nyabushongo,sociale,FSTA,NORD-KIVU,F,57.0,21,45.0,G,A,1.0,G
+2049,11663,publique,nyabushongo,sociale,FSTA,NORD-KIVU,H,55.0,18,45.4000015259,G,A,1.0,G
+2050,11827,publique,nyabushongo,pedagogie,FSTA,NORD-KIVU,F,51.0,20,43.0,G,A,1.0,G
+2053,11985,protestant,technique mapendano,agrecole,FSTA,SUD-KIVU,H,52.0,23,42.0,G,A,1.0,G
+2056,8877,publique,uenezaji,batiment,FSTA,NORD-KIVU,H,54.0,23,50.0999984741,G,A,1.0,G
+2057,8953,publique,uenezaji,construction,FSTA,NORD-KIVU,H,50.0,25,44.0,G,A,1.0,G
+2058,9154,publique,uenezaji,commmerciale et adm,FSTA,NORD-KIVU,H,63.0,24,42.0,G,A,1.0,G
+2059,9499,publique,uenezaji,pedagogie,FSTA,NORD-KIVU,H,50.0,22,54.866666158,G,E,3.0,G
+2060,9876,publique,uenezaji,construction,FSTA,NORD-KIVU,F,51.0,23,48.0,G,A,1.0,G
+2061,10138,publique,uenezaji,construction,FSTA,NORD-KIVU,H,58.0,25,55.2000007629,G,G,1.0,G
+2064,11912,publique,uenezaji,sociale,FSTA,NORD-KIVU,F,60.0,19,52.7999992371,G,G,1.0,G
+2069,5205,publique,idap isp bunia,bio-chimie,FSTA,NORD-KIVU,H,63.0,28,68.5,G,G,2.0,D
+2071,7543,publique,idap isp bunia,sociale,FSTA,ORIENTALE,H,72.0,25,61.75,G,G,4.0,D
+2072,7697,publique,idap isp bunia,bio-chimie,FSTA,ORIENTALE,H,62.0,23,54.6999994914,G,C,3.0,G
+2075,10370,publique,idap isp bunia,bio-chimie,FSTA,NORD-KIVU,H,52.0,25,40.0,G,A,1.0,G
+2077,10847,publique,idap isp bunia,bio-chimie,FSTA,ORIENTALE,H,52.0,21,52.1499996185,G,D,2.0,G
+2078,10862,publique,idap isp bunia,bio-chimie,FSTA,ORIENTALE,H,63.0,24,65.9000015259,G,G,2.0,G
+2115,10394,catholique,st joseph,pedagogie,FSTA,NORD-KIVU,H,67.0,21,61.6499996185,G,G,2.0,D
+2120,11509,catholique,st joseph,commmerciale et adm,FSTA,NORD-KIVU,H,61.0,20,53.2999992371,G,G,1.0,G
+2123,12117,catholique,st joseph,commmerciale et adm,FSTA,NORD-KIVU,H,62.0,19,55.5999984741,G,G,1.0,G
+2131,5649,catholique,mont caemel,pedagogie,FSTA,NORD-KIVU,F,63.0,25,58.1333325704,G,E,3.0,G
+2145,7668,catholique,mont caemel,sociale,FSTA,NORD-KIVU,H,67.0,25,63.066666921,G,G,3.0,G
+2149,8276,catholique,mont caemel,sociale,FSTA,NORD-KIVU,F,68.0,23,63.5749988556,F,G,4.0,D
+2159,8743,catholique,mont caemel,math-physique,FSTA,KINSHASA,H,62.0,35,51.7333323161,G,C,3.0,G
+2162,9007,catholique,mont caemel,sociale,FSTA,NORD-KIVU,H,65.0,21,59.2000007629,G,G,3.0,C
+2163,9152,catholique,mont caemel,sociale,FSTA,NORD-KIVU,H,72.0,21,62.4999987284,G,G,3.0,C
+2166,9326,catholique,mont caemel,pedagogie,FSTA,NORD-KIVU,F,60.0,23,52.9999987284,G,E,3.0,G
+2177,10261,catholique,mont caemel,commmerciale et adm,FSTA,NORD-KIVU,H,69.0,21,60.0500011444,G,G,2.0,G
+2186,10689,catholique,mont caemel,pedagogie,FSTA,NORD-KIVU,H,60.0,20,50.2000007629,G,A,1.0,G
+2193,11740,catholique,mont caemel,sociale,FSTA,NORD-KIVU,H,51.0,19,46.0,G,A,1.0,G
+2194,11860,catholique,mont caemel,pedagogie,FSTA,NORD-KIVU,H,76.0,18,48.0,G,A,1.0,G
+2197,12245,catholique,mont caemel,sociale,FSTA,NORD-KIVU,H,51.0,19,49.7999992371,G,A,1.0,G
+2207,8975,protestant,matendo,bio-chimie,FSTA,NORD-KIVU,H,53.0,23,42.0,G,A,1.0,G
+2216,9205,protestant,matendo,bio-chimie,FSTA,NORD-KIVU,H,53.0,23,56.3500003815,G,D,2.0,G
+2227,11867,protestant,matendo,bio-chimie,FSTA,NORD-KIVU,H,52.0,21,55.0,G,G,1.0,G
+2234,8945,catholique,mapema,sociale,FSTA,NORD-KIVU,H,66.0,21,51.0,G,C,3.0,G
+2235,11775,catholique,mapema,sociale,FSTA,NORD-KIVU,F,51.0,19,56.7000007629,G,G,1.0,G
+2238,3334,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,57.0,30,43.0,G,A,1.0,G
+2239,3588,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,54.0,26,68.5499992371,D,G,2.0,G
+2240,3590,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,F,55.0,29,52.25,G,D,2.0,G
+2258,4539,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,50.0,26,63.5,G,G,2.0,G
+2270,6183,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,67.0,24,62.9666671753,G,G,3.0,G
+2276,6578,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,57.0,26,59.6999994914,G,E,3.0,G
+2291,7522,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,55.0,27,48.6000003815,G,A,2.0,G
+2292,7614,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,70.0,22,79.375,A,G,4.0,D
+2293,7651,catholique,bakandja,commmerciale et adm,FSTA,NORD-KIVU,H,57.0,25,47.1999988556,G,A,2.0,G
+2297,8314,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,77.0,21,72.1999969482,A,G,1.0,A
+2307,8946,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,60.0,22,64.8333320618,G,G,3.0,C
+2311,9108,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,72.0,23,65.066666921,G,G,3.0,E
+2312,9129,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,62.0,20,63.4666684469,G,G,3.0,C
+2314,9251,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,65.0,20,63.2666676839,G,G,3.0,E
+2317,9323,catholique,bakandja,commmerciale et adm,FSTA,NORD-KIVU,H,54.0,24,52.933333079,G,E,3.0,G
+2318,9387,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,57.0,23,59.2666676839,G,G,3.0,C
+2324,9514,catholique,bakandja,sociale,FSTA,NORD-KIVU,H,63.0,22,59.7666664124,G,G,3.0,E
+2335,9987,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,67.0,21,68.1000022888,D,G,2.0,A
+2337,10105,catholique,bakandja,commmerciale et adm,FSTA,NORD-KIVU,F,52.0,23,42.0,G,A,1.0,G
+2338,10121,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,68.0,21,69.2999992371,G,G,2.0,D
+2340,10140,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,F,61.0,20,58.9500007629,G,G,2.0,G
+2341,10141,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,F,62.0,23,49.3500003815,G,D,2.0,G
+2345,10242,catholique,bakandja,commmerciale et adm,FSTA,NORD-KIVU,H,52.0,20,46.6499996185,G,A,2.0,G
+2348,10325,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,63.0,21,52.7000007629,G,A,1.0,G
+2351,10383,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,F,61.0,20,51.3500003815,G,D,2.0,G
+2361,10904,catholique,bakandja,pedagogie,FSTA,NORD-KIVU,H,56.0,24,45.0,G,A,1.0,G
+2363,11313,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,F,58.0,20,57.7000007629,G,G,1.0,G
+2365,11344,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,F,61.0,20,59.2999992371,G,G,1.0,A
+2372,11518,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,73.0,19,62.2000007629,G,G,1.0,G
+2374,11607,catholique,bakandja,bio-chimie,FSTA,NORD-KIVU,H,69.0,19,68.3000030518,G,G,1.0,G
+2386,12133,publique,bakandja,pedagogie,FSTA,NORD-KIVU,H,59.0,20,56.2000007629,G,G,1.0,G
+2417,10669,protestant,kimbilio,commerciale informatique,FSTA,NORD-KIVU,H,59.0,23,41.0,G,A,1.0,G
+2432,4605,privé,uhuru,pedagogie,FSTA,NORD-KIVU,H,55.0,30,48.6499996185,G,A,2.0,G
+2435,4816,privé,uhuru,pedagogie,FSTA,NORD-KIVU,H,55.0,28,66.4000015259,G,G,2.0,G
+2436,5743,privé,uhuru,math-physique,FSTA,NORD-KIVU,H,60.0,26,56.1000010173,G,E,3.0,G
+2445,6624,privé,uhuru,bio-chimie,FSTA,NORD-KIVU,H,55.0,25,57.7333335876,G,E,3.0,E
+2452,7521,privé,uhuru,bio-chimie,FSTA,SUD-KIVU,H,53.0,25,63.6499996185,F,G,4.0,F
+2453,7630,privé,uhuru,bio-chimie,FSTA,NORD-KIVU,H,50.0,25,61.7500009537,G,G,4.0,D
+2461,8610,privé,uhuru,math-physique,FSTA,NORD-KIVU,F,63.0,22,54.2999992371,G,D,2.0,G
+2463,8651,privé,uhuru,bio-chimie,FSTA,NORD-KIVU,H,64.0,25,50.1666666667,G,E,3.0,G
+2468,8741,privé,uhuru,commmerciale et adm,FSTA,NORD-KIVU,H,62.0,28,59.0999997457,G,G,3.0,G
+2474,9239,privé,uhuru,bio-chimie,FSTA,SUD-KIVU,H,50.0,22,41.0,G,A,1.0,G
+2479,9524,privé,uhuru,bio-chimie,FSTA,SUD-KIVU,F,54.0,21,61.3666687012,G,G,3.0,A
+2487,10490,privé,uhuru,bio-chimie,FSTA,SUD-KIVU,H,55.0,20,61.7999992371,G,G,2.0,D
+2493,11698,privé,uhuru,bio-chimie,FSTA,SUD-KIVU,F,61.0,19,55.9000015259,G,G,1.0,G
+2495,11992,catholique,uhuru,pedagogie,FSTA,SUD-KIVU,H,63.0,20,46.0,G,A,1.0,G
+2496,12029,publique,uhuru,math-physique,FSTA,NORD-KIVU,H,58.0,19,53.0999984741,G,G,1.0,G
+2517,10649,catholique,bahati,sociale,FSTA,SUD-KIVU,F,57.0,24,54.9500007629,G,D,2.0,G
+2525,4381,publique,de goma,math-physique,FSTA,NORD-KIVU,H,52.0,28,63.7000007629,D,G,2.0,G
+2535,6195,publique,de goma,math-physique,FSTA,NORD-KIVU,H,55.0,26,46.7000007629,G,A,2.0,G
+2539,7601,publique,de goma,math-physique,FSTA,NORD-KIVU,H,60.0,29,39.7000007629,G,A,1.0,G
+2546,8923,publique,de goma,bio-chimie,FSTA,NORD-KIVU,H,58.0,25,57.8999996185,G,G,2.0,G
+2547,8969,publique,de goma,math-physique,FSTA,NORD-KIVU,H,50.0,24,60.4666671753,G,G,3.0,G
+2548,9044,publique,de goma,math-physique,FSTA,NORD-KIVU,H,50.0,22,55.2666676839,G,E,3.0,G
+2551,9276,publique,de goma,math-physique,FSTA,NORD-KIVU,H,50.0,23,48.0,G,A,1.0,G
+2552,9277,publique,de goma,math-physique,FSTA,NORD-KIVU,H,51.0,23,42.0,G,A,1.0,G
+2554,9398,publique,de goma,math-physique,FSTA,NORD-KIVU,H,57.0,24,45.0,G,A,1.0,G
+2558,9577,publique,de goma,bio-chimie,FSTA,NORD-KIVU,H,55.0,23,58.8333333333,G,G,3.0,E
+2561,11355,publique,de goma,bio-chimie,FSTA,NORD-KIVU,H,61.0,20,45.0,G,A,1.0,G
+2562,11369,publique,de goma,pedagogie,FSTA,NORD-KIVU,H,72.0,21,44.0,G,A,1.0,G
+2563,11397,publique,de goma,math-physique,FSTA,NORD-KIVU,H,64.0,20,63.4000015259,G,G,1.0,A
+2564,11407,publique,de goma,bio-chimie,FSTA,NORD-KIVU,H,57.0,20,51.5999984741,G,G,1.0,G
+2566,11560,publique,de goma,pedagogie,FSTA,NORD-KIVU,H,50.0,21,40.0,G,A,1.0,G
+2572,12071,publique,de goma,bio-chimie,FSTA,NORD-KIVU,H,57.0,20,57.9000015259,G,G,1.0,G
+2573,12134,publique,de goma,bio-chimie,FSTA,NORD-KIVU,H,57.0,20,59.0,G,G,1.0,G
+2574,12194,publique,de goma,commmerciale et adm,FSTA,NORD-KIVU,H,51.0,21,42.0,G,A,1.0,G
+2581,4401,protestant,maranatha,commmerciale et adm,FSTA,NORD-KIVU,H,58.0,27,51.2999992371,G,A,2.0,G
+2587,5198,protestant,maranatha,bio-chimie,FSTA,NORD-KIVU,H,59.0,28,64.6500015259,G,G,2.0,G
+2591,7109,protestant,maranatha,inconnu,FSTA,NORD-KIVU,H,50.0,31,45.0,G,A,1.0,G
+2595,8320,protestant,maranatha,commmerciale et adm,FSTA,NORD-KIVU,H,58.0,26,50.0499992371,G,D,2.0,G
+2598,8570,protestant,maranatha,mec gene,FSTA,NORD-KIVU,H,67.0,21,62.5333328247,G,G,3.0,G
+2600,8934,protestant,maranatha,mec gene,FSTA,NORD-KIVU,H,57.0,23,58.8333333334,G,G,3.0,G
+2607,9103,protestant,maranatha,bio-chimie,FSTA,NORD-KIVU,H,53.0,22,59.0999997457,G,G,3.0,E
+2611,9571,protestant,maranatha,bio-chimie,FSTA,NORD-KIVU,H,54.0,23,47.5,G,A,1.0,G
+2624,10424,protestant,maranatha,pedagogie,FSTA,NORD-KIVU,H,63.0,20,44.0,G,A,1.0,G
+2629,10792,protestant,maranatha,mec gene,FSTA,NORD-KIVU,H,53.0,22,54.9500007629,G,D,2.0,G
+2636,11717,protestant,maranatha,commmerciale et adm,FSTA,NORD-KIVU,H,56.0,21,49.5,G,A,1.0,G
+2639,11858,protestant,maranatha,mec gene,FSTA,NORD-KIVU,H,50.0,19,51.0999984741,G,G,1.0,G
+2645,12098,protestant,maranatha,sociale,FSTA,NORD-KIVU,H,64.0,20,44.0,G,A,1.0,G
+2647,12185,protestant,maranatha,sociale,FSTA,NORD-KIVU,H,64.0,20,54.7999992371,G,G,1.0,G
+2648,12246,protestant,maranatha,mec gene,FSTA,NORD-KIVU,H,53.0,24,56.2999992371,G,G,1.0,G
+2649,9084,catholique,saint marc,construction,FSTA,NORD-KIVU,H,69.0,23,62.7333335877,G,G,3.0,E
+2650,9241,catholique,saint marc,construction,FSTA,NORD-KIVU,H,67.0,23,54.3999996185,G,D,2.0,G
+2651,9539,catholique,saint marc,construction,FSTA,NORD-KIVU,H,70.0,23,62.1666679382,G,G,3.0,G
+2652,10350,catholique,saint marc,construction,FSTA,NORD-KIVU,F,52.0,21,53.4000015259,G,A,1.0,G
+2653,10432,catholique,saint marc,construction,FSTA,NORD-KIVU,H,63.0,23,44.0,G,A,1.0,G
+2654,10516,catholique,saint marc,construction,FSTA,NORD-KIVU,H,66.0,20,57.1000003815,G,G,2.0,G
+2655,10694,catholique,saint marc,construction,FSTA,NORD-KIVU,H,64.0,22,47.2999992371,G,A,1.0,G
+2656,10695,catholique,saint marc,construction,FSTA,NORD-KIVU,F,53.0,22,56.0,G,G,1.0,G
+2657,10718,catholique,saint marc,construction,FSTA,NORD-KIVU,H,52.0,23,53.2999992371,G,G,1.0,G
+2658,11305,catholique,saint marc,construction,FSTA,NORD-KIVU,H,59.0,19,57.2000007629,G,G,1.0,G
+2659,11386,catholique,saint marc,construction,FSTA,NORD-KIVU,H,56.0,21,52.7000007629,G,G,1.0,G
+2660,11416,catholique,saint marc,construction,FSTA,NORD-KIVU,H,61.0,20,54.5,G,G,1.0,G
+2661,11530,catholique,saint marc,construction,FSTA,NORD-KIVU,H,60.0,21,53.2000007629,G,G,1.0,G
+2662,11670,catholique,saint marc,construction,FSTA,NORD-KIVU,H,55.0,19,54.2000007629,G,G,1.0,G
+2663,12061,catholique,saint marc,construction,FSTA,NORD-KIVU,H,60.0,20,54.2000007629,G,G,1.0,G
+2664,12108,catholique,saint marc,construction,FSTA,NORD-KIVU,F,57.0,19,46.0,G,A,1.0,G
+2665,12179,catholique,saint marc,construction,FSTA,NORD-KIVU,H,61.0,20,60.2000007629,G,G,1.0,G
+2688,9461,publique,muhini,pedagogie,FSTA,SUD-KIVU,H,68.0,21,58.433333079,G,G,3.0,E
+2698,10412,publique,muhini,pedagogie,FSTA,NORD-KIVU,H,52.0,25,41.0,G,A,1.0,G
+2699,10499,publique,muhini,commmerciale et adm,FSTA,SUD-KIVU,H,52.0,23,57.1000003815,G,G,2.0,G
+2701,10633,publique,muhini,bio-chimie,FSTA,SUD-KIVU,H,52.0,25,44.0,G,A,1.0,G
+2709,12026,protestant,muhini,commerciale informatique,FSTA,SUD-KIVU,H,65.0,20,57.7000007629,G,G,1.0,A
+2737,10336,musulman,mikeno islamique,sociale,FSTA,NORD-KIVU,H,61.0,23,51.1499996185,G,D,2.0,G
+2781,11655,catholique,bemba gombo,sociale,FSTA,NORD-KIVU,H,61.0,22,53.5999984741,G,G,1.0,G
+2786,6337,protestant,sayuni,pedagogie,FSTA,NORD-KIVU,H,61.0,26,61.066666921,G,G,3.0,G
+2793,8919,protestant,sayuni,pedagogie,FSTA,NORD-KIVU,H,65.0,23,43.5,G,A,2.0,G
+2800,10108,protestant,sayuni,sociale,FSTA,NORD-KIVU,H,57.0,20,47.0499992371,G,A,2.0,G
+2821,4299,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,73.0,25,70.75,D,G,2.0,G
+2828,5724,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,70.0,25,62.4333343506,C,E,3.0,G
+2830,6543,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,68.0,25,62.8000005086,G,G,3.0,G
+2839,7546,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,66.0,26,64.9499988556,F,G,4.0,D
+2840,7620,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,64.0,24,63.3999996185,G,G,4.0,D
+2842,7640,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,71.0,24,65.9249982834,F,G,4.0,D
+2843,7662,catholique,amani,bio-chimie,FSTA,KINSHASA,F,61.0,24,55.566666921,G,E,3.0,E
+2848,8333,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,68.0,22,56.8249998093,G,G,4.0,G
+2856,9486,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,74.0,21,64.433333079,E,G,3.0,A
+2857,9487,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,74.0,22,61.3333333333,G,G,3.0,C
+2858,9870,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,78.0,21,56.2000007629,G,D,2.0,D
+2859,9920,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,79.0,20,62.0000019073,G,G,2.0,D
+2860,10095,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,67.0,21,62.3999996185,G,G,2.0,A
+2861,10098,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,80.0,20,76.0999984741,A,G,2.0,A
+2868,10629,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,75.0,20,56.1499996185,G,D,2.0,G
+2869,10638,catholique,amani,pedagogie,FSTA,KATANGA,H,53.0,22,52.0,G,A,1.0,G
+2870,10644,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,67.0,21,56.4500007629,D,D,2.0,D
+2872,11251,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,60.0,19,56.2999992371,G,G,1.0,G
+2875,11319,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,64.0,19,45.0,G,A,1.0,G
+2876,11468,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,64.0,20,57.0999984741,G,G,1.0,G
+2878,11654,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,68.0,20,61.7999992371,G,G,1.0,A
+2879,11675,catholique,amani,bio-chimie,FSTA,NORD-KIVU,F,71.0,20,66.1999969482,G,G,1.0,A
+2886,5678,publique,kasali,commmerciale et adm,FSTA,SUD-KIVU,H,58.0,27,60.3666674296,G,G,3.0,G
+2895,11979,publique,kasali,pedagogie,FSTA,SUD-KIVU,H,65.0,21,47.0999984741,G,A,1.0,G
+2907,10147,publique,de bukavu,pedagogie,FSTA,NORD-KIVU,H,58.0,23,59.4000015259,G,G,2.0,G
+2912,8135,catholique,weza,bio-chimie,FSTA,SUD-KIVU,H,66.0,23,48.6333325704,G,E,3.0,G
+2913,8294,catholique,weza,bio-chimie,FSTA,SUD-KIVU,H,59.0,24,53.433333079,G,E,3.0,G
+2917,11649,catholique,weza,bio-chimie,FSTA,NORD-KIVU,H,62.0,25,58.9000015259,G,G,1.0,G
+2919,4379,protestant,kyeshero,mec gene,FSTA,NORD-KIVU,H,56.0,28,59.6000010172,G,E,3.0,G
+2922,4511,protestant,kyeshero,mec gene,FSTA,NORD-KIVU,H,54.0,26,47.0,G,A,1.0,G
+2938,7005,protestant,kyeshero,mec gene,FSTA,NORD-KIVU,H,56.0,26,70.2999992371,D,G,2.0,G
+2944,7598,protestant,kyeshero,batiment,FSTA,NORD-KIVU,H,52.0,26,61.1333351135,G,G,3.0,G
+2945,7631,protestant,kyeshero,elec,FSTA,NORD-KIVU,H,59.0,25,62.9333343506,G,G,3.0,G
+2946,7683,protestant,kyeshero,mec gene,FSTA,K OR,H,55.0,33,49.1000003815,G,A,2.0,G
+2948,8341,protestant,kyeshero,construction,FSTA,NORD-KIVU,H,52.0,23,58.799999237,G,G,3.0,G
+2949,8357,protestant,kyeshero,mec gene,FSTA,NORD-KIVU,H,55.0,22,40.0,G,A,1.0,G
+2950,8360,protestant,kyeshero,construction,FSTA,NORD-KIVU,H,52.0,24,44.2999992371,G,A,1.0,G
+2951,8580,protestant,kyeshero,elec,FSTA,NORD-KIVU,H,63.0,23,63.6333325704,E,G,3.0,G
+2953,8626,protestant,kyeshero,elec indust,FSTA,NORD-KIVU,H,64.0,21,58.3333333333,G,G,3.0,E
+2954,8638,protestant,kyeshero,mec gene,FSTA,NORD-KIVU,H,56.0,24,47.4000015259,G,A,1.0,G
+2955,8662,protestant,kyeshero,elec,FSTA,NORD-KIVU,H,55.0,25,48.1666666667,G,C,3.0,G
+2958,8718,protestant,kyeshero,construction,FSTA,NORD-KIVU,H,52.0,23,54.8999989827,G,E,3.0,G
+2960,8884,protestant,kyeshero,electronique générale,FSTA,NORD-KIVU,H,58.0,22,65.5999984741,E,G,3.0,G
+2961,8885,protestant,kyeshero,construction,FSTA,NORD-KIVU,H,58.0,26,51.7666664123,G,E,3.0,G
+2962,8888,protestant,kyeshero,mec gene,FSTA,NORD-KIVU,H,53.0,22,52.9000015259,G,A,1.0,G
+2963,8901,protestant,kyeshero,construction,FSTA,NORD-KIVU,H,58.0,24,47.0,G,A,1.0,G
+2964,9021,protestant,kyeshero,construction,FSTA,NORD-KIVU,H,54.0,23,50.5999984741,G,A,1.0,G
+2965,9043,protestant,kyeshero,electronique générale,FSTA,NORD-KIVU,H,53.0,24,55.633333842,G,E,3.0,G
+2966,9080,protestant,kyeshero,electronique générale,FSTA,NORD-KIVU,H,58.0,22,44.0,G,A,1.0,G
+2967,9095,protestant,kyeshero,mec gene,FSTA,NORD-KIVU,H,56.0,23,44.0999984741,G,A,1.0,G
+2968,9249,protestant,kyeshero,construction,FSTA,NORD-KIVU,H,55.0,25,43.0,G,A,1.0,G
+2970,9379,protestant,kyeshero,mec gene,FSTA,NORD-KIVU,H,53.0,26,56.7999992371,G,E,3.0,G
+2972,9590,protestant,kyeshero,bio-chimie,FSTA,NORD-KIVU,F,52.0,25,43.0,G,A,1.0,G
+2975,9834,protestant,kyeshero,construction,FSTA,NORD-KIVU,H,54.0,20,53.9500007629,G,D,2.0,G
+2976,9889,protestant,kyeshero,construction,FSTA,NORD-KIVU,H,55.0,24,46.0,G,A,1.0,G
+2977,9903,protestant,kyeshero,elec,FSTA,NORD-KIVU,H,50.0,22,51.2999992371,G,A,1.0,G
+2978,9974,protestant,kyeshero,elec,FSTA,NORD-KIVU,H,52.0,22,40.0,G,A,1.0,G
+2979,9986,protestant,kyeshero,electronique générale,FSTA,NORD-KIVU,H,50.0,24,41.0,G,A,1.0,G
+2980,10145,protestant,kyeshero,elec indust,FSTA,NORD-KIVU,H,51.0,22,50.0999984741,G,A,1.0,G
+2981,10233,protestant,kyeshero,construction,FSTA,NORD-KIVU,H,55.0,20,58.3999996185,G,G,2.0,D
+2982,10428,protestant,kyeshero,construction,FSTA,NORD-KIVU,H,52.0,23,52.3500003815,G,D,2.0,G
+2983,10445,protestant,kyeshero,electronique générale,FSTA,NORD-KIVU,H,58.0,23,57.4500007629,G,G,2.0,G
+2986,11308,protestant,kyeshero,construction,FSTA,NORD-KIVU,H,55.0,22,42.0,G,A,1.0,G
+2987,11390,protestant,kyeshero,construction,FSTA,NORD-KIVU,H,61.0,22,43.0,G,A,1.0,G
+2988,11421,protestant,kyeshero,construction,FSTA,NORD-KIVU,H,58.0,23,43.0,G,A,1.0,G
+2989,11621,protestant,kyeshero,elec,FSTA,NORD-KIVU,H,51.0,21,47.5,G,A,1.0,G
+2990,11660,protestant,kyeshero,construction,FSTA,NORD-KIVU,H,58.0,20,48.7000007629,G,A,1.0,G
+2991,11770,protestant,kyeshero,mec gene,FSTA,NORD-KIVU,H,54.0,21,47.5999984741,G,A,1.0,G
+2992,11854,protestant,kyeshero,mec gene,FSTA,NORD-KIVU,H,52.0,20,56.7000007629,G,G,1.0,G
+2993,11874,protestant,kyeshero,mec gene,FSTA,NORD-KIVU,H,50.0,22,46.5,G,A,1.0,G
+2994,12022,protestant,kyeshero,construction,FSTA,NORD-KIVU,H,59.0,22,47.0,G,A,1.0,G
+2995,12151,protestant,kyeshero,mec gene,FSTA,NORD-KIVU,H,54.0,21,51.5,G,G,1.0,G
+2996,12158,protestant,kyeshero,elec,FSTA,NORD-KIVU,H,52.0,21,44.0,G,A,1.0,G
+3001,6400,catholique,mgr kataliko,math-physique,FSTA,NORD-KIVU,F,58.0,24,64.1000010173,G,G,3.0,E
+3006,9131,catholique,mgr kataliko,commmerciale et adm,FSTA,NORD-KIVU,F,50.0,25,49.0999984741,G,A,1.0,G
+3007,9132,catholique,mgr kataliko,bio-chimie,FSTA,NORD-KIVU,F,59.0,23,60.0,G,G,3.0,G
+3015,4311,protestant,vungi,math-physique,FSTA,NORD-KIVU,H,53.0,27,61.3333320618,G,G,3.0,G
+3018,9094,protestant,vungi,pedagogie,FSTA,NORD-KIVU,F,59.0,22,63.2333348592,G,G,3.0,E
+3020,10828,protestant,vungi,commerciale informatique,FSTA,NORD-KIVU,H,53.0,22,69.75,D,G,2.0,D
+3028,9515,catholique,saint andre,sociale,FSTA,NORD-KIVU,H,66.0,24,58.2666676839,G,G,3.0,E
+3032,11463,catholique,saint andre,pedagogie,FSTA,SUD-KIVU,H,71.0,22,48.2000007629,G,A,1.0,G
+3043,10477,privé,aigle de dieu,pedagogie,FSTA,NORD-KIVU,H,58.0,22,46.0,G,A,1.0,G
+3047,12101,privé,aigle de dieu,pedagogie,FSTA,NORD-KIVU,H,50.0,23,46.0,G,A,1.0,G
+3050,9489,privé,isoko,math-physique,FSTA,SUD-KIVU,H,68.0,22,57.7000007629,G,G,3.0,G
+3052,4014,catholique,alfajiri,math-physique,FSTA,SUD-KIVU,H,62.0,28,65.7999992371,G,G,2.0,D
+3053,4072,catholique,alfajiri,math-physique,FSTA,SUD-KIVU,H,66.0,27,63.1999988555,G,G,2.0,D
+3055,4280,catholique,alfajiri,bio-chimie,FSTA,SUD-KIVU,H,69.0,25,66.5,G,G,2.0,G
+3056,4396,catholique,alfajiri,math-physique,FSTA,NORD-KIVU,H,50.0,25,59.4666659037,G,E,3.0,G
+3057,4478,catholique,alfajiri,latin philo,FSTA,SUD-KIVU,H,74.0,25,67.8999977112,G,G,2.0,G
+3059,5395,catholique,alfajiri,bio-chimie,FSTA,SUD-KIVU,H,59.0,24,44.0,G,A,1.0,G
+3060,6182,catholique,alfajiri,math-physique,FSTA,SUD-KIVU,H,61.0,25,63.0333328247,E,G,3.0,G
+3061,6214,catholique,alfajiri,math-physique,FSTA,SUD-KIVU,H,67.0,26,62.633333842,G,G,3.0,E
+3062,6215,catholique,alfajiri,math-physique,FSTA,SUD-KIVU,H,68.0,24,43.0,G,A,1.0,G
+3063,6247,catholique,alfajiri,math-physique,FSTA,SUD-KIVU,H,53.0,27,58.7000007629,G,G,3.0,E
+3064,6630,catholique,alfajiri,math-physique,FSTA,SUD-KIVU,H,62.0,25,43.0,G,A,1.0,G
+3065,7530,catholique,alfajiri,math-physique,FSTA,NORD-KIVU,H,68.0,23,51.6999998093,G,D,4.0,F
+3066,7542,catholique,alfajiri,bio-chimie,FSTA,NORD-KIVU,H,56.0,25,57.0749988556,G,D,4.0,F
+3068,7628,catholique,alfajiri,latin philo,FSTA,SUD-KIVU,H,62.0,25,51.5,G,D,2.0,G
+3069,8172,catholique,alfajiri,bio-chimie,FSTA,SUD-KIVU,H,58.0,23,58.866666158,G,G,3.0,E
+3070,8195,catholique,alfajiri,math-physique,FSTA,SUD-KIVU,H,57.0,22,47.2000007629,G,A,1.0,G
+3071,8448,catholique,alfajiri,math-physique,FSTA,SUD-KIVU,H,61.0,22,65.5499992371,G,G,4.0,D
+3073,8649,catholique,alfajiri,math-physique,FSTA,SUD-KIVU,H,56.0,23,49.1999994914,G,C,3.0,G
+3074,8910,catholique,alfajiri,math-physique,FSTA,SUD-KIVU,F,63.0,22,52.4666671753,G,E,3.0,G
+3079,9898,catholique,alfajiri,math-physique,FSTA,SUD-KIVU,H,62.0,21,65.7999992371,G,G,2.0,D
+3081,10616,catholique,alfajiri,math-physique,FSTA,SUD-KIVU,H,64.0,21,72.1999969482,A,G,1.0,A
+3082,11733,catholique,alfajiri,math-physique,FSTA,SUD-KIVU,F,60.0,20,60.5999984741,G,G,1.0,A
+3083,11836,catholique,alfajiri,latin philo,FSTA,NORD-KIVU,H,61.0,20,48.0,G,A,1.0,G
+3115,11671,protestant,kashenda,pedagogie,FSTA,NORD-KIVU,H,51.0,22,48.7999992371,G,A,1.0,G
+3129,4500,protestant,faraja,commmerciale et adm,FSTA,NORD-KIVU,H,61.0,26,62.133333842,G,G,3.0,G
+3144,6506,protestant,faraja,bio-chimie,FSTA,NORD-KIVU,F,63.0,26,60.6666666667,G,G,3.0,E
+3155,8136,protestant,faraja,commmerciale et adm,FSTA,NORD-KIVU,H,54.0,24,48.5499992371,G,A,2.0,G
+3157,8338,protestant,faraja,math-physique,FSTA,NORD-KIVU,H,51.0,25,55.9000015259,G,G,1.0,G
+3166,9118,protestant,faraja,pedagogie,FSTA,NORD-KIVU,H,63.0,22,56.866666158,G,E,3.0,E
+3179,9961,protestant,faraja,math-physique,FSTA,NORD-KIVU,F,62.0,21,55.8999996185,G,G,2.0,G
+3180,10017,protestant,faraja,math-physique,FSTA,NORD-KIVU,H,50.0,22,57.1499996185,G,G,2.0,G
+3182,10071,protestant,faraja,math-physique,FSTA,NORD-KIVU,H,57.0,24,52.9000015259,G,G,1.0,G
+3184,10180,protestant,faraja,math-physique,FSTA,NORD-KIVU,H,65.0,22,62.2999992371,G,G,2.0,G
+3196,10772,protestant,faraja,math-physique,FSTA,NORD-KIVU,H,60.0,23,55.2999992371,G,D,2.0,G
+3198,10799,protestant,faraja,math-physique,FSTA,NORD-KIVU,H,55.0,23,47.0,G,A,1.0,G
+3201,11264,protestant,faraja,math-physique,FSTA,NORD-KIVU,H,53.0,23,54.4000015259,G,G,1.0,G
+3202,11437,protestant,faraja,bio-chimie,FSTA,NORD-KIVU,H,52.0,22,43.4000015259,G,A,1.0,G
+3204,11553,protestant,faraja,bio-chimie,FSTA,NORD-KIVU,F,64.0,21,49.0999984741,G,A,1.0,G
+3207,11721,protestant,faraja,bio-chimie,FSTA,NORD-KIVU,H,65.0,24,48.0,G,A,1.0,G
+3209,11801,protestant,faraja,commerciale informatique,FSTA,NORD-KIVU,F,50.0,21,41.0,G,A,1.0,G
+3212,11893,protestant,faraja,pedagogie,FSTA,NORD-KIVU,H,50.0,23,45.7000007629,G,A,1.0,G
+3215,12043,protestant,faraja,bio-chimie,FSTA,NORD-KIVU,H,61.0,20,54.5999984741,G,G,1.0,G
+3220,6217,publique,zawadi ya raisi,bio-chimie,FSTA,SUD-KIVU,H,61.0,24,62.8000005086,G,G,3.0,G
+3226,10413,publique,zawadi ya raisi,sociale,FSTA,SUD-KIVU,H,55.0,21,43.0,G,A,1.0,G
+3230,12057,catholique,zawadi ya raisi,pedagogie,FSTA,ORIENTALE,H,61.0,24,45.0,G,A,1.0,G
+3242,11398,protestant,shalom,bio-chimie,FSTA,ORIENTALE,F,56.0,19,54.0999984741,G,G,1.0,G
+3244,11696,privé,shalom,bio-chimie,FSTA,ORIENTALE,F,64.0,18,53.2999992371,G,G,1.0,G
+3248,9179,catholique,epsk/fomulac,bio-chimie,FSTA,SUD-KIVU,H,70.0,23,60.2333323161,G,G,3.0,G
+3249,11323,catholique,epsk/fomulac,bio-chimie,FSTA,SUD-KIVU,H,51.0,22,63.5999984741,G,G,1.0,G
+3272,9102,catholique,anuarite,pedagogie,FSTA,NORD-KIVU,H,55.0,23,57.3333333333,G,G,3.0,G
+3274,9526,catholique,anuarite,bio-chimie,FSTA,ORIENTALE,F,51.0,20,50.2999992371,G,A,1.0,G
+3282,11135,privé,anuarite,pedagogie,FSTA,NORD-KIVU,H,57.0,26,43.0,G,A,1.0,G
+3293,11861,catholique,anuarite,pedagogie,FSTA,NORD-KIVU,H,55.0,20,41.0,G,A,1.0,G
+3307,7658,privé,la fontaine,bio-chimie,FSTA,NORD-KIVU,H,67.0,23,42.0,G,A,1.0,G
+3308,8282,privé,la fontaine,bio-chimie,FSTA,NORD-KIVU,H,51.0,24,51.6500015259,G,A,2.0,G
+3318,10769,privé,la fontaine,bio-chimie,FSTA,NORD-KIVU,H,67.0,22,59.5499992371,G,G,2.0,D
+3341,8342,autodidacte,autodidacte,elec indust,FSTA,NORD-KIVU,F,53.0,26,59.5249996185,G,G,4.0,D
+3342,8405,autodidacte,autodidacte,pedagogie,FSTA,NORD-KIVU,H,66.0,27,56.3999996185,G,G,2.0,G
+3349,8658,autodidacte,autodidacte,pedagogie,FSTA,SUD-KIVU,H,68.0,23,59.2666664124,G,G,3.0,G
+3358,9334,autodidacte,autodidacte,pedagogie,FSTA,SUD-KIVU,H,65.0,26,43.0,G,A,1.0,G
+3359,9364,autodidacte,autodidacte,pedagogie,FSTA,SUD-KIVU,H,65.0,24,49.0,G,A,1.0,G
+3368,10596,autodidacte,autodidacte,elec indust,FSTA,NORD-KIVU,H,50.0,23,54.6000003815,G,D,2.0,G
+3369,10664,autodidacte,autodidacte,math-physique,FSTA,NORD-KIVU,H,56.0,25,64.7000007629,G,G,2.0,G
+3370,10666,autodidacte,autodidacte,pedagogie,FSTA,SUD-KIVU,H,53.0,25,58.0999984741,G,G,1.0,G
+3372,10877,autodidacte,autodidacte,math-physique,FSTA,ORIENTALE,H,63.0,25,48.5,G,A,2.0,G
+3377,11515,publique,autodidacte,pedagogie,FSTA,NORD-KIVU,H,64.0,30,40.0,G,A,1.0,G
+3378,11539,publique,autodidacte,pedagogie,FSTA,SUD-KIVU,H,61.0,22,44.0,G,A,1.0,G
+3379,11804,publique,autodidacte,bio-chimie,FSTA,NORD-KIVU,H,59.0,19,55.5,G,G,1.0,G
+3380,12023,publique,autodidacte,commmerciale et adm,FSTA,SUD-KIVU,H,57.0,21,41.0,G,A,1.0,G
+3387,8494,privé,icl,bio-chimie,FSTA,NORD-KIVU,H,55.0,25,43.0,G,A,1.0,G
+3388,8497,privé,icl,bio-chimie,FSTA,NORD-KIVU,H,50.0,24,48.0,G,A,1.0,G
+3391,8958,privé,icl,bio-chimie,FSTA,NORD-KIVU,H,56.0,24,46.0,G,A,2.0,G
+3398,10035,privé,icl,bio-chimie,FSTA,NORD-KIVU,F,52.0,21,56.25,G,G,2.0,G
+3422,10016,catholique,saint michel,agrecole,FSTA,NORD-KIVU,H,60.0,23,64.0499992371,G,G,2.0,D
+3455,9882,protestant,kitsombiro,sociale,FSTA,NORD-KIVU,H,52.0,24,43.0,G,A,1.0,G
+3480,4482,catholique,milima,math-physique,FSTA,SUD-KIVU,H,52.0,29,43.0,G,A,1.0,G
+3487,9053,catholique,milima,math-physique,FSTA,SUD-KIVU,H,57.0,23,52.4666671753,G,E,3.0,G
+3495,11537,protestant,milima,elec,FSTA,NORD-KIVU,H,66.0,19,67.0,G,G,1.0,G
+3497,11737,catholique,milima,elec,FSTA,NORD-KIVU,H,57.0,20,49.7999992371,G,A,1.0,G
+3502,9348,publique,gs kigali,hotesse d'acceuil,FSTA,NORD-KIVU,H,51.0,22,45.0,G,A,1.0,G
+3508,10463,publique,gs kigali,construction,FSTA,NORD-KIVU,H,52.0,23,55.5999984741,G,G,1.0,G
+3510,11911,publique,gs kigali,bio-chimie,FSTA,NORD-KIVU,H,52.0,19,43.0,G,A,1.0,G
+3511,9529,protestant,buhimba,pedagogie,FSTA,NORD-KIVU,H,60.0,22,40.0,G,A,1.0,G
+3521,7671,privé,mont sinai,sociale,FSTA,NORD-KIVU,H,54.0,28,50.3999996185,G,A,2.0,G
+3546,3646,catholique,avenir,elec indust,FSTA,SUD-KIVU,H,53.0,27,68.9000015259,D,G,2.0,G
+3547,4497,catholique,avenir,elec indust,FSTA,SUD-KIVU,H,53.0,29,55.3999996185,G,D,2.0,G
+3549,6343,catholique,avenir,elec indust,FSTA,SUD-KIVU,H,51.0,27,63.5333328247,E,G,3.0,G
+3550,6344,catholique,avenir,elec indust,FSTA,SUD-KIVU,F,51.0,27,49.9666671753,G,C,3.0,G
+3551,8188,catholique,avenir,commmerciale et adm,FSTA,SUD-KIVU,H,56.0,24,55.8666674296,G,E,3.0,G
+3553,8994,catholique,avenir,elec indust,FSTA,SUD-KIVU,H,55.0,22,59.0333328247,G,E,3.0,E
+3554,9462,catholique,avenir,elec indust,FSTA,SUD-KIVU,H,57.0,25,63.1333325704,G,G,3.0,E
+3555,10075,catholique,avenir,elec,FSTA,SUD-KIVU,H,52.0,19,67.1500015259,G,G,2.0,A
+3556,10125,catholique,avenir,elec indust,FSTA,NORD-KIVU,H,50.0,25,68.1500015259,D,G,2.0,G
+3557,10304,catholique,avenir,elec indust,FSTA,SUD-KIVU,H,52.0,20,70.0500030518,D,G,2.0,A
+3559,10613,catholique,avenir,elec indust,FSTA,SUD-KIVU,H,50.0,27,55.6999988556,G,G,2.0,G
+3560,11627,catholique,avenir,elec,FSTA,SUD-KIVU,H,54.0,20,53.7999992371,G,G,1.0,G
+3561,11643,catholique,avenir,pedagogie,FSTA,NORD-KIVU,H,60.0,21,55.7999992371,G,G,1.0,G
+3562,11741,catholique,avenir,elec,FSTA,SUD-KIVU,H,56.0,24,49.0,G,A,1.0,G
+3577,2519,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,71.0,30,67.5,G,G,1.0,A
+3578,3219,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,63.0,29,67.8000030518,G,G,1.0,G
+3581,3760,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,58.0,26,68.25,D,G,2.0,D
+3583,4073,protestant,majengo,math-physique,FSTA,NORD-KIVU,F,63.0,27,70.0999984741,A,G,2.0,D
+3584,4093,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,67.0,29,61.3000011444,G,G,2.0,G
+3585,4200,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,53.0,30,55.2999992371,G,D,2.0,G
+3586,4310,protestant,majengo,bio-chimie,FSTA,NORD-KIVU,H,59.0,26,57.25,G,D,2.0,G
+3588,4389,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,59.0,27,62.6000003815,G,G,2.0,D
+3589,4619,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,55.0,25,69.1999969482,D,G,2.0,G
+3590,4620,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,60.0,29,65.5,G,G,2.0,G
+3605,6893,protestant,majengo,bio-chimie,FSTA,NORD-KIVU,H,73.0,24,57.2000007629,G,D,2.0,G
+3606,6946,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,52.0,26,68.5,D,G,2.0,G
+3611,8096,protestant,majengo,math-physique,FSTA,NORD-KIVU,F,50.0,23,49.5333340963,G,C,3.0,G
+3612,8104,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,55.0,23,63.9000002543,G,G,3.0,E
+3621,8401,protestant,majengo,bio-chimie,FSTA,NORD-KIVU,H,51.0,22,44.0,G,A,1.0,G
+3625,8582,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,58.0,23,57.6999998093,G,G,4.0,D
+3628,8770,protestant,majengo,math-physique,FSTA,NORD-KIVU,F,53.0,22,63.2333323161,G,G,3.0,E
+3631,9012,protestant,majengo,bio-chimie,FSTA,NORD-KIVU,F,60.0,21,64.8333333333,E,G,3.0,C
+3632,9029,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,61.0,23,59.9666671753,G,E,3.0,G
+3633,9030,protestant,majengo,bio-chimie,FSTA,NORD-KIVU,F,80.0,23,66.5333340963,G,G,3.0,C
+3636,9163,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,63.0,21,62.9000002543,G,G,3.0,C
+3639,9278,protestant,majengo,bio-chimie,FSTA,NORD-KIVU,H,61.0,21,62.1666653951,G,G,3.0,G
+3641,9566,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,53.0,28,47.0,G,A,1.0,G
+3643,10045,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,60.0,22,62.75,G,G,2.0,G
+3646,10131,protestant,majengo,bio-chimie,FSTA,NORD-KIVU,H,71.0,21,59.5,G,G,2.0,A
+3647,10132,protestant,majengo,math-physique,FSTA,NORD-KIVU,F,71.0,20,71.9500007629,A,G,2.0,A
+3649,10317,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,63.0,23,57.1000003815,G,G,2.0,G
+3650,10374,protestant,majengo,math-physique,FSTA,NORD-KIVU,F,74.0,21,72.5,A,G,2.0,A
+3651,10551,protestant,majengo,bio-chimie,FSTA,NORD-KIVU,H,58.0,27,49.0,G,A,1.0,G
+3656,10647,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,67.0,24,44.0,G,A,1.0,G
+3660,10812,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,56.0,23,47.0,G,A,1.0,G
+3663,11360,protestant,majengo,bio-chimie,FSTA,NORD-KIVU,F,64.0,20,62.5,G,G,1.0,G
+3667,11616,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,56.0,21,54.0999984741,G,G,1.0,G
+3670,11807,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,72.0,19,57.5,G,G,1.0,G
+3672,11899,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,63.0,21,56.4000015259,G,G,1.0,G
+3673,11970,protestant,majengo,bio-chimie,FSTA,NORD-KIVU,H,63.0,20,46.0,G,A,1.0,G
+3674,12016,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,62.0,21,54.5,G,G,1.0,G
+3676,12114,protestant,majengo,bio-chimie,FSTA,NORD-KIVU,F,52.0,19,55.4000015259,G,G,1.0,G
+3677,12240,protestant,majengo,math-physique,FSTA,NORD-KIVU,H,63.0,23,55.7999992371,G,G,1.0,G
+3680,5691,catholique,wima,pedagogie,FSTA,SUD-KIVU,F,68.0,25,59.433333079,G,G,3.0,G
+3686,7624,catholique,wima,bio-chimie,FSTA,SUD-KIVU,F,77.0,23,66.1500015259,G,G,4.0,D
+3687,7676,catholique,wima,bio-chimie,FSTA,SUD-KIVU,F,60.0,24,64.0,F,G,4.0,D
+3693,9890,catholique,wima,bio-chimie,FSTA,SUD-KIVU,F,64.0,20,56.8999996185,G,G,2.0,G
+3696,10186,catholique,wima,commmerciale et adm,FSTA,SUD-KIVU,F,78.0,21,64.2999992371,G,G,2.0,A
+3718,4622,protestant,ndahura,math-physique,FSTA,NORD-KIVU,H,53.0,27,68.1000022888,G,G,2.0,G
+3729,8457,protestant,ndahura,math-physique,FSTA,NORD-KIVU,F,52.0,24,49.8000005086,G,C,3.0,G
+3736,11626,protestant,ndahura,math-physique,FSTA,NORD-KIVU,F,52.0,25,42.5,G,A,1.0,G
+3739,1497,catholique,itig,mec gene,FSTA,NORD-KIVU,H,62.0,32,53.5499992371,G,D,2.0,G
+3740,1517,catholique,itig,elec,FSTA,NORD-KIVU,H,52.0,36,44.0,G,A,1.0,G
+3741,2520,catholique,itig,mec gene,FSTA,NORD-KIVU,H,58.0,32,64.0999984741,G,G,1.0,A
+3742,3431,catholique,itig,mec gene,FSTA,NORD-KIVU,H,57.0,30,62.0,G,G,1.0,G
+3743,3626,catholique,itig,elec,FSTA,NORD-KIVU,H,65.0,28,63.4500007629,D,G,2.0,D
+3744,3627,catholique,itig,mec gene,FSTA,NORD-KIVU,H,53.0,30,67.0,G,G,1.0,G
+3745,4074,catholique,itig,elec,FSTA,NORD-KIVU,H,60.0,28,65.4000015259,G,G,1.0,G
+3746,4106,catholique,itig,mec gene,FSTA,NORD-KIVU,H,53.0,28,67.1999969482,G,G,1.0,G
+3748,4301,catholique,itig,elec,FSTA,NORD-KIVU,H,52.0,28,57.3999996185,G,G,2.0,G
+3749,4306,catholique,itig,elec,FSTA,NORD-KIVU,H,52.0,28,72.2999992371,D,G,2.0,D
+3750,4380,catholique,itig,elec indust,FSTA,NORD-KIVU,H,51.0,27,63.1500015259,G,G,2.0,G
+3751,4385,catholique,itig,mec gene,FSTA,NORD-KIVU,H,59.0,27,62.1000003815,G,G,2.0,G
+3752,4488,catholique,itig,elec,FSTA,NORD-KIVU,H,58.0,30,43.5,G,A,2.0,G
+3753,4494,catholique,itig,elec,FSTA,NORD-KIVU,H,52.0,26,60.7999992371,G,G,2.0,G
+3755,6488,catholique,itig,mec gene,FSTA,NORD-KIVU,H,58.0,25,57.2000007629,G,G,3.0,G
+3756,6540,catholique,itig,elec,FSTA,NORD-KIVU,H,53.0,28,52.8666674296,G,C,3.0,G
+3757,6541,catholique,itig,elec indust,FSTA,NORD-KIVU,H,63.0,26,61.6666666667,G,G,3.0,E
+3758,6713,catholique,itig,mec gene,FSTA,NORD-KIVU,H,61.0,27,63.7999992371,G,G,1.0,G
+3760,7531,catholique,itig,mec gene,FSTA,NORD-KIVU,H,57.0,27,63.633333842,E,G,3.0,G
+3761,7539,catholique,itig,elec indust,FSTA,SUD-KIVU,H,59.0,23,54.75,G,F,4.0,F
+3762,7578,catholique,itig,mec gene,FSTA,NORD-KIVU,H,60.0,25,57.9499988556,G,F,4.0,F
+3763,7602,catholique,itig,elec,FSTA,NORD-KIVU,H,54.0,26,50.1999994914,G,A,3.0,G
+3764,7609,catholique,itig,mec gene,FSTA,NORD-KIVU,H,59.0,26,52.2666664124,G,C,3.0,G
+3765,7623,catholique,itig,mec gene,FSTA,NORD-KIVU,H,61.0,25,49.8500003815,G,D,2.0,G
+3766,7644,catholique,itig,mec gene,FSTA,NORD-KIVU,H,68.0,25,73.9499988556,A,G,4.0,D
+3767,7653,catholique,itig,elec,FSTA,NORD-KIVU,H,60.0,23,63.2750005722,G,G,4.0,D
+3768,7657,catholique,itig,elec,FSTA,NORD-KIVU,H,59.0,23,62.625,G,G,4.0,F
+3769,8460,catholique,itig,elec indust,FSTA,NORD-KIVU,H,67.0,23,69.0999984741,B,G,4.0,F
+3770,8661,catholique,itig,mec gene,FSTA,NORD-KIVU,H,59.0,23,58.4000015259,G,G,1.0,A
+3771,8663,catholique,itig,mec gene,FSTA,NORD-KIVU,H,67.0,30,72.3000030518,D,G,2.0,G
+3772,8668,catholique,itig,mec gene,FSTA,NORD-KIVU,H,64.0,28,48.5333328247,G,C,3.0,G
+3773,8696,catholique,itig,mec gene,FSTA,NORD-KIVU,H,59.0,26,57.3000005086,G,G,3.0,E
+3774,9036,catholique,itig,elec,FSTA,NORD-KIVU,H,59.0,24,71.9333343506,C,G,3.0,A
+3775,9037,catholique,itig,mec gene,FSTA,NORD-KIVU,H,52.0,25,59.566666921,G,G,3.0,E
+3776,9056,catholique,itig,electronique générale,FSTA,NORD-KIVU,H,61.0,23,53.2000007629,G,D,2.0,D
+3777,9066,catholique,itig,elec indust,FSTA,NORD-KIVU,H,72.0,23,59.433333079,E,C,3.0,E
+3778,9067,catholique,itig,elec indust,FSTA,NORD-KIVU,H,66.0,23,61.1666679383,G,G,3.0,A
+3779,9078,catholique,itig,elec,FSTA,NORD-KIVU,H,69.0,21,80.7666651408,A,G,3.0,A
+3780,9172,catholique,itig,elec,FSTA,NORD-KIVU,H,64.0,24,68.5999984741,G,G,1.0,A
+3781,9295,catholique,itig,elec indust,FSTA,NORD-KIVU,H,63.0,22,67.8000005086,E,G,3.0,E
+3782,9296,catholique,itig,elec indust,FSTA,NORD-KIVU,H,65.0,23,58.6999994914,G,E,3.0,E
+3783,9349,catholique,itig,mec gene,FSTA,NORD-KIVU,H,60.0,23,53.7999992371,G,E,3.0,G
+3784,9376,catholique,itig,elec,FSTA,NORD-KIVU,H,64.0,24,66.1999994914,G,G,3.0,C
+3785,9412,catholique,itig,mec gene,FSTA,NORD-KIVU,H,70.0,22,46.0,G,A,1.0,G
+3786,9465,catholique,itig,mec gene,FSTA,NORD-KIVU,H,67.0,23,45.0,G,A,1.0,G
+3788,9851,catholique,itig,elec,FSTA,NORD-KIVU,H,64.0,20,71.2999992371,A,G,2.0,A
+3789,10179,catholique,itig,elec indust,FSTA,NORD-KIVU,H,67.0,20,68.0500011444,D,G,2.0,D
+3790,10256,catholique,itig,mec gene,FSTA,NORD-KIVU,H,56.0,21,58.6999988556,G,G,2.0,D
+3791,10274,catholique,itig,mec gene,FSTA,NORD-KIVU,H,58.0,19,65.3499984741,G,G,2.0,D
+3792,10332,catholique,itig,mec gene,FSTA,NORD-KIVU,H,54.0,22,60.9000015259,G,G,2.0,G
+3793,10333,catholique,itig,mec gene,FSTA,NORD-KIVU,H,58.0,22,60.7000007629,G,G,2.0,A
+3794,10400,catholique,itig,mec gene,FSTA,NORD-KIVU,H,55.0,23,59.9499988556,G,G,2.0,G
+3795,10448,catholique,itig,elec indust,FSTA,NORD-KIVU,H,60.0,21,65.4000015259,G,G,1.0,A
+3796,10491,catholique,itig,mec gene,FSTA,NORD-KIVU,H,61.0,25,58.3999996185,G,G,2.0,D
+3797,10528,catholique,itig,elec indust,FSTA,NORD-KIVU,H,59.0,21,72.4500007629,A,G,2.0,D
+3798,10642,catholique,itig,mec gene,FSTA,NORD-KIVU,H,53.0,23,58.7000007629,G,G,1.0,A
+3799,10849,catholique,itig,elec indust,FSTA,NORD-KIVU,H,55.0,21,68.1500015259,G,G,2.0,G
+3800,10924,catholique,itig,elec,FSTA,NORD-KIVU,H,57.0,21,60.1999988556,G,G,2.0,G
+3801,11995,catholique,itig,electronique générale,FSTA,NORD-KIVU,H,52.0,24,41.0,G,A,1.0,G
+3806,6514,privé,tupendane,bio-chimie,FSTA,NORD-KIVU,H,56.0,25,45.2999992371,G,A,2.0,G
+3811,8983,privé,tupendane,bio-chimie,FSTA,NORD-KIVU,H,65.0,22,44.0,G,A,1.0,G
+3812,9973,privé,tupendane,bio-chimie,FSTA,NORD-KIVU,H,53.0,24,53.8500022889,G,D,2.0,G
+3827,3288,catholique,saint paul,math-physique,FSTA,SUD-KIVU,H,61.0,31,49.0,G,A,1.0,G
+3829,4101,catholique,saint paul,bio-chimie,FSTA,SUD-KIVU,H,59.0,27,65.2999992371,G,G,2.0,D
+3835,8373,catholique,saint paul,math-physique,FSTA,SUD-KIVU,H,57.0,28,55.366666158,G,E,3.0,G
+3836,8397,catholique,saint paul,math-physique,FSTA,SUD-KIVU,H,51.0,27,48.5999997457,G,C,3.0,G
+3837,8701,catholique,saint paul,math-physique,FSTA,SUD-KIVU,H,58.0,24,49.4666671753,G,C,3.0,G
+3838,8722,catholique,saint paul,math-physique,FSTA,SUD-KIVU,H,52.0,23,66.5249996185,F,G,4.0,D
+3839,8887,catholique,saint paul,math-physique,FSTA,SUD-KIVU,H,54.0,26,54.4000002543,G,E,3.0,E
+3840,8979,catholique,saint paul,bio-chimie,FSTA,SUD-KIVU,H,54.0,24,42.0,G,A,1.0,G
+3841,8989,catholique,saint paul,math-physique,FSTA,SUD-KIVU,H,56.0,22,49.0,G,A,1.0,G
+3842,9318,catholique,saint paul,math-physique,FSTA,SUD-KIVU,H,58.0,25,62.4333318074,G,G,3.0,E
+3843,9380,catholique,saint paul,math-physique,FSTA,SUD-KIVU,H,54.0,24,59.2000007629,G,G,3.0,E
+3844,9521,catholique,saint paul,bio-chimie,FSTA,SUD-KIVU,H,54.0,23,42.0,G,A,1.0,G
+3848,10513,catholique,saint paul,math-physique,FSTA,SUD-KIVU,H,52.0,23,40.0,G,A,1.0,G
+3850,11750,catholique,saint paul,math-physique,FSTA,SUD-KIVU,H,50.0,19,43.0,G,A,1.0,G
+3881,10368,protestant,bulera,pedagogie,FSTA,SUD-KIVU,H,63.0,26,52.4500007629,G,D,2.0,G
+3889,6285,publique,fadhili,bio-chimie,FSTA,inconnu,H,56.0,24,60.1333325704,G,G,3.0,G
+3891,7641,publique,fadhili,bio-chimie,FSTA,SUD-KIVU,H,57.0,23,47.0999997457,G,C,3.0,G
+3892,7666,publique,fadhili,bio-chimie,FSTA,SUD-KIVU,H,51.0,27,43.6000003815,G,A,2.0,G
+3897,9518,publique,fadhili,bio-chimie,FSTA,SUD-KIVU,H,61.0,22,57.5,G,G,2.0,D
+3899,10106,publique,fadhili,bio-chimie,FSTA,SUD-KIVU,H,65.0,22,67.4500007629,G,G,2.0,A
+3902,11614,publique,fadhili,pedagogie,FSTA,NORD-KIVU,H,58.0,19,54.0999984741,G,G,1.0,G
+3915,2459,inconnu,mahamba,elec,FSTA,NORD-KIVU,H,60.0,30,48.0,G,A,1.0,G
+3927,3645,inconnu,humule,pedagogie,FSTA,NORD-KIVU,H,54.0,27,56.4000002543,G,E,3.0,G
+3939,3992,inconnu,INST DE KATWA,math-physique,FSTA,NORD-KIVU,H,67.0,27,68.9000015259,D,G,2.0,D
+3943,4094,inconnu,itfm/bukavu,inconnu,FSTA,SUD-KIVU,H,56.8765221107,26,65.3000030518,G,G,1.0,G
+3949,4197,inconnu,enano,pedagogie,FSTA,MANIEMA,H,58.0,58,49.0,G,A,1.0,G
+3954,4249,inconnu,nikisi,bio-chimie,FSTA,ORIENTALE,H,58.0,26,75.3499984741,A,G,2.0,D
+3956,4278,inconnu,sainte famille,bio-chimie,FSTA,NORD-KIVU,H,54.0,27,50.6000003815,G,D,2.0,G
+3960,4377,inconnu,bambu,pedagogie,FSTA,NORD-KIVU,F,51.0,26,47.9500007629,G,A,2.0,G
+3961,4383,inconnu,mahamba,elec,FSTA,NORD-KIVU,H,56.0,28,65.4499988555,G,G,2.0,G
+3962,4390,inconnu,adventiste/bunia,mec gene,FSTA,ORIENTALE,H,52.0,39,53.8666661581,G,C,3.0,G
+4019,5145,inconnu,oicha,construction,FSTA,NORD-KIVU,H,53.0,32,42.0,G,A,1.0,G
+4024,5196,inconnu,mahamba,elec,FSTA,NORD-KIVU,H,59.0,33,40.0,G,A,1.0,G
+4045,6338,inconnu,hekima,pedagogie,FSTA,NORD-KIVU,H,68.0,26,47.8999996185,G,A,2.0,G
+4056,6495,inconnu,muku,bio-chimie,FSTA,SUD-KIVU,H,59.0,27,54.7000007629,G,E,3.0,G
+4057,6509,inconnu,nyantende,pedagogie,FSTA,SUD-KIVU,H,58.0,28,56.7666676839,G,E,3.0,G
+4061,6582,inconnu,kitundu,math-physique,FSTA,NORD-KIVU,H,59.0,27,48.1666666667,G,A,3.0,G
+4068,6619,inconnu,kanyabayonga,elec indust,FSTA,NORD-KIVU,H,50.0,29,57.1666666667,G,E,3.0,G
+4069,6621,inconnu,kibabi,math-physique,FSTA,NORD-KIVU,H,50.0,23,58.3333333333,G,E,3.0,G
+4070,6632,inconnu,auto,pedagogie,FSTA,SUD-KIVU,H,60.0,31,60.1333325704,G,G,3.0,G
+4078,6722,inconnu,cirezi,bio-chimie,FSTA,SUD-KIVU,F,56.0,23,60.8666674296,G,G,3.0,G
+4079,6742,inconnu,MWANDU,bio-chimie,FSTA,NORD-KIVU,F,58.0,25,61.633333842,G,G,3.0,E
+4146,7536,inconnu,rwabika,inconnu,FSTA,SUD-KIVU,H,52.0,28,49.0,G,A,1.0,G
+4147,7540,inconnu,auto,pedagogie,FSTA,NORD-KIVU,H,64.0,27,52.5666656494,G,C,3.0,G
+4148,7550,inconnu,bwindi,bio-chimie,FSTA,SUD-KIVU,H,59.0,26,42.5,G,A,2.0,G
+4149,7575,inconnu,gihundu,bio-chimie,FSTA,inconnu,F,56.8765221107,25,55.0333340963,G,C,3.0,G
+4150,7576,inconnu,cirezi,bio-chimie,FSTA,SUD-KIVU,F,68.0,22,71.1499996185,D,G,4.0,D
+4151,7580,inconnu,itk mahamba,imprimerie,FSTA,NORD-KIVU,F,51.0,25,45.3000011444,G,A,2.0,G
+4152,7591,inconnu,auto,pedagogie,FSTA,NORD-KIVU,H,54.0,28,50.1999988556,G,A,2.0,G
+4153,7605,inconnu,bustani,math-physique,FSTA,NORD-KIVU,H,50.0,24,50.1000003815,G,D,2.0,G
+4155,7615,inconnu,itfm/bukavu,mecanique machines outils,FSTA,SUD-KIVU,H,63.0,26,50.5333328247,G,C,3.0,G
+4156,7616,inconnu,lyce techn de la pleine,inconnu,FSTA,inconnu,H,56.8765221107,28,48.1999994914,G,C,3.0,G
+4157,7617,inconnu,kasika,pedagogie,FSTA,NORD-KIVU,F,57.0,26,55.0666656494,G,E,3.0,G
+4158,7633,inconnu,edap isp bkv,math-physique,FSTA,SUD-KIVU,H,59.0,24,63.3750009537,G,G,4.0,D
+4159,7634,inconnu,jikaze,math-physique,FSTA,NORD-KIVU,H,57.0,27,56.6499996185,G,D,4.0,D
+4160,7650,inconnu,LWANGA,bio-chimie,FSTA,SUD-KIVU,H,66.0,27,61.3666674296,G,G,3.0,G
+4161,7670,inconnu,sainte famille,bio-chimie,FSTA,SUD-KIVU,H,58.0,27,52.2666664124,G,C,3.0,G
+4162,7698,inconnu,de la sucrerie de kiliba,bio-chimie,FSTA,SUD-KIVU,H,52.0,25,55.6666666667,G,C,3.0,G
+4182,7880,inconnu,st michel,agrecole,FSTA,NORD-KIVU,H,56.0,27,54.0666656494,G,C,3.0,G
+4186,8094,inconnu,tetembwa,math-physique,FSTA,NORD-KIVU,F,58.0,23,50.0499992371,G,A,2.0,G
+4196,8202,inconnu,burhiba,math-physique,FSTA,NORD-KIVU,H,50.0,24,56.0333340963,G,E,3.0,G
+4197,8218,inconnu,itfm/bukavu,machine outil,FSTA,SUD-KIVU,H,52.0,23,58.9333343506,G,G,3.0,G
+4203,8258,inconnu,maboso,mec gene,FSTA,EQUATEUR,H,56.0,26,41.0,G,A,1.0,G
+4205,8289,inconnu,imani,math-physique,FSTA,SUD-KIVU,H,52.0,26,45.0,G,A,2.0,G
+4212,8377,inconnu,54,math-physique,FSTA,SUD-KIVU,H,56.8765221107,23,51.6666666667,G,C,3.0,G
+4214,8381,inconnu,edap isp bkv,math-physique,FSTA,NORD-KIVU,H,52.0,22,49.566666921,G,C,3.0,G
+4219,8422,inconnu,fazili,bio-chimie,FSTA,NORD-KIVU,H,59.0,25,58.2999992371,G,G,3.0,E
+4224,8463,inconnu,sainte famille,bio-chimie,FSTA,SUD-KIVU,H,61.0,24,49.4500007629,G,D,2.0,G
+4226,8477,inconnu,61,bio-chimie,FSTA,NORD-KIVU,F,56.8765221107,23,61.0250015259,F,G,4.0,D
+4230,8508,inconnu,i katwa,math-physique,FSTA,NORD-KIVU,F,65.0,23,61.5500001907,G,G,4.0,D
+4233,8538,inconnu,mahamba,elec,FSTA,NORD-KIVU,H,52.0,24,45.5,G,A,2.0,G
+4243,8616,inconnu,gs la promise,pedagogie,FSTA,NORD-KIVU,H,54.0,26,50.8000005086,G,C,3.0,G
+4249,8631,inconnu,it salama,industrielle,FSTA,KATANGA,H,58.0,30,57.1666666667,G,E,3.0,G
+4257,8657,inconnu,mahamba,mec gene,FSTA,NORD-KIVU,H,55.0,24,47.0,G,A,1.0,G
+4270,8742,inconnu,mayele,math-physique,FSTA,ORIENTALE,H,58.0,30,43.5,G,A,2.0,G
+4285,8873,inconnu,itk mahamba,electronique générale,FSTA,NORD-KIVU,H,60.0,21,59.8666661581,G,G,3.0,C
+4286,8883,inconnu,du lac/kamvivira,pedagogie,FSTA,NORD-KIVU,H,65.0,23,50.2333335876,G,C,3.0,G
+4287,8897,inconnu,cirezi,bio-chimie,FSTA,SUD-KIVU,F,61.0,21,65.0000012716,E,G,3.0,A
+4295,8942,inconnu,edap isp bkv,bio-chimie,FSTA,SUD-KIVU,H,61.0,24,59.2666664123,G,G,3.0,C
+4300,8962,inconnu,kasika,pedagogie,FSTA,NORD-KIVU,H,70.0,26,43.0,G,A,1.0,G
+4304,9014,inconnu,jikaze,commmerciale et adm,FSTA,NORD-KIVU,H,61.0,23,62.1666666667,G,G,3.0,E
+4307,9054,inconnu,itfm/bukavu,electronique générale,FSTA,SUD-KIVU,H,57.0,23,63.8000005086,G,G,3.0,C
+4312,9074,inconnu,kiribunye,pedagogie,FSTA,NORD-KIVU,H,50.0,24,43.0,G,A,1.0,G
+4313,9081,inconnu,itfm/bukavu,elec indust,FSTA,SUD-KIVU,H,52.0,23,56.9333343506,G,E,3.0,C
+4317,9107,inconnu,masiki,construction,FSTA,NORD-KIVU,H,56.0,23,53.9666659037,G,E,3.0,G
+4322,9142,inconnu,mgr guido maria conforti,pedagogie,FSTA,SUD-KIVU,H,58.0,23,48.0,G,A,1.0,G
+4323,9144,inconnu,katana,latin philo,FSTA,SUD-KIVU,H,57.0,22,63.4666671753,G,G,3.0,C
+4327,9158,inconnu,rwabika,bio-chimie,FSTA,SUD-KIVU,H,60.0,22,47.0,G,A,1.0,G
+4328,9159,inconnu,nidunga,sociale,FSTA,NORD-KIVU,H,59.0,24,51.4000015259,G,A,1.0,G
+4329,9161,inconnu,alfa,construction,FSTA,NORD-KIVU,H,54.0,24,44.0,G,A,1.0,G
+4335,9210,inconnu,molière,sociale,FSTA,NORD-KIVU,F,63.0,22,41.0,G,A,1.0,G
+4351,9279,inconnu,itfm/bukavu,elec indust,FSTA,SUD-KIVU,H,60.0,23,62.8000005086,G,G,3.0,E
+4354,9300,inconnu,kahya cibanda,pedagogie,FSTA,SUD-KIVU,H,50.0,24,47.0,G,A,1.0,G
+4364,9362,inconnu,itfm/bukavu,elec indust,FSTA,SUD-KIVU,H,59.0,23,65.8333333333,G,G,3.0,C
+4365,9363,inconnu,cirezi,bio-chimie,FSTA,SUD-KIVU,F,50.0,22,66.866666158,E,G,3.0,C
+4367,9369,inconnu,tumaini letu,latin philo,FSTA,NORD-KIVU,H,57.0,23,51.8333333333,G,C,3.0,G
+4387,9512,inconnu,mgr byaghene,math-physique,FSTA,NORD-KIVU,H,55.0,23,52.6499996185,G,D,2.0,G
+4388,9519,inconnu,itfm/bukavu,elec indust,FSTA,SUD-KIVU,H,52.0,23,68.0666656494,G,G,3.0,A
+4389,9527,inconnu,itfm/bukavu,elec indust,FSTA,SUD-KIVU,H,59.0,21,75.866666158,A,G,3.0,A
+4390,9528,inconnu,itk mahamba,electronique générale,FSTA,NORD-KIVU,H,52.0,25,61.9333343506,G,G,3.0,E
+4400,9617,inconnu,wapole,math-physique,FSTA,NORD-KIVU,H,52.0,26,50.1000003815,G,D,2.0,G
+4417,9807,inconnu,lumumba,latin philo,FSTA,KINSHASA,H,53.0,42,44.0,G,A,1.0,G
+4420,9835,inconnu,edap isp bkv,math-physique,FSTA,NORD-KIVU,H,58.0,21,69.8499984741,D,G,2.0,A
+4422,9843,inconnu,baraka,pedagogie,FSTA,SUD-KIVU,H,64.0,22,44.0,G,A,1.0,G
+4423,9844,inconnu,edap isp bkv,bio-chimie,FSTA,SUD-KIVU,F,61.0,23,53.1499996185,G,G,2.0,G
+4432,9949,inconnu,mululu,sociale,FSTA,NORD-KIVU,H,57.0,21,42.0,G,A,1.0,G
+4433,9959,inconnu,Lwanga,bio-chimie,FSTA,NORD-KIVU,H,57.0,20,66.3000030518,G,G,1.0,A
+4448,10047,inconnu,gs la promise,sociale,FSTA,NORD-KIVU,H,60.0,21,49.0,G,A,2.0,G
+4455,10085,inconnu,maadibisho,bio-chimie,FSTA,NORD-KIVU,H,64.0,21,57.5,G,G,1.0,A
+4456,10086,inconnu,Lwanga,pedagogie,FSTA,NORD-KIVU,H,59.0,22,66.8499984741,G,G,2.0,D
+4458,10099,inconnu,Bungulu Beni,math-physique,FSTA,NORD-KIVU,H,50.0,21,54.8999996185,G,D,2.0,G
+4462,10133,inconnu,lumiere,bio-chimie,FSTA,NORD-KIVU,H,53.0,20,54.0,G,D,2.0,G
+4463,10134,inconnu,hekima,pedagogie,FSTA,NORD-KIVU,H,59.0,24,48.0,G,A,1.0,G
+4466,10168,inconnu,mahamba,elec indust,FSTA,NORD-KIVU,H,55.0,22,58.1499996185,G,G,2.0,G
+4468,10173,inconnu,nyantende,latin philo,FSTA,NORD-KIVU,H,55.0,23,47.0,G,A,1.0,G
+4469,10190,inconnu,mahamba,elec indust,FSTA,NORD-KIVU,H,53.0,21,61.0,G,G,2.0,D
+4472,10213,inconnu,de beni,electronique générale,FSTA,NORD-KIVU,H,53.0,20,60.7999992371,G,G,2.0,G
+4477,10241,inconnu,complex scolaire la veronique,pedagogie,FSTA,SUD-KIVU,H,53.0,21,58.3999996185,G,G,2.0,G
+4479,10260,inconnu,kanyabayonga,electronique générale,FSTA,NORD-KIVU,F,57.0,22,64.75,G,G,2.0,G
+4483,10279,inconnu,kaumo,bio-chimie,FSTA,MANIEMA,H,65.0,23,47.0,G,A,1.0,G
+4490,10308,inconnu,it bugabo,sociale,FSTA,SUD-KIVU,F,50.0,22,62.7999992371,G,G,2.0,G
+4491,10314,inconnu,complexe scolaire nova stella,sociale,FSTA,SUD-KIVU,H,55.0,21,41.5999984741,G,A,1.0,G
+4493,10334,inconnu,complex scolaire la veronique,pedagogie,FSTA,SUD-KIVU,H,55.0,21,58.2000007629,G,D,2.0,D
+4495,10339,inconnu,mahamba,elec indust,FSTA,NORD-KIVU,H,56.0,23,61.0,G,G,2.0,D
+4497,10345,inconnu,imani panzi,math-physique,FSTA,SUD-KIVU,H,50.0,21,56.5499992371,G,G,2.0,G
+4498,10349,inconnu,muku,pedagogie,FSTA,SUD-KIVU,H,58.0,22,60.6499996185,G,G,2.0,G
+4506,10423,inconnu,Mwanda,sociale,FSTA,SUD-KIVU,H,57.0,23,55.2999992371,G,G,1.0,G
+4511,10449,inconnu,mwendu,bio-chimie,FSTA,NORD-KIVU,H,55.0,23,56.25,G,G,2.0,G
+4513,10452,inconnu,du lac,commmerciale et adm,FSTA,SUD-KIVU,H,52.0,21,61.6499996185,G,G,2.0,G
+4530,10547,inconnu,maman sphie,pedagogie,FSTA,NORD-KIVU,H,50.0,25,46.0,G,A,1.0,G
+4531,10548,inconnu,wapole,bio-chimie,FSTA,NORD-KIVU,H,59.0,22,47.0,G,A,1.0,G
+4532,10552,publique,edap/isp bukavu,bio-chimie,FSTA,SUD-KIVU,H,67.0,22,71.5,D,G,2.0,D
+4538,10573,publique,edap/isp bukavu,math-physique,FSTA,SUD-KIVU,H,53.0,23,58.7999992371,G,G,2.0,A
+4544,10603,inconnu,oicha,construction,FSTA,NORD-KIVU,H,63.0,25,43.6499996185,G,A,2.0,G
+4554,10665,inconnu,gscc,bio-chimie,FSTA,NORD-KIVU,H,61.0,22,49.0,G,A,1.0,G
+4559,10681,inconnu,edap isp bkv,math-physique,FSTA,SUD-KIVU,H,65.0,22,64.2000007629,G,G,2.0,A
+4560,10683,inconnu,itk mahamba,electronique générale,FSTA,NORD-KIVU,H,54.0,26,57.4499988556,G,G,2.0,G
+4565,10707,inconnu,kamole,pedagogie,FSTA,SUD-KIVU,H,54.0,21,47.0,G,A,1.0,G
+4568,10717,inconnu,tuzo,pedagogie,FSTA,NORD-KIVU,H,51.0,27,42.0,G,A,1.0,G
+4570,10722,publique,edap/isp bukavu,math-physique,FSTA,SUD-KIVU,H,66.0,21,59.8500003815,G,G,2.0,G
+4572,10734,inconnu,elise,pedagogie,FSTA,NORD-KIVU,H,63.0,23,51.8500003815,G,D,2.0,G
+4579,10765,inconnu,st augustin,pedagogie,FSTA,SUD-KIVU,H,56.0,26,43.0,G,A,2.0,G
+4581,10782,inconnu,Lwanga,pedagogie,FSTA,SUD-KIVU,H,54.0,23,51.5999984741,G,A,1.0,G
+4585,10810,inconnu,tsololo,electronique générale,FSTA,ORIENTALE,H,63.0,25,58.2999992371,G,G,2.0,G
+4592,10846,inconnu,oicha,math-physique,FSTA,NORD-KIVU,H,50.0,32,48.0,G,A,1.0,G
+4595,10855,inconnu,mehe,pedagogie,FSTA,NORD-KIVU,H,63.0,28,42.0,G,A,1.0,G
+4596,10863,inconnu,kahya cibanda,pedagogie,FSTA,SUD-KIVU,H,52.0,23,40.0,G,A,1.0,G
+4597,10866,publique,edap/isp bukavu,math-physique,FSTA,ORIENTALE,H,59.0,22,57.5,G,D,2.0,G
+4598,10868,inconnu,ovoa,math-physique,FSTA,ORIENTALE,H,57.0,25,42.0,G,A,1.0,G
+4600,10871,inconnu,mali,pedagogie,FSTA,SUD-KIVU,H,50.0,21,48.0,G,A,1.0,G
+4605,10914,protestant,kaya,pedagogie,FSTA,SUD-KIVU,H,52.0,23,40.0,G,A,1.0,G
+4615,11361,privé,mama mulezi,bio-chimie,FSTA,NORD-KIVU,H,72.0,19,60.7999992371,G,G,1.0,G
+4620,11385,protestant,bunyakiri,agronomie,FSTA,NORD-KIVU,H,63.0,21,54.2999992371,G,G,1.0,G
+4625,11406,privé,mama mulezi,bio-chimie,FSTA,NORD-KIVU,F,63.0,20,58.0,G,G,1.0,G
+4629,11462,privé,etpm,mec gene,FSTA,NORD-KIVU,H,57.0,23,54.7000007629,G,G,1.0,G
+4632,11482,catholique,luanga,pedagogie,FSTA,SUD-KIVU,H,57.0,20,46.0,G,A,1.0,G
+4634,11492,privé,namire,pedagogie,FSTA,SUD-KIVU,H,64.0,26,48.0,G,A,1.0,G
+4635,11494,privé,l'amitie,pedagogie,FSTA,SUD-KIVU,H,56.0,20,55.7000007629,G,G,1.0,G
+4639,11548,catholique,saint mariya goritti,bio-chimie,FSTA,BANDUNDU,F,62.0,22,42.0,G,A,1.0,G
+4641,11561,privé,nelson mandela,bio-chimie,FSTA,NORD-KIVU,H,62.0,21,46.0,G,A,1.0,G
+4643,11577,privé,edak/goma,pedagogie,FSTA,NORD-KIVU,H,50.0,23,49.0,G,A,1.0,G
+4653,11754,publique,wai wai,construction,FSTA,NORD-KIVU,H,53.0,20,42.0,G,A,1.0,G
+4655,11773,catholique,kambale,math-physique,FSTA,NORD-KIVU,H,58.0,21,56.2999992371,G,G,1.0,G
+4658,11808,catholique,ipp/beni,construction,FSTA,NORD-KIVU,H,59.0,19,44.0,G,A,1.0,G
+4660,11817,privé,groupe scolaire gilgali,pedagogie,FSTA,NORD-KIVU,F,60.0,20,45.0,G,A,1.0,G
+4670,11892,catholique,kahumo,bio-chimie,FSTA,MANIEMA,H,59.0,26,40.0,G,A,1.0,G
+4672,11907,publique,kivako,sociale,FSTA,NORD-KIVU,F,57.0,23,56.0,G,G,1.0,G
+4675,11971,catholique,Institut MWANDA,sociale,FSTA,NORD-KIVU,H,64.0,20,48.0,G,A,1.0,G
+4676,11976,publique,sebyera,secretariat,FSTA,NORD-KIVU,H,63.0,20,54.5,G,G,1.0,G
+4680,11990,protestant,alpha,elec,FSTA,NORD-KIVU,H,57.0,23,43.0,G,A,1.0,G
+4684,12044,catholique,saint francois xavier,construction,FSTA,NORD-KIVU,H,57.0,21,43.5999984741,G,A,1.0,G
+4685,12047,privé,saint francois xavier,construction,FSTA,NORD-KIVU,H,52.0,21,46.7999992371,G,A,1.0,G
+4688,12064,kimbanguiste,mbovote,agronomie,FSTA,NORD-KIVU,F,55.0,23,47.0,G,A,1.0,G
+4694,12103,privé,saint vincent de paul,math-physique,FSTA,NORD-KIVU,F,57.0,21,54.4000015259,G,G,1.0,G
+4695,12109,publique,itav/mushweshwe,agrecole,FSTA,NORD-KIVU,F,62.0,22,45.0,G,A,1.0,G
+4700,12156,privé,akili,bio-chimie,FSTA,MANIEMA,H,53.0,21,48.0,G,A,1.0,G
+4701,12161,catholique,galaxie,bio-chimie,FSTA,KATANGA,H,62.0,20,56.5999984741,G,G,1.0,G
+4703,12181,privé,mungano,math-physique,FSTA,KATANGA,H,57.0,22,42.0,G,A,1.0,G
+4709,12228,catholique,technique ind. de mahamba,elec,FSTA,NORD-KIVU,H,62.0,24,71.9000015259,A,G,1.0,G

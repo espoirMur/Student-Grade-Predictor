@@ -1,0 +1,243 @@
+,ID,SCHOOLSTATUS,SCHOOL_RIGHT,OPTION_RIGHT,FAC,SCHOOLPROVINCE,GENDER,DIPPERC,AGE,CGPA,DistinctionRatio,EchecRatio,NACADYEAR,Pass1stSessionRatio
+55,10384,protestant,zanner,latin philo,FM,NORD-KIVU,F,59.0,22,59.1499996185,G,G,2.0,G
+71,11610,protestant,zanner,latin philo,FM,NORD-KIVU,H,52.0,23,44.0,G,A,1.0,G
+134,10159,catholique,iti gombe,vétérinaire,FM,OUEST,H,56.8765221107,21,58.0499992371,G,G,2.0,G
+171,11776,publique,masisi,latin philo,FM,NORD-KIVU,F,51.0,21,42.0,G,A,1.0,G
+237,10411,publique,ndosho,pedagogie,FM,NORD-KIVU,H,57.0,24,49.0,G,A,1.0,G
+302,10093,protestant,himbi,latin philo,FM,NORD-KIVU,F,53.0,21,58.7999992371,G,G,2.0,D
+304,10239,protestant,himbi,commmerciale et adm,FM,NORD-KIVU,H,52.0,22,50.6499996185,G,D,2.0,G
+306,10319,protestant,himbi,latin philo,FM,NORD-KIVU,F,57.0,21,55.0,G,G,1.0,G
+327,12069,protestant,himbi,latin philo,FM,NORD-KIVU,H,60.0,20,58.5999984741,G,G,1.0,G
+341,10048,catholique,kambali,bio-chimie,FM,NORD-KIVU,H,60.0,20,60.5499992371,G,G,2.0,G
+343,10371,catholique,kambali,bio-chimie,FM,NORD-KIVU,H,62.0,20,65.9000015259,G,G,2.0,D
+353,10519,publique,Mugunga,pedagogie,FM,NORD-KIVU,H,59.0,22,59.8000011444,G,G,2.0,D
+354,10602,publique,Mugunga,sociale,FM,NORD-KIVU,H,55.0,20,56.4000015259,G,G,2.0,G
+361,10656,catholique,mwanga/ uvira,math-physique,FM,SUD-KIVU,H,55.0,20,61.7000007629,G,G,1.0,G
+418,11332,catholique,uzima,commerciale informatique,FM,NORD-KIVU,F,56.0,21,63.2000007629,G,G,1.0,G
+540,11569,protestant,maendeleo,pedagogie,FM,NORD-KIVU,H,63.0,22,56.5,G,G,1.0,A
+608,9867,publique,ngoma,bio-chimie,FM,NORD-KIVU,H,52.0,22,52.6000003815,G,D,2.0,G
+610,9916,publique,ngoma,bio-chimie,FM,NORD-KIVU,H,68.0,20,66.2999992371,G,G,2.0,A
+614,9975,publique,ngoma,bio-chimie,FM,NORD-KIVU,H,60.0,22,48.0,G,A,1.0,G
+622,10155,publique,ngoma,bio-chimie,FM,NORD-KIVU,H,51.0,22,48.6000003815,G,D,2.0,G
+623,10164,publique,ngoma,math-physique,FM,NORD-KIVU,H,54.0,20,59.25,G,G,2.0,D
+634,10421,publique,ngoma,bio-chimie,FM,NORD-KIVU,H,60.0,23,40.0,G,A,1.0,G
+639,10579,publique,ngoma,bio-chimie,FM,NORD-KIVU,H,60.0,20,41.0,G,A,1.0,G
+722,11426,privé,mama yetu,bio-chimie,FM,NORD-KIVU,F,61.0,21,56.7000007629,G,G,1.0,G
+949,9983,protestant,metanoia,bio-chimie,FM,NORD-KIVU,H,65.0,20,40.0,G,A,1.0,G
+952,10001,protestant,metanoia,bio-chimie,FM,NORD-KIVU,H,58.0,23,62.0499992371,G,G,2.0,D
+953,10010,protestant,metanoia,pedagogie,FM,NORD-KIVU,F,60.0,22,59.0,G,G,2.0,G
+956,10126,protestant,metanoia,bio-chimie,FM,NORD-KIVU,F,81.0,21,72.0,A,G,2.0,A
+959,10249,protestant,metanoia,latin philo,FM,NORD-KIVU,H,57.0,21,60.3999996185,G,G,2.0,D
+960,10293,protestant,metanoia,pedagogie,FM,NORD-KIVU,H,63.0,23,59.8499984741,G,G,2.0,D
+968,10577,protestant,metanoia,bio-chimie,FM,NORD-KIVU,H,72.0,21,65.3000011445,D,G,2.0,A
+969,10587,protestant,metanoia,bio-chimie,FM,NORD-KIVU,F,64.0,20,62.6500015259,G,G,2.0,D
+975,10690,protestant,metanoia,latin philo,FM,NORD-KIVU,H,60.0,21,61.1499996185,G,G,2.0,G
+977,10708,protestant,metanoia,latin philo,FM,NORD-KIVU,H,58.0,22,63.5499992371,G,G,2.0,D
+985,10783,protestant,metanoia,pedagogie,FM,NORD-KIVU,H,58.0,23,51.6499996185,G,D,2.0,D
+987,10833,protestant,metanoia,pedagogie,FM,NORD-KIVU,H,58.0,20,48.8999996185,G,A,2.0,G
+1001,11461,protestant,metanoia,bio-chimie,FM,NORD-KIVU,F,60.0,19,68.8000030518,G,G,1.0,A
+1005,11527,protestant,metanoia,latin philo,FM,NORD-KIVU,H,62.0,19,62.9000015259,G,G,1.0,A
+1016,11701,protestant,metanoia,bio-chimie,FM,NORD-KIVU,H,60.0,21,65.9000015259,G,G,1.0,A
+1019,11722,protestant,metanoia,pedagogie,FM,NORD-KIVU,F,79.0,20,62.7000007629,G,G,1.0,G
+1023,11805,protestant,metanoia,bio-chimie,FM,NORD-KIVU,H,52.0,21,63.9000015259,G,G,1.0,G
+1033,12051,protestant,metanoia,bio-chimie,FM,NORD-KIVU,H,72.0,20,68.8000030518,G,G,1.0,G
+1058,12120,publique,mabula,pedagogie,FM,NORD-KIVU,F,52.0,40,55.0,G,A,1.0,G
+1059,12140,privé,mabula,pedagogie,FM,SUD-KIVU,H,57.0,22,56.0999984741,G,G,1.0,G
+1141,10284,protestant,kalungu,pedagogie,FM,NORD-KIVU,H,54.0,23,45.7000007629,G,A,1.0,G
+1184,10806,catholique,malikia wa bingu,bio-chimie,FM,NORD-KIVU,F,50.0,21,56.8999996185,G,G,2.0,G
+1235,10570,privé,moria,pedagogie,FM,NORD-KIVU,F,52.0,22,55.0999984741,G,G,1.0,G
+1245,11842,publique,moria,sociale,FM,NORD-KIVU,H,55.0,20,58.0,G,G,1.0,G
+1250,12143,protestant,moria,pedagogie,FM,NORD-KIVU,H,53.0,23,60.2000007629,G,G,1.0,G
+1282,11978,protestant,mawato,pedagogie,FM,NORD-KIVU,F,61.0,21,64.5999984741,G,G,1.0,G
+1333,12082,musulman,mikeno nc,sociale,FM,NORD-KIVU,F,51.0,21,61.0999984741,G,G,1.0,G
+1395,9879,catholique,sainte ursule,sociale,FM,NORD-KIVU,F,62.0,19,61.5499992371,G,G,2.0,D
+1396,9891,catholique,sainte ursule,sociale,FM,NORD-KIVU,F,50.0,21,55.8999996185,G,G,2.0,G
+1408,10250,catholique,sainte ursule,nutr,FM,NORD-KIVU,F,55.0,23,57.6000003815,G,G,2.0,G
+1411,10290,catholique,sainte ursule,nutr,FM,NORD-KIVU,F,66.0,20,60.1499996185,G,G,2.0,A
+1413,10324,catholique,sainte ursule,nutr,FM,NORD-KIVU,F,58.0,19,55.25,G,D,2.0,G
+1417,10481,catholique,sainte ursule,sociale,FM,NORD-KIVU,F,57.0,19,59.1499996185,G,G,2.0,G
+1419,10535,catholique,sainte ursule,sociale,FM,NORD-KIVU,F,58.0,20,61.5500011444,G,G,2.0,D
+1420,10538,catholique,sainte ursule,nutr,FM,NORD-KIVU,F,53.0,23,61.1000003815,G,G,2.0,G
+1421,10550,catholique,sainte ursule,sociale,FM,NORD-KIVU,F,54.0,20,47.0,G,A,1.0,G
+1429,10897,catholique,sainte ursule,nutr,FM,NORD-KIVU,F,60.0,19,50.8500003815,G,D,2.0,G
+1432,11400,catholique,sainte ursule,nutr,FM,NORD-KIVU,F,61.0,20,58.2999992371,G,G,1.0,A
+1440,11565,catholique,sainte ursule,nutr,FM,NORD-KIVU,F,63.0,21,57.2999992371,G,G,1.0,G
+1448,11780,catholique,sainte ursule,sociale,FM,NORD-KIVU,F,57.0,18,62.0999984741,G,G,1.0,G
+1453,12159,catholique,sainte ursule,nutr,FM,NORD-KIVU,F,70.0,20,63.5999984741,G,G,1.0,A
+1487,11868,protestant,visoke,pedagogie,FM,NORD-KIVU,F,67.0,20,59.5999984741,G,G,1.0,G
+1522,10874,publique,kalimba,math-physique,FM,NORD-KIVU,H,51.0,25,57.3999996185,G,G,2.0,D
+1582,10395,catholique,thabiti,bio-chimie,FM,KATANGA,H,58.0,22,61.9500007629,G,G,2.0,G
+1624,10865,privé,amen,sociale,FM,NORD-KIVU,H,50.0,22,42.0,G,A,1.0,G
+1820,9942,catholique,mwanga,latin philo,FM,NORD-KIVU,F,68.0,21,60.8500003815,G,G,2.0,D
+1822,9950,catholique,mwanga,bio-chimie,FM,NORD-KIVU,H,60.0,23,65.1000003815,G,G,2.0,D
+1828,10009,catholique,mwanga,math-physique,FM,SUD-KIVU,H,64.0,23,58.3500003815,G,G,2.0,A
+1833,10069,catholique,mwanga,bio-chimie,FM,NORD-KIVU,F,79.0,21,67.5999984741,G,G,2.0,A
+1836,10104,catholique,mwanga,bio-chimie,FM,NORD-KIVU,F,70.0,21,61.3500003815,G,G,2.0,A
+1840,10162,catholique,mwanga,bio-chimie,FM,NORD-KIVU,F,62.0,21,59.4500007629,G,G,2.0,G
+1842,10197,catholique,mwanga,bio-chimie,FM,NORD-KIVU,H,73.0,21,70.9500007629,D,G,2.0,A
+1847,10277,catholique,mwanga,latin philo,FM,NORD-KIVU,F,61.0,21,61.5500011444,G,G,2.0,D
+1859,10465,catholique,mwanga,bio-chimie,FM,NORD-KIVU,H,69.0,22,62.5,G,G,2.0,G
+1865,10540,catholique,mwanga,bio-chimie,FM,NORD-KIVU,H,83.0,23,60.9500007629,G,G,2.0,D
+1866,10541,catholique,mwanga,bio-chimie,FM,NORD-KIVU,H,60.0,22,60.5499992371,G,G,2.0,D
+1867,10546,catholique,mwanga,bio-chimie,FM,NORD-KIVU,H,68.0,21,59.6000003815,G,G,2.0,G
+1869,10585,catholique,mwanga,bio-chimie,FM,NORD-KIVU,F,68.0,20,60.3999996185,G,G,2.0,G
+1874,10674,catholique,mwanga,bio-chimie,FM,NORD-KIVU,F,63.0,21,54.4499988556,G,G,2.0,G
+1890,10916,catholique,mwanga,bio-chimie,FM,NORD-KIVU,H,63.0,21,58.4000015259,G,G,2.0,G
+1908,11489,catholique,mwanga,bio-chimie,FM,NORD-KIVU,F,62.0,20,67.6999969482,G,G,1.0,A
+1931,11747,catholique,mwanga,bio-chimie,FM,NORD-KIVU,F,60.0,19,65.0999984741,G,G,1.0,A
+1932,11752,catholique,mwanga,bio-chimie,FM,NORD-KIVU,F,70.0,19,62.2000007629,G,G,1.0,A
+1937,11767,catholique,mwanga,bio-chimie,FM,NORD-KIVU,H,69.0,20,70.3000030518,A,G,1.0,G
+1946,12150,catholique,mwanga,bio-chimie,FM,NORD-KIVU,F,67.0,22,67.8000030518,G,G,1.0,A
+1969,10379,privé,mukaba,bio-chimie,FM,NORD-KIVU,H,51.0,22,56.2000007629,G,G,2.0,G
+1971,11321,privé,mukaba,pedagogie,FM,NORD-KIVU,H,58.0,23,53.5,G,A,1.0,G
+1999,10705,catholique,nyakasaza,pedagogie,FM,SUD-KIVU,H,52.0,22,52.6499996185,G,D,2.0,G
+2045,10697,publique,nyabushongo,sociale,FM,NORD-KIVU,H,54.0,22,59.4500007629,G,G,2.0,G
+2062,10291,publique,uenezaji,pedagogie,FM,NORD-KIVU,H,61.0,25,62.2999992371,G,G,2.0,G
+2063,10415,publique,uenezaji,pedagogie,FM,NORD-KIVU,H,61.0,21,59.8499984741,G,G,2.0,G
+2065,12070,publique,uenezaji,sociale,FM,NORD-KIVU,F,61.0,18,61.5,G,G,1.0,G
+2108,10090,catholique,st joseph,commerciale informatique,FM,NORD-KIVU,F,53.0,22,57.75,G,G,2.0,G
+2122,11966,catholique,st joseph,commerciale informatique,FM,NORD-KIVU,H,55.0,21,62.9000015259,G,G,1.0,A
+2175,10062,catholique,mont caemel,sociale,FM,NORD-KIVU,F,66.0,20,58.8500003815,G,G,2.0,A
+2183,10537,catholique,mont caemel,sociale,FM,NORD-KIVU,F,67.0,19,55.2999992371,G,G,1.0,G
+2205,12187,protestant,bulumbi,nutr,FM,NORD-KIVU,F,55.0,23,56.5999984741,G,G,1.0,G
+2219,10187,protestant,matendo,pedagogie,FM,NORD-KIVU,H,57.0,22,55.4000015259,G,A,1.0,G
+2222,11333,protestant,matendo,bio-chimie,FM,NORD-KIVU,H,58.0,21,61.5999984741,G,G,1.0,G
+2223,11570,protestant,matendo,bio-chimie,FM,NORD-KIVU,F,52.0,18,60.7999992371,G,G,1.0,A
+2334,9915,catholique,bakandja,bio-chimie,FM,NORD-KIVU,F,64.0,21,61.1000003815,G,G,2.0,D
+2336,10022,catholique,bakandja,bio-chimie,FM,NORD-KIVU,H,59.0,19,56.6000003815,G,G,2.0,G
+2339,10128,catholique,bakandja,pedagogie,FM,NORD-KIVU,F,58.0,22,49.7999992371,G,A,1.0,G
+2343,10161,catholique,bakandja,pedagogie,FM,NORD-KIVU,F,58.0,23,49.0,G,A,1.0,G
+2344,10174,catholique,bakandja,bio-chimie,FM,NORD-KIVU,F,72.0,20,61.5,G,G,2.0,A
+2350,10378,catholique,bakandja,bio-chimie,FM,NORD-KIVU,F,58.0,22,59.2000007629,G,G,2.0,D
+2354,10497,catholique,bakandja,bio-chimie,FM,NORD-KIVU,H,73.0,21,59.3500003815,G,G,2.0,A
+2356,10512,catholique,bakandja,bio-chimie,FM,NORD-KIVU,F,59.0,21,59.8499984741,G,G,2.0,G
+2360,10873,catholique,bakandja,bio-chimie,FM,NORD-KIVU,F,67.0,22,59.6999988556,G,G,2.0,G
+2364,11322,catholique,bakandja,bio-chimie,FM,NORD-KIVU,H,56.0,19,63.9000015259,G,G,1.0,A
+2366,11353,catholique,bakandja,bio-chimie,FM,NORD-KIVU,H,66.0,19,64.3000030518,G,G,1.0,A
+2367,11363,catholique,bakandja,bio-chimie,FM,NORD-KIVU,H,57.0,21,64.6999969482,G,G,1.0,A
+2369,11478,catholique,bakandja,pedagogie,FM,NORD-KIVU,H,71.0,19,65.0999984741,G,G,1.0,A
+2376,11650,catholique,bakandja,pedagogie,FM,NORD-KIVU,F,62.0,21,59.9000015259,G,G,1.0,G
+2378,11684,catholique,bakandja,bio-chimie,FM,NORD-KIVU,H,52.0,23,58.5,G,G,1.0,G
+2385,12110,catholique,bakandja,pedagogie,FM,NORD-KIVU,F,65.0,19,65.9000015259,G,G,1.0,A
+2488,10668,privé,uhuru,bio-chimie,FM,SUD-KIVU,H,59.0,21,59.25,G,G,2.0,G
+2490,10859,privé,uhuru,bio-chimie,FM,NORD-KIVU,H,62.0,25,48.5,G,A,2.0,G
+2494,11709,privé,uhuru,bio-chimie,FM,SUD-KIVU,F,55.0,20,59.4000015259,G,G,1.0,G
+2498,12141,publique,uhuru,math-physique,FM,NORD-KIVU,F,57.0,19,63.4000015259,G,G,1.0,A
+2499,12148,publique,uhuru,bio-chimie,FM,NORD-KIVU,H,56.0,20,58.0999984741,G,G,1.0,G
+2576,10150,catholique,matanda,pedagogie,FM,NORD-KIVU,H,61.0,26,44.0,G,A,1.0,G
+2577,11550,catholique,matanda,bio-chimie,FM,NORD-KIVU,H,51.0,20,61.7999992371,G,G,1.0,G
+2615,10025,protestant,maranatha,bio-chimie,FM,NORD-KIVU,H,66.0,22,61.1499996185,G,G,2.0,A
+2618,10096,protestant,maranatha,bio-chimie,FM,NORD-KIVU,H,66.0,20,61.2000007629,G,G,2.0,G
+2619,10114,protestant,maranatha,bio-chimie,FM,NORD-KIVU,F,51.0,21,41.0,G,A,1.0,G
+2620,10292,protestant,maranatha,pedagogie,FM,NORD-KIVU,F,56.8765221107,19,59.0,G,G,2.0,D
+2621,10311,protestant,maranatha,bio-chimie,FM,NORD-KIVU,H,66.0,22,61.6999988556,G,G,2.0,A
+2623,10416,protestant,maranatha,bio-chimie,FM,NORD-KIVU,H,64.0,21,66.3000011445,G,G,2.0,A
+2630,10888,protestant,maranatha,bio-chimie,FM,NORD-KIVU,H,57.0,23,55.4499988556,G,D,2.0,G
+2631,11235,protestant,maranatha,bio-chimie,FM,NORD-KIVU,H,54.0,21,61.0,G,G,1.0,A
+2632,11312,protestant,maranatha,bio-chimie,FM,NORD-KIVU,H,67.0,18,67.0999984741,G,G,1.0,A
+2633,11337,privé,maranatha,bio-chimie,FM,NORD-KIVU,F,51.0,20,45.0,G,A,1.0,G
+2634,11401,protestant,maranatha,pedagogie,FM,NORD-KIVU,H,72.0,22,59.5999984741,G,G,1.0,G
+2635,11581,protestant,maranatha,bio-chimie,FM,NORD-KIVU,H,61.0,20,61.5,G,G,1.0,G
+2641,11897,protestant,maranatha,commmerciale et adm,FM,NORD-KIVU,F,51.0,19,57.2000007629,G,G,1.0,G
+2643,11989,protestant,maranatha,bio-chimie,FM,NORD-KIVU,H,60.0,20,69.5999984741,G,G,1.0,A
+2735,9993,musulman,mikeno islamique,sociale,FM,NORD-KIVU,H,61.0,23,52.7000007629,G,A,1.0,G
+2756,10609,protestant,totoro,sociale,FM,NORD-KIVU,H,55.0,21,56.6000003815,G,D,2.0,G
+2762,11725,protestant,totoro,sociale,FM,NORD-KIVU,F,57.0,18,62.0,G,G,1.0,G
+2782,11699,catholique,bemba gombo,sociale,FM,NORD-KIVU,H,50.0,22,58.2999992371,G,G,1.0,G
+2784,12146,catholique,bemba gombo,nutr,FM,NORD-KIVU,F,58.0,21,58.7999992371,G,G,1.0,G
+2801,10207,protestant,sayuni,sociale,FM,NORD-KIVU,H,53.0,22,49.7000007629,G,A,1.0,G
+2802,10266,protestant,sayuni,pedagogie,FM,NORD-KIVU,F,51.0,23,54.6999988556,G,D,2.0,G
+2862,10116,catholique,amani,bio-chimie,FM,NORD-KIVU,F,77.0,20,62.9500007629,G,G,2.0,G
+2863,10118,catholique,amani,bio-chimie,FM,NORD-KIVU,F,72.0,21,66.5,G,G,2.0,A
+2864,10208,catholique,amani,bio-chimie,FM,NORD-KIVU,F,76.0,22,58.3499984741,G,G,2.0,G
+2865,10289,catholique,amani,bio-chimie,FM,NORD-KIVU,F,73.0,22,40.0,G,A,1.0,G
+2866,10377,catholique,amani,bio-chimie,FM,NORD-KIVU,F,74.0,20,58.9499988556,G,G,2.0,D
+2867,10437,catholique,amani,bio-chimie,FM,NORD-KIVU,F,75.0,21,60.75,G,G,2.0,A
+2874,11269,catholique,amani,bio-chimie,FM,NORD-KIVU,F,81.0,19,74.0,A,G,1.0,A
+2881,11781,catholique,amani,bio-chimie,FM,NORD-KIVU,F,64.0,20,61.0,G,G,1.0,A
+2911,12174,publique,de bukavu,pedagogie,FM,SUD-KIVU,H,50.0,25,42.0,G,A,1.0,G
+2984,10631,protestant,kyeshero,elec indust,FM,NORD-KIVU,H,52.0,22,51.4500007629,G,D,2.0,G
+3009,10356,catholique,mgr kataliko,bio-chimie,FM,NORD-KIVU,F,51.0,21,62.6499996185,G,G,2.0,D
+3013,12075,privé,mgr kataliko,bio-chimie,FM,NORD-KIVU,F,59.0,22,64.4000015259,G,G,1.0,A
+3048,10500,privé,neema kwetu,sociale,FM,SUD-KIVU,H,51.0,25,43.0,G,A,1.0,G
+3051,12191,privé,isoko,agrecole,FM,SUD-KIVU,H,60.0,25,48.0,G,A,1.0,G
+3080,10498,catholique,alfajiri,bio-chimie,FM,NORD-KIVU,H,76.0,20,68.1999969482,G,G,2.0,A
+3114,10630,protestant,kashenda,sociale,FM,NORD-KIVU,F,52.0,22,56.1500015259,G,D,2.0,G
+3187,10240,protestant,faraja,math-physique,FM,NORD-KIVU,H,52.0,19,51.0,G,D,2.0,G
+3192,10510,protestant,faraja,bio-chimie,FM,NORD-KIVU,F,52.0,22,53.2000007629,G,A,1.0,G
+3193,10536,protestant,faraja,math-physique,FM,NORD-KIVU,H,52.0,24,50.9000015259,G,A,1.0,G
+3194,10544,protestant,faraja,commmerciale et adm,FM,NORD-KIVU,H,51.0,23,57.9499988556,G,G,2.0,G
+3203,11551,protestant,faraja,bio-chimie,FM,NORD-KIVU,F,54.0,19,57.2999992371,G,G,1.0,G
+3206,11672,protestant,faraja,bio-chimie,FM,NORD-KIVU,H,55.0,21,59.5,G,G,1.0,G
+3213,11998,protestant,faraja,bio-chimie,FM,NORD-KIVU,F,52.0,19,59.0,G,G,1.0,A
+3214,12013,protestant,faraja,commmerciale et adm,FM,NORD-KIVU,F,51.0,19,59.2999992371,G,G,1.0,G
+3288,11803,catholique,anuarite,pedagogie,FM,NORD-KIVU,F,65.0,20,65.6999969482,G,G,1.0,A
+3290,11828,catholique,anuarite,pedagogie,FM,NORD-KIVU,F,57.0,19,62.9000015259,G,G,1.0,G
+3316,10501,privé,la fontaine,bio-chimie,FM,NORD-KIVU,F,59.0,20,55.75,G,G,2.0,A
+3399,10037,privé,icl,bio-chimie,FM,NORD-KIVU,H,58.0,21,58.9500007629,G,G,2.0,G
+3401,10178,privé,icl,bio-chimie,FM,NORD-KIVU,H,53.0,22,54.25,G,D,2.0,G
+3404,10787,privé,icl,bio-chimie,FM,NORD-KIVU,H,55.0,22,55.2999992371,G,G,2.0,G
+3405,10825,privé,icl,bio-chimie,FM,NORD-KIVU,F,55.0,25,54.2999992371,G,A,1.0,G
+3418,11533,catholique,pain de vie,vétérinaire,FM,NORD-KIVU,H,60.0,21,62.5,G,G,1.0,G
+3424,10784,catholique,saint michel,nutr,FM,NORD-KIVU,F,56.8765221107,19,57.8999996185,G,G,2.0,G
+3425,11523,catholique,saint michel,agronomie,FM,NORD-KIVU,F,65.0,20,58.5,G,G,1.0,G
+3427,11611,catholique,saint michel,nutr,FM,NORD-KIVU,H,66.0,19,59.4000015259,G,G,1.0,G
+3429,12145,catholique,saint michel,nutr,FM,NORD-KIVU,F,64.0,20,59.0,G,G,1.0,G
+3430,12182,catholique,saint michel,nutr,FM,NORD-KIVU,F,63.0,19,61.4000015259,G,G,1.0,G
+3441,10228,privé,communautaire du lac,bio-chimie,FM,NORD-KIVU,H,55.0,21,53.7999992371,G,A,1.0,G
+3448,12062,privé,communautaire du lac,bio-chimie,FM,NORD-KIVU,F,52.0,22,49.0,G,A,1.0,G
+3457,10826,protestant,kitsombiro,sociale,FM,NORD-KIVU,F,50.0,21,57.0,G,D,2.0,G
+3460,11997,protestant,kitsombiro,pedagogie,FM,NORD-KIVU,H,61.0,20,62.7999992371,G,G,1.0,G
+3465,11132,privé,lukuga,sociale,FM,NORD-KIVU,F,57.0,22,47.4500007629,G,A,2.0,G
+3472,12049,catholique,bsangani,bio-chimie,FM,KINSHASA,F,62.0,19,64.5999984741,G,G,1.0,A
+3494,10906,catholique,milima,bio-chimie,FM,NORD-KIVU,F,52.0,22,53.8999996185,G,D,2.0,G
+3506,9965,publique,gs kigali,bio-chimie,FM,KINSHASA,H,58.0,25,47.0,G,A,1.0,G
+3507,10455,publique,gs kigali,bio-chimie,FM,NORD-KIVU,H,73.0,23,57.7000007629,G,G,2.0,G
+3509,10746,publique,gs kigali,bio-chimie,FM,NORD-KIVU,H,59.0,21,42.0,G,A,1.0,G
+3642,9887,protestant,majengo,bio-chimie,FM,NORD-KIVU,H,59.0,21,59.4500007629,G,G,2.0,D
+3645,10097,protestant,majengo,math-physique,FM,NORD-KIVU,H,74.0,21,68.25,G,G,2.0,A
+3648,10263,protestant,majengo,bio-chimie,FM,NORD-KIVU,H,84.0,20,69.8500022888,D,G,2.0,A
+3654,10618,protestant,majengo,bio-chimie,FM,NORD-KIVU,F,59.0,22,46.0,G,A,1.0,G
+3655,10632,protestant,majengo,bio-chimie,FM,NORD-KIVU,H,57.0,24,41.5,G,A,2.0,G
+3657,10673,protestant,majengo,math-physique,FM,NORD-KIVU,F,59.0,48,43.0,G,A,1.0,G
+3669,11798,protestant,majengo,bio-chimie,FM,NORD-KIVU,H,67.0,21,40.0,G,A,1.0,G
+3737,11850,publique,ndahura,math-physique,FM,NORD-KIVU,H,52.0,24,60.7999992371,G,G,1.0,G
+3815,10238,privé,tupendane,bio-chimie,FM,NORD-KIVU,F,52.0,22,62.25,G,G,2.0,G
+3816,10294,privé,tupendane,bio-chimie,FM,NORD-KIVU,H,50.0,23,51.3999996185,G,D,2.0,G
+3817,11604,privé,tupendane,sociale,FM,NORD-KIVU,H,57.0,22,59.0,G,G,1.0,G
+3818,11702,publique,tupendane,bio-chimie,FM,NORD-KIVU,H,50.0,22,55.0999984741,G,A,1.0,G
+3822,12119,publique,tupendane,bio-chimie,FM,NORD-KIVU,F,59.0,21,49.0,G,A,1.0,G
+3825,11724,privé,bimenya,pedagogie,FM,NORD-KIVU,H,51.0,20,46.4000015259,G,A,1.0,G
+3826,12175,privé,bimenya,pedagogie,FM,NORD-KIVU,H,51.0,20,43.0,G,A,1.0,G
+3903,11806,protestant,fadhili,pedagogie,FM,SUD-KIVU,H,59.0,19,62.2999992371,G,G,1.0,G
+3912,1670,inconnu,imaki/kirumba,commmerciale et adm,FM,NORD-KIVU,H,51.0,44,62.1499996185,G,G,2.0,D
+4421,9841,inconnu,révérend samba,math-physique,FM,KINSHASA,H,53.0,20,48.0,G,A,1.0,G
+4428,9909,inconnu,Lwanga,bio-chimie,FM,SUD-KIVU,H,51.0,22,52.0,G,A,1.0,G
+4435,9978,inconnu,jikaze,math-physique,FM,NORD-KIVU,H,65.0,21,62.7000007629,G,G,2.0,D
+4442,10008,inconnu,isingo,pedagogie,FM,NORD-KIVU,H,63.0,29,60.9499988556,G,G,2.0,D
+4467,10172,inconnu,de beni,sociale,FM,NORD-KIVU,H,56.0,22,56.75,G,G,2.0,G
+4473,10222,inconnu,de récupération de la gombe,math-physique,FM,KINSHASA,H,54.0,23,49.0,G,A,1.0,G
+4505,10409,inconnu,la releve,pedagogie,FM,MANIEMA,H,51.0,35,51.5499992371,G,D,2.0,G
+4526,10534,inconnu,tuendelee,pedagogie,FM,SUD-KIVU,H,58.0,23,58.4500007629,G,G,2.0,G
+4527,10539,inconnu,itsu,vétérinaire,FM,NORD-KIVU,H,51.0,22,57.7000007629,G,G,2.0,G
+4528,10542,inconnu,Lycée Mwandu,bio-chimie,FM,NORD-KIVU,F,56.0,22,56.3500003815,G,G,2.0,G
+4529,10543,inconnu,bethanie,commerciale informatique,FM,NORD-KIVU,H,56.0,22,56.9500007629,G,D,2.0,G
+4536,10566,inconnu,Lycée Mwandu,bio-chimie,FM,NORD-KIVU,F,50.0,19,54.8000011444,G,D,2.0,G
+4537,10572,inconnu,maadibisho,pedagogie,FM,NORD-KIVU,F,51.0,21,59.75,G,G,2.0,G
+4547,10623,inconnu,Lwanga,bio-chimie,FM,SUD-KIVU,F,50.0,21,54.25,G,D,2.0,G
+4549,10645,inconnu,masiki,pedagogie,FM,NORD-KIVU,H,59.0,23,59.75,G,G,2.0,G
+4556,10675,inconnu,bwindi,vétérinaire,FM,SUD-KIVU,H,62.0,19,57.75,G,G,2.0,G
+4583,10793,inconnu,hekima,sociale,FM,NORD-KIVU,F,54.0,22,42.0,G,A,1.0,G
+4594,10854,inconnu,Mwangaza,sociale,FM,NORD-KIVU,H,55.0,23,45.0,G,A,1.0,G
+4611,11338,publique,Intitut ALLELUYA,pedagogie,FM,NORD-KIVU,H,52.0,19,47.0,G,A,1.0,G
+4617,11367,protestant,bwito,pedagogie,FM,NORD-KIVU,H,71.0,20,64.6999969482,G,G,1.0,G
+4618,11375,protestant,amani cebia,pedagogie,FM,SUD-KIVU,H,52.0,23,58.2999992371,G,G,1.0,G
+4624,11403,publique,Institut NJANJA,bio-chimie,FM,KATANGA,F,59.0,21,66.3000030518,G,G,1.0,G
+4649,11686,catholique,sebyera,secretariat,FM,NORD-KIVU,H,54.0,20,62.5,G,G,1.0,G
+4651,11723,privé,mama mulezi,bio-chimie,FM,NORD-KIVU,F,57.0,20,64.1999969482,G,G,1.0,A
+4656,11774,privé,mama mulezi,bio-chimie,FM,NORD-KIVU,F,68.0,19,65.3000030518,G,G,1.0,A
+4662,11834,publique,idap isp rutshuru,pedagogie,FM,NORD-KIVU,F,64.0,20,65.6999969482,G,G,1.0,G
+4683,12039,privé,groupe scolaire gilgali,pedagogie,FM,NORD-KIVU,F,51.0,20,48.7000007629,G,A,1.0,G
+4698,12132,protestant,tuha utala,pedagogie,FM,NORD-KIVU,H,58.0,22,61.5,G,G,1.0,G
+4702,12164,catholique,ludaha,pedagogie,FM,SUD-KIVU,H,55.0,24,62.2999992371,G,G,1.0,G
+4712,12252,protestant,john mabwindi,bio-chimie,FM,KINSHASA,F,64.5,20,61.5999984741,G,G,1.0,G
