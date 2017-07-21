@@ -1,0 +1,759 @@
+,ID,SCHOOLSTATUS,SCHOOL_RIGHT,OPTION_RIGHT,FAC,SCHOOLPROVINCE,GENDER,DIPPERC,AGE,CGPA,DistinctionRatio,EchecRatio,NACADYEAR,Pass1stSessionRatio
+20,7365,protestant,zanner,latin philo,FSDC,NORD-KIVU,F,62.0,24,63.4000002543,G,G,3.0,A
+74,11712,protestant,zanner,latin philo,FSDC,NORD-KIVU,H,54.0,22,60.0,G,G,1.0,A
+92,11862,publique,mululusake,sociale,FSDC,NORD-KIVU,H,54.0,22,61.9000015259,G,G,1.0,G
+104,7003,publique,ibanda,bio-chimie,FSDC,SUD-KIVU,H,50.0,35,62.7000007629,G,G,1.0,G
+105,7354,publique,ibanda,commmerciale et adm,FSDC,NORD-KIVU,F,62.0,30,42.0,G,A,1.0,G
+108,7707,publique,ibanda,bio-chimie,FSDC,SUD-KIVU,F,53.0,28,60.7999992371,G,G,2.0,G
+116,10355,publique,ibanda,pedagogie,FSDC,SUD-KIVU,F,58.0,24,48.0,G,A,1.0,G
+122,11631,publique,ibanda,bio-chimie,FSDC,NORD-KIVU,H,51.0,30,47.0,G,A,1.0,G
+129,12200,privé,frere alimba,bio-chimie,FSDC,KINSHASA,H,55.0,26,59.7000007629,G,G,1.0,G
+133,9558,catholique,iti gombe,vétérinaire,FSDC,ORIENTALE,H,51.0,31,63.6666679382,G,G,3.0,G
+149,9275,publique,butembo,sociale,FSDC,NORD-KIVU,H,51.0,30,54.0,G,A,1.0,G
+152,10271,publique,butembo,pedagogie,FSDC,NORD-KIVU,F,50.0,27,58.3999996185,G,G,2.0,G
+155,10892,publique,butembo,math-physique,FSDC,NORD-KIVU,H,52.0,28,61.9500007629,G,G,2.0,D
+156,10931,publique,butembo,commmerciale et adm,FSDC,NORD-KIVU,H,53.0,27,59.8999996185,G,G,2.0,G
+163,12166,publique,butembo,pedagogie,FSDC,NORD-KIVU,F,51.0,22,57.7999992371,G,G,1.0,G
+168,4873,protestant,masisi,pedagogie,FSDC,NORD-KIVU,H,55.0,25,64.3500003815,G,G,2.0,D
+172,2277,publique,chemchem,sociale,FSDC,NORD-KIVU,F,62.0,31,41.0,G,A,1.0,G
+175,3963,publique,chemchem,inconnu,FSDC,NORD-KIVU,F,57.0,28,63.0,G,G,1.0,G
+179,4483,publique,chemchem,nutr,FSDC,NORD-KIVU,F,58.0,26,49.6000003815,G,D,2.0,G
+180,4603,publique,chemchem,nutr,FSDC,NORD-KIVU,F,55.0,27,46.0,G,A,1.0,G
+181,4727,publique,chemchem,nutr,FSDC,NORD-KIVU,F,62.0,26,63.7000007629,G,G,1.0,A
+182,4759,publique,chemchem,diet,FSDC,NORD-KIVU,H,61.0,27,61.7999992371,G,G,1.0,G
+183,4763,publique,chemchem,nutr,FSDC,NORD-KIVU,F,59.0,27,63.2000007629,G,G,1.0,A
+185,4771,publique,chemchem,nutr,FSDC,NORD-KIVU,F,57.0,28,48.6499996185,G,D,2.0,D
+186,4780,publique,chemchem,diet,FSDC,NORD-KIVU,F,59.0,26,58.7999992371,G,A,1.0,G
+187,4790,publique,chemchem,sociale,FSDC,NORD-KIVU,F,54.0,28,40.0,G,A,1.0,G
+190,5163,publique,chemchem,nutr,FSDC,NORD-KIVU,F,56.0,27,60.4000015259,G,G,1.0,G
+191,5651,publique,chemchem,nutr,FSDC,NORD-KIVU,F,52.0,25,52.2000007629,G,D,2.0,G
+192,5667,publique,chemchem,sociale,FSDC,NORD-KIVU,F,54.0,28,62.6000003815,G,G,2.0,G
+200,6534,publique,chemchem,nutr,FSDC,NORD-KIVU,F,56.0,27,61.7000007629,G,G,1.0,A
+201,6536,publique,chemchem,nutr,FSDC,NORD-KIVU,F,56.0,24,65.6999969482,G,G,1.0,A
+202,6635,publique,chemchem,sociale,FSDC,NORD-KIVU,F,57.0,26,67.2000007629,D,G,2.0,G
+203,6642,publique,chemchem,nutr,FSDC,NORD-KIVU,F,56.0,27,59.4333343506,G,E,3.0,G
+205,6761,publique,chemchem,nutr,FSDC,NORD-KIVU,F,50.0,26,61.75,G,G,2.0,G
+206,6762,publique,chemchem,nutr,FSDC,NORD-KIVU,F,56.0,26,62.7333335877,G,G,3.0,E
+207,6763,publique,chemchem,nutr,FSDC,NORD-KIVU,F,50.0,25,62.0500011445,G,G,2.0,G
+208,6932,publique,chemchem,sociale,FSDC,NORD-KIVU,F,54.0,28,60.5,G,G,2.0,G
+210,7380,publique,chemchem,coupe couture,FSDC,KINSHASA,F,55.0,24,59.9000015259,G,G,1.0,G
+212,8390,publique,chemchem,coupe couture,FSDC,NORD-KIVU,F,55.0,32,40.0,G,A,1.0,G
+216,9747,publique,chemchem,latin philo,FSDC,MANIEMA,H,52.0,26,61.9333343506,G,G,3.0,G
+217,10447,publique,chemchem,coupe couture,FSDC,NORD-KIVU,F,64.0,21,64.75,G,G,2.0,D
+218,10526,publique,chemchem,coupe couture,FSDC,NORD-KIVU,F,62.0,21,62.3999996185,G,G,2.0,D
+228,9244,publique,ndosho,sociale,FSDC,NORD-KIVU,H,57.0,23,60.6666653951,G,G,3.0,G
+229,9258,publique,ndosho,sociale,FSDC,NORD-KIVU,F,58.0,22,52.0,G,A,1.0,G
+231,9361,publique,ndosho,sociale,FSDC,NORD-KIVU,F,52.0,24,47.0,G,A,1.0,G
+232,9533,publique,ndosho,pedagogie,FSDC,NORD-KIVU,F,64.0,23,62.1999994914,G,G,3.0,E
+242,10887,publique,ndosho,pedagogie,FSDC,NORD-KIVU,F,50.0,23,54.5,G,A,1.0,G
+254,4698,protestant,himbi,pedagogie,FSDC,SUD-KIVU,F,57.0,25,60.2000007629,G,G,1.0,G
+256,5012,protestant,himbi,latin philo,FSDC,NORD-KIVU,F,57.0,28,60.7999992371,G,G,1.0,G
+273,8232,protestant,himbi,pedagogie,FSDC,NORD-KIVU,F,59.0,26,58.5499992371,G,G,2.0,A
+275,8299,protestant,himbi,latin philo,FSDC,NORD-KIVU,F,57.0,26,60.7333335876,G,G,3.0,G
+278,8755,protestant,himbi,latin philo,FSDC,NORD-KIVU,F,60.0,24,62.1666679383,G,G,3.0,G
+282,9077,protestant,himbi,pedagogie,FSDC,NORD-KIVU,F,54.0,27,61.8499984741,G,G,2.0,G
+289,9242,protestant,himbi,pedagogie,FSDC,NORD-KIVU,H,54.0,22,66.6000010173,G,G,3.0,C
+328,12083,protestant,himbi,pedagogie,FSDC,NORD-KIVU,F,57.0,25,62.0999984741,G,G,1.0,G
+332,12139,protestant,himbi,commmerciale et adm,FSDC,NORD-KIVU,F,55.0,20,64.6999969482,G,G,1.0,A
+348,9196,publique,Mugunga,sociale,FSDC,NORD-KIVU,F,58.0,20,61.5999984741,G,G,1.0,G
+370,8189,protestant,kimua,pedagogie,FSDC,NORD-KIVU,H,54.0,27,45.0,G,A,1.0,G
+371,9073,protestant,kimua,pedagogie,FSDC,NORD-KIVU,H,56.0,25,60.066666921,G,G,3.0,G
+373,11640,protestant,kimua,pedagogie,FSDC,NORD-KIVU,H,58.0,25,50.7999992371,G,A,1.0,G
+374,4933,catholique,it kasabinyole,pedagogie,FSDC,NORD-KIVU,F,50.0,31,54.4500007629,G,D,2.0,G
+384,6740,publique,uzima,sociale,FSDC,NORD-KIVU,F,60.0,26,65.5999984741,G,G,1.0,A
+389,7333,publique,uzima,sociale,FSDC,NORD-KIVU,H,69.0,25,59.0333340963,G,E,3.0,E
+390,7342,publique,uzima,sociale,FSDC,NORD-KIVU,F,54.0,27,59.9666671753,G,G,3.0,G
+391,7350,publique,uzima,sociale,FSDC,NORD-KIVU,F,60.0,23,64.6500015259,G,G,4.0,D
+392,7362,publique,uzima,sociale,FSDC,NORD-KIVU,F,63.0,23,62.2000007629,G,G,4.0,F
+393,7450,publique,uzima,sociale,FSDC,NORD-KIVU,H,59.0,25,63.5666681926,G,G,3.0,G
+398,8177,publique,uzima,sociale,FSDC,NORD-KIVU,F,60.0,24,62.9749984741,G,G,4.0,D
+403,8330,publique,uzima,sociale,FSDC,NORD-KIVU,F,58.0,24,61.75,G,G,2.0,G
+405,8483,publique,uzima,sociale,FSDC,NORD-KIVU,F,58.0,23,63.5333328247,G,G,3.0,E
+407,8894,publique,uzima,sociale,FSDC,NORD-KIVU,F,54.0,24,43.0,G,A,1.0,G
+408,9047,publique,uzima,sociale,FSDC,NORD-KIVU,F,52.0,22,62.433333079,G,G,3.0,G
+409,9236,publique,uzima,sociale,FSDC,NORD-KIVU,F,52.0,24,65.2333348592,G,G,3.0,E
+430,3196,protestant,maendeleo,latin philo,FSDC,NORD-KIVU,F,58.0,32,61.5999984741,G,G,1.0,A
+432,4064,protestant,maendeleo,pedagogie,FSDC,NORD-KIVU,H,55.0,45,63.0,G,G,1.0,A
+437,4574,protestant,maendeleo,sociale,FSDC,NORD-KIVU,H,51.0,29,60.7333335876,G,G,3.0,E
+439,4735,protestant,maendeleo,sociale,FSDC,NORD-KIVU,F,53.0,26,60.9000015259,G,G,1.0,G
+446,5167,protestant,maendeleo,sociale,FSDC,NORD-KIVU,H,55.0,33,65.0500011445,G,G,2.0,D
+448,5354,protestant,maendeleo,commmerciale et adm,FSDC,NORD-KIVU,H,53.0,32,47.0,G,A,1.0,G
+450,5696,protestant,maendeleo,sociale,FSDC,NORD-KIVU,H,59.0,26,62.25,G,G,2.0,G
+452,5753,protestant,maendeleo,pedagogie,FSDC,NORD-KIVU,F,52.0,43,58.2666676839,G,E,3.0,E
+458,6437,protestant,maendeleo,pedagogie,FSDC,NORD-KIVU,H,57.0,28,59.933333079,G,G,3.0,G
+460,6934,protestant,maendeleo,latin philo,FSDC,NORD-KIVU,H,60.0,26,63.7999992371,G,G,2.0,G
+465,7338,protestant,maendeleo,latin philo,FSDC,BANDUNDU,H,55.0,25,63.6666666667,G,G,3.0,G
+466,7402,protestant,maendeleo,sociale,FSDC,NORD-KIVU,F,56.0,25,59.0999984741,G,G,1.0,G
+477,8146,protestant,maendeleo,sociale,FSDC,NORD-KIVU,H,50.0,24,63.4333343506,G,G,3.0,G
+479,8216,protestant,maendeleo,sociale,FSDC,NORD-KIVU,F,56.0,26,58.3333333334,G,G,3.0,G
+486,8462,protestant,maendeleo,sociale,FSDC,NORD-KIVU,F,58.0,25,62.3333333333,G,G,3.0,G
+490,8556,protestant,maendeleo,pedagogie,FSDC,NORD-KIVU,F,60.0,24,61.1500015259,G,G,2.0,D
+494,8740,protestant,maendeleo,latin philo,FSDC,NORD-KIVU,F,55.0,24,60.4666671753,G,G,3.0,G
+509,9568,protestant,maendeleo,sociale,FSDC,NORD-KIVU,F,55.0,24,42.0,G,A,1.0,G
+518,10078,protestant,maendeleo,latin philo,FSDC,NORD-KIVU,H,55.0,21,63.5999984741,G,G,2.0,D
+520,10149,protestant,maendeleo,latin philo,FSDC,NORD-KIVU,F,54.0,23,63.7999992371,G,G,2.0,G
+521,10156,protestant,maendeleo,sociale,FSDC,NORD-KIVU,H,57.0,20,66.0999984741,D,G,2.0,D
+525,10367,protestant,maendeleo,pedagogie,FSDC,NORD-KIVU,F,50.0,21,51.6499996185,G,A,2.0,G
+534,10795,protestant,maendeleo,sociale,FSDC,NORD-KIVU,H,61.0,21,68.25,G,G,2.0,D
+549,12060,protestant,maendeleo,pedagogie,FSDC,NORD-KIVU,F,51.0,21,56.2000007629,G,G,1.0,G
+551,12147,protestant,maendeleo,latin philo,FSDC,NORD-KIVU,F,61.0,22,60.0999984741,G,G,1.0,G
+553,5214,privé,bakita,bio-chimie,FSDC,BANDUNDU,F,51.0,47,61.2999992371,G,G,1.0,G
+564,4983,publique,ngoma,pedagogie,FSDC,NORD-KIVU,F,51.0,26,60.0499992371,G,G,2.0,G
+572,6772,publique,ngoma,pedagogie,FSDC,SUD-KIVU,F,51.0,26,59.2000007629,G,G,2.0,G
+573,6895,publique,ngoma,latin philo,FSDC,KINSHASA,F,55.0,27,60.633333842,G,G,3.0,C
+576,7334,publique,ngoma,pedagogie,FSDC,NORD-KIVU,H,56.0,25,52.6499996185,G,D,2.0,G
+580,7813,publique,ngoma,pedagogie,FSDC,NORD-KIVU,F,53.0,23,51.8333333333,G,C,3.0,G
+583,7904,publique,ngoma,pedagogie,FSDC,NORD-KIVU,H,51.0,52,53.2999992371,G,D,2.0,G
+584,8134,publique,ngoma,bio-chimie,FSDC,KATANGA,H,59.0,24,59.0749998093,G,G,4.0,F
+602,9608,publique,ngoma,commmerciale et adm,FSDC,NORD-KIVU,F,60.0,24,61.3999996185,G,G,2.0,G
+615,9980,publique,ngoma,sociale,FSDC,NORD-KIVU,F,52.0,20,68.2000007629,G,G,2.0,D
+624,10167,publique,ngoma,pedagogie,FSDC,NORD-KIVU,F,52.0,23,59.1000003815,G,G,2.0,G
+629,10229,publique,ngoma,pedagogie,FSDC,NORD-KIVU,F,56.0,22,61.7000007629,G,G,2.0,A
+635,10479,publique,ngoma,sociale,FSDC,NORD-KIVU,H,52.0,21,62.7999992371,G,G,2.0,G
+638,10554,publique,ngoma,sociale,FSDC,NORD-KIVU,H,51.0,21,50.6499996185,G,D,2.0,G
+641,10696,publique,ngoma,bio-chimie,FSDC,ORIENTALE,F,51.0,24,63.1500015259,G,G,2.0,G
+645,10815,publique,ngoma,pedagogie,FSDC,NORD-KIVU,H,59.0,24,48.0,G,A,1.0,G
+665,4762,protestant,kishanga,pedagogie,FSDC,NORD-KIVU,H,51.0,28,60.1500015259,G,G,2.0,G
+666,6752,protestant,kishanga,bio-chimie,FSDC,KASAI ORIENTAL,F,66.0,26,62.6000003815,G,G,2.0,G
+670,8943,protestant,kishanga,pedagogie,FSDC,SUD-KIVU,H,60.0,22,47.5,G,A,2.0,G
+688,4732,privé,mama yetu,bio-chimie,FSDC,NORD-KIVU,F,50.0,27,60.5,G,G,1.0,G
+692,5653,privé,mama yetu,bio-chimie,FSDC,NORD-KIVU,H,55.0,26,45.0,G,A,1.0,G
+697,6287,privé,mama yetu,bio-chimie,FSDC,NORD-KIVU,H,52.0,24,64.9000002543,G,G,3.0,C
+701,6554,privé,mama yetu,bio-chimie,FSDC,NORD-KIVU,F,51.0,28,44.0,G,A,2.0,G
+703,6983,privé,mama yetu,bio-chimie,FSDC,NORD-KIVU,F,62.0,30,66.9000015259,G,G,1.0,A
+704,6994,privé,mama yetu,bio-chimie,FSDC,NORD-KIVU,F,65.0,31,64.5,G,G,1.0,A
+709,8306,privé,mama yetu,bio-chimie,FSDC,NORD-KIVU,F,50.0,24,63.366666158,G,G,3.0,G
+712,8954,privé,mama yetu,bio-chimie,FSDC,NORD-KIVU,H,51.0,23,58.0666656494,G,G,3.0,G
+716,9828,privé,mama yetu,sociale,FSDC,NORD-KIVU,F,50.0,21,45.0,G,A,1.0,G
+724,11541,privé,mama yetu,sociale,FSDC,NORD-KIVU,F,52.0,20,57.0999984741,G,G,1.0,G
+727,4609,protestant,kirimavolo,bio-chimie,FSDC,NORD-KIVU,F,53.0,37,63.0,G,G,1.0,A
+743,3944,protestant,metanoia,latin philo,FSDC,NORD-KIVU,H,53.0,26,63.7000007629,G,G,1.0,G
+774,4877,protestant,metanoia,latin philo,FSDC,NORD-KIVU,H,59.0,26,65.4000015259,G,G,1.0,G
+778,4976,protestant,metanoia,pedagogie,FSDC,NORD-KIVU,H,52.0,28,61.4499988556,G,G,2.0,D
+779,4977,protestant,metanoia,pedagogie,FSDC,NORD-KIVU,H,53.0,30,58.7000007629,G,G,1.0,G
+780,4978,protestant,metanoia,pedagogie,FSDC,NORD-KIVU,F,52.0,27,59.7000007629,G,G,1.0,G
+793,6255,protestant,metanoia,bio-chimie,FSDC,NORD-KIVU,F,51.0,29,49.0,G,A,1.0,G
+794,6256,protestant,metanoia,bio-chimie,FSDC,NORD-KIVU,F,54.0,27,56.2000007629,G,A,1.0,G
+799,6336,protestant,metanoia,commmerciale et adm,FSDC,NORD-KIVU,F,52.0,24,62.125,G,F,4.0,F
+810,6607,protestant,metanoia,pedagogie,FSDC,NORD-KIVU,H,56.0,26,61.0999984741,G,G,2.0,G
+811,6610,protestant,metanoia,latin philo,FSDC,NORD-KIVU,F,53.0,27,64.0,G,G,2.0,G
+814,6744,protestant,metanoia,latin philo,FSDC,NORD-KIVU,H,64.0,23,67.0,E,G,3.0,E
+817,7001,protestant,metanoia,pedagogie,FSDC,NORD-KIVU,H,57.0,28,63.4666671753,G,G,3.0,E
+837,7370,protestant,metanoia,latin philo,FSDC,NORD-KIVU,H,58.0,25,63.7999992371,G,G,3.0,G
+838,7371,protestant,metanoia,latin philo,FSDC,NORD-KIVU,F,57.0,23,67.7999979655,E,G,3.0,G
+839,7413,protestant,metanoia,bio-chimie,FSDC,NORD-KIVU,F,53.0,25,63.2749996185,G,G,4.0,D
+840,7442,protestant,metanoia,bio-chimie,FSDC,NORD-KIVU,F,50.0,24,64.6666666667,G,G,3.0,C
+879,8774,protestant,metanoia,pedagogie,FSDC,NORD-KIVU,F,59.0,27,61.3999989827,G,G,3.0,E
+887,8938,protestant,metanoia,pedagogie,FSDC,NORD-KIVU,F,57.0,23,63.25,G,G,2.0,A
+906,9217,protestant,metanoia,bio-chimie,FSDC,NORD-KIVU,F,57.0,25,65.1999994914,G,G,3.0,E
+912,9304,protestant,metanoia,latin philo,FSDC,NORD-KIVU,H,57.0,21,65.3000005086,G,G,3.0,E
+944,9917,protestant,metanoia,latin philo,FSDC,NORD-KIVU,F,51.0,22,65.25,G,G,2.0,D
+1004,11511,protestant,metanoia,bio-chimie,FSDC,NORD-KIVU,F,50.0,21,65.0999984741,G,G,1.0,A
+1028,11983,privé,metanoia,pedagogie,FSDC,NORD-KIVU,F,65.0,21,60.9000015259,G,G,1.0,A
+1056,3635,publique,mabula,pedagogie,FSDC,SUD-KIVU,H,51.0,30,61.2999992371,G,G,1.0,G
+1069,7787,protestant,chidasa,latin philo,FSDC,KIGALI,F,56.8765221107,30,62.4000015259,G,G,1.0,G
+1090,6552,protestant,lukanga,pedagogie,FSDC,NORD-KIVU,H,52.0,26,58.4333343506,G,E,3.0,G
+1091,6949,protestant,lukanga,pedagogie,FSDC,NORD-KIVU,H,52.0,45,40.0,G,A,1.0,G
+1093,8719,protestant,lukanga,pedagogie,FSDC,NORD-KIVU,F,60.0,25,62.9333343506,G,G,3.0,G
+1094,8720,protestant,lukanga,pedagogie,FSDC,NORD-KIVU,F,56.0,25,57.7666676839,G,G,3.0,G
+1098,9610,protestant,lukanga,bio-chimie,FSDC,NORD-KIVU,F,60.0,28,66.7999992371,G,G,2.0,A
+1101,10786,protestant,lukanga,pedagogie,FSDC,NORD-KIVU,F,56.8765221107,22,58.7999992371,G,G,1.0,G
+1103,10933,protestant,lukanga,pedagogie,FSDC,NORD-KIVU,F,52.0,26,57.8500003815,G,G,2.0,G
+1105,12005,protestant,lukanga,pedagogie,FSDC,NORD-KIVU,F,52.0,22,60.5,G,G,1.0,G
+1110,4766,protestant,kalungu,sociale,FSDC,SUD-KIVU,F,53.0,27,59.7999992371,G,G,1.0,G
+1114,6435,protestant,kalungu,sociale,FSDC,SUD-KIVU,H,55.0,27,62.2000007629,G,G,3.0,E
+1120,7107,protestant,kalungu,pedagogie,FSDC,SUD-KIVU,H,51.0,28,58.5666656494,G,G,3.0,G
+1126,8286,protestant,kalungu,pedagogie,FSDC,NORD-KIVU,F,65.0,24,59.4666659037,G,G,3.0,G
+1127,8382,protestant,kalungu,vétérinaire,FSDC,NORD-KIVU,H,53.0,49,64.8000011445,G,G,2.0,G
+1130,8748,protestant,kalungu,sociale,FSDC,SUD-KIVU,H,56.0,24,62.9666671753,G,G,3.0,G
+1135,9587,protestant,kalungu,pedagogie,FSDC,NORD-KIVU,F,51.0,33,62.1000010172,G,G,3.0,E
+1146,10778,protestant,kalungu,math-physique,FSDC,NORD-KIVU,F,51.0,20,64.6999988555,G,G,2.0,A
+1149,11677,protestant,kalungu,sociale,FSDC,SUD-KIVU,F,52.0,23,56.7999992371,G,A,1.0,G
+1156,6692,privé,la pereaux,sociale,FSDC,SUD-KIVU,H,68.0,28,63.8666674296,G,G,3.0,C
+1158,10441,privé,la pereaux,sociale,FSDC,SUD-KIVU,F,62.0,36,60.4500007629,G,G,2.0,G
+1178,6044,catholique,malikia wa bingu,bio-chimie,FSDC,NORD-KIVU,H,59.0,29,70.5,A,G,1.0,A
+1182,9639,catholique,malikia wa bingu,bio-chimie,FSDC,NORD-KIVU,F,52.0,24,50.7000007629,G,A,1.0,G
+1183,9719,catholique,malikia wa bingu,pedagogie,FSDC,NORD-KIVU,F,57.0,22,63.1666653951,G,G,3.0,C
+1187,11848,catholique,malikia wa bingu,pedagogie,FSDC,NORD-KIVU,F,54.0,24,65.1999969482,G,G,1.0,G
+1192,12014,catholique,malikia wa bingu,pedagogie,FSDC,NORD-KIVU,F,66.0,21,69.0,G,G,1.0,A
+1197,3159,privé,moria,pedagogie,FSDC,NORD-KIVU,H,52.0,35,62.0,G,G,1.0,G
+1203,4988,privé,moria,pedagogie,FSDC,NORD-KIVU,F,52.0,30,54.8666674296,G,E,3.0,G
+1209,8272,privé,moria,pedagogie,FSDC,NORD-KIVU,F,52.0,25,53.0,G,A,1.0,G
+1211,8436,privé,moria,pedagogie,FSDC,NORD-KIVU,H,61.0,25,63.3333346049,G,G,3.0,G
+1213,8708,privé,moria,pedagogie,FSDC,NORD-KIVU,H,58.0,23,63.1666666667,G,G,3.0,E
+1220,9281,privé,moria,pedagogie,FSDC,NORD-KIVU,F,57.0,24,58.9000015259,G,G,1.0,G
+1225,9455,privé,moria,sociale,FSDC,NORD-KIVU,H,52.0,26,44.5,G,A,2.0,G
+1234,10565,privé,moria,pedagogie,FSDC,NORD-KIVU,F,58.0,21,64.5999984741,G,G,2.0,D
+1266,8553,publique,mawato,sociale,FSDC,NORD-KIVU,H,50.0,26,58.1333325704,G,G,3.0,G
+1268,8654,publique,mawato,pedagogie,FSDC,MANIEMA,H,62.0,26,54.066666921,G,E,3.0,G
+1269,8999,publique,mawato,sociale,FSDC,NORD-KIVU,H,54.0,24,61.3666674296,G,G,3.0,G
+1271,9189,publique,mawato,pedagogie,FSDC,NORD-KIVU,H,50.0,23,61.133333842,G,G,3.0,G
+1274,9548,publique,mawato,sociale,FSDC,NORD-KIVU,H,50.0,24,52.3999996185,G,D,2.0,G
+1276,10044,publique,mawato,sociale,FSDC,NORD-KIVU,F,56.0,21,63.4500007629,G,G,2.0,A
+1279,10776,publique,mawato,pedagogie,FSDC,NORD-KIVU,H,57.0,22,63.3999996185,G,G,2.0,A
+1280,11316,publique,mawato,sociale,FSDC,NORD-KIVU,F,52.0,21,62.5,G,G,1.0,A
+1281,11432,protestant,mawato,pedagogie,FSDC,NORD-KIVU,F,54.0,22,56.5999984741,G,G,1.0,G
+1291,5700,publique,mikeno nc,sociale,FSDC,NORD-KIVU,H,52.0,31,62.4000015259,G,G,1.0,A
+1293,6444,publique,mikeno nc,sociale,FSDC,NORD-KIVU,H,57.0,25,49.0,G,A,1.0,G
+1294,6609,publique,mikeno nc,sociale,FSDC,NORD-KIVU,H,55.0,24,65.5,G,G,2.0,G
+1295,6631,publique,mikeno nc,sociale,FSDC,NORD-KIVU,H,69.0,26,66.6499977112,G,G,2.0,D
+1296,6771,publique,mikeno nc,sociale,FSDC,NORD-KIVU,F,60.0,40,64.4499988555,G,G,2.0,G
+1300,8174,publique,mikeno nc,sociale,FSDC,NORD-KIVU,F,57.0,25,53.6666666667,G,E,3.0,E
+1301,8186,publique,mikeno nc,sociale,FSDC,NORD-KIVU,H,57.0,25,59.1999988556,G,G,2.0,G
+1302,8204,publique,mikeno nc,sociale,FSDC,NORD-KIVU,H,56.0,25,46.5,G,A,2.0,G
+1305,8249,publique,mikeno nc,pedagogie,FSDC,NORD-KIVU,F,57.0,27,57.5,G,G,1.0,G
+1308,8515,publique,mikeno nc,sociale,FSDC,NORD-KIVU,H,53.0,24,63.5,G,G,2.0,G
+1319,9979,publique,mikeno nc,sociale,FSDC,NORD-KIVU,H,52.0,21,59.3999996185,G,G,2.0,G
+1329,11357,publique,mikeno nc,sociale,FSDC,NORD-KIVU,F,55.0,22,58.7000007629,G,G,1.0,G
+1331,11736,publique,mikeno nc,sociale,FSDC,NORD-KIVU,F,54.0,19,59.7999992371,G,G,1.0,G
+1332,11984,publique,mikeno nc,pedagogie,FSDC,NORD-KIVU,F,60.0,21,59.0,G,G,1.0,A
+1336,8584,catholique,matumaini,sociale,FSDC,SUD-KIVU,H,50.0,26,54.6666666667,G,E,3.0,G
+1340,6450,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,F,60.0,26,62.8333346049,G,G,3.0,G
+1346,7326,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,F,59.0,24,64.0750007629,G,G,4.0,B
+1347,7336,catholique,sainte ursule,sociale,FSDC,NORD-KIVU,F,62.0,27,62.4000015259,G,G,1.0,G
+1348,7346,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,F,55.0,24,62.125,G,G,4.0,D
+1349,7351,catholique,sainte ursule,commmerciale et adm,FSDC,NORD-KIVU,F,62.0,24,62.5999984741,G,G,1.0,G
+1350,7357,catholique,sainte ursule,sociale,FSDC,NORD-KIVU,F,63.0,23,41.0,G,A,1.0,G
+1351,7395,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,F,53.0,25,40.0,G,A,1.0,G
+1352,7432,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,F,62.0,23,64.3000001907,G,G,4.0,B
+1356,8158,catholique,sainte ursule,sociale,FSDC,NORD-KIVU,F,59.0,25,62.3333320618,G,G,3.0,C
+1358,8206,catholique,sainte ursule,sociale,FSDC,NORD-KIVU,F,60.0,24,60.8000011444,G,G,2.0,G
+1359,8210,catholique,sainte ursule,sociale,FSDC,NORD-KIVU,F,57.0,25,63.2250003815,G,G,4.0,F
+1361,8253,catholique,sainte ursule,sociale,FSDC,NORD-KIVU,F,72.0,23,68.7333348592,G,G,3.0,C
+1365,8388,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,F,54.0,25,64.5249996185,G,G,4.0,D
+1367,8420,catholique,sainte ursule,sociale,FSDC,NORD-KIVU,F,70.0,23,71.633333842,C,G,3.0,A
+1368,8453,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,H,59.0,22,54.7666664123,G,E,3.0,E
+1369,8618,catholique,sainte ursule,sociale,FSDC,NORD-KIVU,F,65.0,23,59.3000005086,G,G,3.0,G
+1372,8771,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,F,62.0,23,65.8499994278,G,G,4.0,D
+1373,8889,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,F,56.0,21,62.6666679382,G,G,3.0,E
+1375,8944,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,F,63.0,23,64.200000763,G,G,3.0,E
+1379,9193,catholique,sainte ursule,sociale,FSDC,NORD-KIVU,F,56.0,23,63.5666656494,G,G,3.0,A
+1385,9298,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,F,61.0,22,64.366666158,G,G,3.0,E
+1386,9305,catholique,sainte ursule,sociale,FSDC,NORD-KIVU,F,53.0,22,60.0,G,G,1.0,G
+1397,9905,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,F,61.0,21,52.6000003815,G,D,2.0,G
+1403,10092,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,F,66.0,22,65.8000011445,G,G,2.0,D
+1412,10322,catholique,sainte ursule,sociale,FSDC,NORD-KIVU,F,52.0,22,67.5499992371,G,G,2.0,A
+1418,10523,catholique,sainte ursule,sociale,FSDC,NORD-KIVU,F,54.0,21,67.0499992371,D,G,2.0,A
+1422,10589,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,F,57.0,23,63.2499980927,G,G,2.0,G
+1423,10590,catholique,sainte ursule,sociale,FSDC,NORD-KIVU,F,56.0,21,65.1999988555,G,G,2.0,A
+1428,10878,catholique,sainte ursule,sociale,FSDC,NORD-KIVU,F,55.0,25,60.8999996185,G,G,2.0,A
+1444,11635,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,F,63.0,19,63.7000007629,G,G,1.0,G
+1446,11695,catholique,sainte ursule,sociale,FSDC,NORD-KIVU,F,54.0,22,64.1999969482,G,G,1.0,G
+1447,11735,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,F,68.0,21,61.5,G,G,1.0,A
+1449,11811,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,F,63.0,19,62.9000015259,G,G,1.0,G
+1454,12232,catholique,sainte ursule,nutr,FSDC,NORD-KIVU,F,55.0,23,60.7999992371,G,G,1.0,A
+1458,1858,protestant,visoke,pedagogie,FSDC,NORD-KIVU,F,59.0,31,58.4666671753,G,E,3.0,E
+1469,7895,protestant,visoke,pedagogie,FSDC,NORD-KIVU,F,59.0,37,53.7999992371,G,D,2.0,G
+1480,10299,protestant,visoke,pedagogie,FSDC,NORD-KIVU,H,57.0,22,63.0,G,G,2.0,G
+1481,10392,protestant,visoke,pedagogie,FSDC,NORD-KIVU,F,65.0,21,71.8499984741,A,G,2.0,D
+1482,10562,protestant,visoke,pedagogie,FSDC,NORD-KIVU,F,56.0,22,63.3500022889,G,G,2.0,D
+1490,5682,protestant,lasagesse,pedagogie,FSDC,SUD-KIVU,H,54.0,26,58.5,G,G,2.0,G
+1491,7398,protestant,lasagesse,pedagogie,FSDC,SUD-KIVU,H,77.0,24,63.0,G,G,3.0,G
+1504,6551,publique,kalimba,bio-chimie,FSDC,NORD-KIVU,F,50.0,34,59.2000007629,G,G,1.0,G
+1510,7391,publique,kalimba,pedagogie,FSDC,NORD-KIVU,F,68.0,30,58.8000005086,G,E,3.0,G
+1511,7441,publique,kalimba,math-physique,FSDC,KINSHASA,F,58.0,25,59.4666671753,G,G,3.0,G
+1513,8182,publique,kalimba,pedagogie,FSDC,SUD-KIVU,H,62.0,25,63.7666651408,G,G,3.0,G
+1516,9339,publique,kalimba,pedagogie,FSDC,NORD-KIVU,H,63.0,26,58.9000002543,G,G,3.0,G
+1524,11704,publique,kalimba,pedagogie,FSDC,NORD-KIVU,H,53.0,22,63.7000007629,G,G,1.0,A
+1538,11414,catholique,kashofu,pedagogie,FSDC,SUD-KIVU,F,63.0,19,59.0999984741,G,G,1.0,G
+1541,4812,musulman,mavuno,sociale,FSDC,NORD-KIVU,F,51.0,38,57.2000007629,G,G,1.0,G
+1545,6729,musulman,mavuno,sociale,FSDC,NORD-KIVU,H,50.0,27,61.8500003815,G,G,2.0,G
+1551,11341,musulman,mavuno,pedagogie,FSDC,NORD-KIVU,F,51.0,20,55.5,G,G,1.0,G
+1556,5680,catholique,nyamukola,sociale,FSDC,SUD-KIVU,H,54.0,31,47.0,G,A,1.0,G
+1557,6464,catholique,nyamukola,pedagogie,FSDC,SUD-KIVU,H,63.0,25,52.1999994914,G,C,3.0,G
+1578,8520,protestant,mushere,pedagogie,FSDC,SUD-KIVU,F,56.0,24,61.7666664123,G,G,3.0,G
+1581,8262,catholique,thabiti,bio-chimie,FSDC,KATANGA,H,66.0,24,63.4250001907,G,G,4.0,F
+1615,5107,catholique,bigilimani,bio-chimie,FSDC,SUD-KIVU,H,57.0,44,65.0,G,G,1.0,A
+1616,6570,catholique,bigilimani,pedagogie,FSDC,NORD-KIVU,H,58.0,27,51.3500003815,G,D,2.0,G
+1618,8122,catholique,bigilimani,pedagogie,FSDC,NORD-KIVU,F,56.0,24,48.5,G,A,2.0,G
+1627,11477,privé,amen,sociale,FSDC,NORD-KIVU,F,51.0,19,60.7999992371,G,G,1.0,G
+1628,11480,privé,amen,sociale,FSDC,NORD-KIVU,F,52.0,20,52.0,G,A,1.0,G
+1629,11559,privé,amen,sociale,FSDC,NORD-KIVU,F,50.0,23,57.4000015259,G,G,1.0,G
+1643,3137,catholique,mwanga,latin philo,FSDC,SUD-KIVU,H,65.0,29,65.1999969482,G,G,1.0,A
+1691,6429,catholique,mwanga,commmerciale et adm,FSDC,KINSHASA,F,59.0,25,64.8333333333,G,G,3.0,E
+1699,6558,catholique,mwanga,bio-chimie,FSDC,NORD-KIVU,F,57.0,26,52.9000015259,G,D,2.0,G
+1713,7241,catholique,mwanga,commmerciale et adm,FSDC,NORD-KIVU,F,60.0,24,49.4500007629,G,A,2.0,G
+1715,7390,catholique,mwanga,latin philo,FSDC,NORD-KIVU,F,69.0,24,62.9749994278,G,G,4.0,A
+1736,8207,catholique,mwanga,bio-chimie,FSDC,NORD-KIVU,H,57.0,25,68.6499996185,F,G,4.0,A
+1760,8872,catholique,mwanga,bio-chimie,FSDC,NORD-KIVU,F,66.0,23,65.5333340963,G,G,3.0,A
+1761,8895,catholique,mwanga,bio-chimie,FSDC,NORD-KIVU,F,66.0,23,70.3999989827,C,G,3.0,A
+1778,9045,catholique,mwanga,commmerciale et adm,FSDC,NORD-KIVU,H,58.0,22,67.8666687012,G,G,3.0,G
+1784,9178,catholique,mwanga,bio-chimie,FSDC,NORD-KIVU,F,59.0,22,68.8000005086,E,G,3.0,C
+1815,9907,catholique,mwanga,latin philo,FSDC,NORD-KIVU,F,58.0,21,66.5,G,G,2.0,A
+1879,10724,catholique,mwanga,latin philo,FSDC,SUD-KIVU,F,57.0,22,64.0499992371,G,G,2.0,D
+1929,11744,catholique,mwanga,commmerciale et adm,FSDC,NORD-KIVU,F,60.0,19,63.4000015259,G,G,1.0,A
+1933,11757,catholique,mwanga,bio-chimie,FSDC,NORD-KIVU,F,63.0,21,64.5999984741,G,G,1.0,A
+1955,4900,privé,mukaba,bio-chimie,FSDC,ORIENTALE,H,51.0,26,60.0333328247,G,G,3.0,G
+1956,4943,privé,mukaba,pedagogie,FSDC,SUD-KIVU,H,53.0,29,61.2999992371,G,G,1.0,G
+1958,5216,privé,mukaba,pedagogie,FSDC,SUD-KIVU,H,50.0,35,57.0,G,G,1.0,G
+1959,5688,privé,mukaba,bio-chimie,FSDC,ORIENTALE,H,55.0,26,58.8666674296,G,E,3.0,G
+1960,6288,privé,mukaba,bio-chimie,FSDC,ORIENTALE,H,52.0,27,61.3000011444,G,G,2.0,D
+1965,9351,privé,mukaba,pedagogie,FSDC,SUD-KIVU,F,50.0,23,57.566666921,G,E,3.0,G
+1970,10659,privé,mukaba,bio-chimie,FSDC,ORIENTALE,F,50.0,27,59.9499988556,G,G,2.0,D
+1985,9175,privé,action kusaidiya,sociale,FSDC,SUD-KIVU,F,55.0,21,50.0,G,D,2.0,G
+1997,4772,catholique,nyakasaza,pedagogie,FSDC,NORD-KIVU,H,55.0,26,66.6999969482,G,G,1.0,A
+1998,7873,catholique,nyakasaza,commmerciale et adm,FSDC,ORIENTALE,F,50.0,27,61.0,G,G,1.0,G
+2012,5010,protestant,kigonza,sociale,FSDC,ORIENTALE,F,51.0,26,60.0,G,G,1.0,G
+2013,6443,protestant,kigonza,sociale,FSDC,NORD-KIVU,F,54.0,26,62.4666671753,G,G,3.0,G
+2014,8747,protestant,kigonza,sociale,FSDC,NORD-KIVU,F,55.0,33,65.1500015259,G,G,2.0,G
+2017,9572,protestant,kigonza,pedagogie,FSDC,ORIENTALE,F,57.0,31,66.4333343506,G,G,3.0,A
+2019,10533,protestant,kigonza,pedagogie,FSDC,ORIENTALE,H,53.0,23,41.0,G,A,1.0,G
+2020,10586,protestant,kigonza,pedagogie,FSDC,ORIENTALE,F,53.0,23,62.8500003815,G,G,2.0,G
+2022,11766,publique,kigonza,sociale,FSDC,ORIENTALE,F,62.0,19,61.4000015259,G,G,1.0,A
+2024,7411,privé,azma,pedagogie,FSDC,SUD-KIVU,F,62.0,30,41.0,G,A,1.0,G
+2032,4629,publique,nyabushongo,pedagogie,FSDC,NORD-KIVU,F,53.0,28,54.9500007629,G,D,2.0,G
+2035,6433,publique,nyabushongo,pedagogie,FSDC,NORD-KIVU,H,50.0,26,41.0,G,A,1.0,G
+2037,9000,publique,nyabushongo,pedagogie,FSDC,NORD-KIVU,F,51.0,21,57.6333325704,G,E,3.0,G
+2042,10034,publique,nyabushongo,sociale,FSDC,NORD-KIVU,H,50.0,21,63.2500019073,G,G,2.0,G
+2047,11413,publique,nyabushongo,pedagogie,FSDC,NORD-KIVU,F,62.0,20,57.4000015259,G,G,1.0,G
+2055,8290,publique,uenezaji,sociale,FSDC,NORD-KIVU,F,52.0,25,58.9666659037,G,G,3.0,G
+2068,11888,privé,moyo safi,sociale,FSDC,NORD-KIVU,F,51.0,24,57.2000007629,G,G,1.0,G
+2070,6440,publique,idap isp bunia,sociale,FSDC,ORIENTALE,F,58.0,28,47.0,G,A,1.0,G
+2089,5672,catholique,st joseph,pedagogie,FSDC,NORD-KIVU,F,55.0,25,54.2999992371,G,A,1.0,G
+2090,6432,catholique,st joseph,pedagogie,FSDC,NORD-KIVU,F,55.0,27,59.5333328247,G,G,3.0,G
+2093,6897,catholique,st joseph,pedagogie,FSDC,NORD-KIVU,F,53.0,26,61.9499988556,G,G,2.0,G
+2098,8236,catholique,st joseph,latin philo,FSDC,KINSHASA,H,52.0,29,56.4666659037,G,E,3.0,G
+2107,10042,catholique,st joseph,pedagogie,FSDC,NORD-KIVU,H,59.0,23,66.9000015259,G,G,2.0,D
+2125,2269,catholique,mont caemel,pedagogie,FSDC,KINSHASA,H,55.0,32,52.2333335876,G,C,3.0,G
+2130,5110,catholique,mont caemel,sociale,FSDC,NORD-KIVU,F,52.0,29,61.5999984741,G,G,1.0,G
+2136,6436,catholique,mont caemel,sociale,FSDC,NORD-KIVU,F,54.0,28,60.2666676839,G,G,3.0,G
+2143,7406,catholique,mont caemel,pedagogie,FSDC,NORD-KIVU,H,50.0,26,59.3000005086,G,E,3.0,G
+2152,8374,catholique,mont caemel,sociale,FSDC,NORD-KIVU,H,55.0,27,64.8249998093,G,G,4.0,D
+2178,10326,catholique,mont caemel,sociale,FSDC,NORD-KIVU,F,59.0,22,62.7000007629,G,G,1.0,G
+2189,10798,catholique,mont caemel,sociale,FSDC,NORD-KIVU,F,52.0,23,62.1500015259,G,G,2.0,G
+2199,10182,privé,bandashe,sociale,FSDC,NORD-KIVU,H,53.0,24,59.5,G,G,2.0,D
+2204,8678,protestant,bulumbi,pedagogie,FSDC,NORD-KIVU,F,60.0,25,62.4000002543,G,G,3.0,G
+2206,8312,protestant,matendo,pedagogie,FSDC,SUD-KIVU,F,63.0,24,63.933333079,G,G,3.0,C
+2208,9001,protestant,matendo,pedagogie,FSDC,NORD-KIVU,F,50.0,23,61.299999237,G,G,3.0,E
+2209,9011,protestant,matendo,pedagogie,FSDC,NORD-KIVU,F,50.0,23,59.9666671753,G,G,3.0,G
+2211,9027,protestant,matendo,bio-chimie,FSDC,NORD-KIVU,F,51.0,21,60.4000002543,G,G,3.0,G
+2212,9050,protestant,matendo,pedagogie,FSDC,NORD-KIVU,F,51.0,24,59.366666158,G,G,3.0,E
+2214,9173,protestant,matendo,pedagogie,FSDC,NORD-KIVU,H,52.0,26,61.633333842,G,G,3.0,G
+2224,11579,protestant,matendo,pedagogie,FSDC,NORD-KIVU,F,64.0,20,60.5999984741,G,G,1.0,G
+2230,12106,protestant,matendo,bio-chimie,FSDC,NORD-KIVU,F,55.0,20,66.0,G,G,1.0,G
+2233,6978,catholique,mapema,pedagogie,FSDC,NORD-KIVU,F,50.0,34,45.0,G,A,1.0,G
+2236,8896,publique,de kingasani ii,bio-chimie,FSDC,KINSHASA,F,60.0,24,63.5333328247,G,G,3.0,C
+2256,4512,catholique,bakandja,bio-chimie,FSDC,NORD-KIVU,H,51.0,26,62.0,G,G,1.0,G
+2262,4730,catholique,bakandja,bio-chimie,FSDC,NORD-KIVU,F,56.0,29,60.2000007629,G,G,1.0,G
+2263,4739,catholique,bakandja,commmerciale et adm,FSDC,NORD-KIVU,H,56.0,29,61.8500003815,G,G,2.0,D
+2264,4748,catholique,bakandja,bio-chimie,FSDC,NORD-KIVU,F,51.0,30,60.2000007629,G,G,1.0,G
+2272,6293,catholique,bakandja,commmerciale et adm,FSDC,NORD-KIVU,F,54.0,27,59.5,G,G,2.0,G
+2274,6438,catholique,bakandja,commmerciale et adm,FSDC,NORD-KIVU,F,50.0,27,62.2333335877,G,G,3.0,G
+2275,6575,catholique,bakandja,pedagogie,FSDC,NORD-KIVU,F,62.0,25,62.8333320618,G,G,3.0,E
+2277,6586,catholique,bakandja,bio-chimie,FSDC,NORD-KIVU,F,50.0,24,62.8666674296,G,G,3.0,E
+2289,7407,catholique,bakandja,pedagogie,FSDC,NORD-KIVU,F,66.0,25,58.4000002543,G,G,3.0,G
+2294,8130,catholique,bakandja,pedagogie,FSDC,NORD-KIVU,H,50.0,24,46.0,G,A,2.0,G
+2309,9069,catholique,bakandja,bio-chimie,FSDC,NORD-KIVU,F,53.0,24,68.5,G,G,3.0,A
+2316,9254,catholique,bakandja,pedagogie,FSDC,NORD-KIVU,F,54.0,25,40.0,G,A,1.0,G
+2321,9430,catholique,bakandja,pedagogie,FSDC,NORD-KIVU,F,58.0,30,65.133333842,G,G,3.0,G
+2327,9581,catholique,bakandja,pedagogie,FSDC,NORD-KIVU,H,55.0,27,59.3000005086,G,G,3.0,G
+2333,9885,catholique,bakandja,pedagogie,FSDC,NORD-KIVU,F,55.0,23,61.3999996185,G,G,2.0,G
+2342,10144,catholique,bakandja,commmerciale et adm,FSDC,NORD-KIVU,F,65.0,21,68.1500015259,D,G,2.0,D
+2352,10435,catholique,bakandja,pedagogie,FSDC,NORD-KIVU,F,56.0,22,62.0500011444,G,G,2.0,D
+2359,10827,catholique,bakandja,commmerciale et adm,FSDC,NORD-KIVU,F,59.0,23,66.2000007629,G,G,2.0,D
+2377,11657,catholique,bakandja,bio-chimie,FSDC,NORD-KIVU,F,52.0,22,58.5999984741,G,G,1.0,A
+2379,11731,catholique,bakandja,pedagogie,FSDC,NORD-KIVU,F,59.0,21,61.0999984741,G,G,1.0,G
+2381,11845,catholique,bakandja,pedagogie,FSDC,NORD-KIVU,F,58.0,19,63.7000007629,G,G,1.0,A
+2383,12010,catholique,bakandja,pedagogie,FSDC,NORD-KIVU,F,65.0,21,62.4000015259,G,G,1.0,G
+2390,4126,protestant,kimbilio,coupe couture,FSDC,NORD-KIVU,F,52.0,29,59.0999984741,G,G,1.0,G
+2400,6921,protestant,kimbilio,pedagogie,FSDC,NORD-KIVU,F,53.0,25,45.0,G,A,1.0,G
+2408,8959,protestant,kimbilio,pedagogie,FSDC,NORD-KIVU,F,55.0,22,60.9000015259,G,G,3.0,E
+2412,9186,protestant,kimbilio,pedagogie,FSDC,NORD-KIVU,F,53.0,23,58.9499988556,G,G,2.0,G
+2413,9257,protestant,kimbilio,pedagogie,FSDC,NORD-KIVU,F,52.0,23,65.0499992371,G,G,2.0,G
+2414,9537,protestant,kimbilio,coupe couture,FSDC,NORD-KIVU,F,51.0,26,54.0999984741,G,A,1.0,G
+2425,12033,protestant,kimbilio,pedagogie,FSDC,NORD-KIVU,F,62.0,22,58.5,G,G,1.0,A
+2426,12100,protestant,kimbilio,coupe couture,FSDC,NORD-KIVU,F,51.0,21,61.2999992371,G,G,1.0,G
+2433,4687,privé,uhuru,commmerciale et adm,FSDC,NORD-KIVU,H,62.0,28,41.0,G,A,1.0,G
+2447,6732,privé,uhuru,bio-chimie,FSDC,NORD-KIVU,F,50.0,33,60.5999984741,G,G,1.0,G
+2454,8161,privé,uhuru,latin philo,FSDC,NORD-KIVU,H,56.0,24,65.0499992371,G,G,2.0,D
+2455,8192,privé,uhuru,pedagogie,FSDC,NORD-KIVU,F,58.0,24,60.1999994914,G,G,3.0,G
+2460,8557,privé,uhuru,pedagogie,FSDC,NORD-KIVU,F,52.0,29,43.0,G,A,1.0,G
+2473,9121,privé,uhuru,bio-chimie,FSDC,SUD-KIVU,F,51.0,22,62.866666158,G,G,3.0,G
+2475,9271,privé,uhuru,pedagogie,FSDC,SUD-KIVU,H,55.0,23,56.3999989828,G,E,3.0,G
+2477,9350,privé,uhuru,bio-chimie,FSDC,SUD-KIVU,H,59.0,25,60.433333079,G,G,3.0,C
+2484,9990,privé,uhuru,pedagogie,FSDC,NORD-KIVU,H,50.0,24,58.1499996185,G,G,2.0,G
+2489,10811,privé,uhuru,sociale,FSDC,NORD-KIVU,F,51.0,23,42.0,G,A,1.0,G
+2515,6408,catholique,bahati,pedagogie,FSDC,SUD-KIVU,H,50.0,30,63.2999992371,G,G,2.0,G
+2526,4688,publique,de goma,bio-chimie,FSDC,NORD-KIVU,H,52.0,28,62.0,G,G,1.0,G
+2527,4744,publique,de goma,bio-chimie,FSDC,NORD-KIVU,F,51.0,28,62.5,G,G,1.0,G
+2528,4746,publique,de goma,bio-chimie,FSDC,NORD-KIVU,F,53.0,28,64.4000015259,G,G,1.0,G
+2529,4945,publique,de goma,commmerciale et adm,FSDC,NORD-KIVU,H,52.0,30,61.5999984741,G,G,1.0,G
+2530,4972,publique,de goma,math-physique,FSDC,NORD-KIVU,H,51.0,27,60.0,G,G,1.0,A
+2533,5668,publique,de goma,bio-chimie,FSDC,NORD-KIVU,H,52.0,27,63.0000019073,G,G,2.0,G
+2542,8546,publique,de goma,pedagogie,FSDC,NORD-KIVU,H,50.0,27,53.4000002543,G,E,3.0,G
+2543,8611,publique,de goma,pedagogie,FSDC,NORD-KIVU,F,64.0,25,62.1666666667,G,G,3.0,G
+2555,9445,publique,de goma,pedagogie,FSDC,NORD-KIVU,F,52.0,24,57.200000763,G,E,3.0,G
+2588,6661,protestant,maranatha,bio-chimie,FSDC,NORD-KIVU,H,52.0,25,65.4666646321,G,G,3.0,G
+2589,6663,protestant,maranatha,bio-chimie,FSDC,NORD-KIVU,H,51.0,31,61.6666666667,G,G,3.0,E
+2596,8372,protestant,maranatha,bio-chimie,FSDC,NORD-KIVU,F,53.0,29,64.566666921,G,G,3.0,E
+2608,9168,protestant,maranatha,pedagogie,FSDC,NORD-KIVU,H,51.0,23,57.5333328247,G,G,3.0,G
+2617,10046,protestant,maranatha,pedagogie,FSDC,NORD-KIVU,H,53.0,25,60.6000003815,G,G,2.0,G
+2622,10364,protestant,maranatha,pedagogie,FSDC,NORD-KIVU,F,57.0,22,62.3999977111,G,G,2.0,G
+2628,10791,protestant,maranatha,pedagogie,FSDC,NORD-KIVU,F,58.0,23,59.9499988556,G,G,2.0,D
+2637,11734,protestant,maranatha,sociale,FSDC,NORD-KIVU,F,55.0,21,60.7000007629,G,G,1.0,G
+2646,12142,publique,maranatha,sociale,FSDC,NORD-KIVU,H,50.0,20,57.2000007629,G,G,1.0,G
+2666,2011,publique,muhini,pedagogie,FSDC,SUD-KIVU,H,52.0,40,66.0,G,G,1.0,A
+2670,4781,publique,muhini,pedagogie,FSDC,KASAI OCCIDENTAL,H,51.0,30,58.8999996185,G,D,2.0,D
+2680,8536,publique,muhini,sociale,FSDC,NORD-KIVU,H,51.0,41,59.8666674296,G,G,3.0,E
+2681,8912,publique,muhini,latin philo,FSDC,NORD-KIVU,F,58.0,25,55.9666671753,G,E,3.0,G
+2686,9307,publique,muhini,pedagogie,FSDC,NORD-KIVU,H,55.0,25,47.0,G,A,1.0,G
+2700,10588,publique,muhini,sociale,FSDC,NORD-KIVU,F,50.0,21,45.3500003815,G,A,2.0,G
+2704,10848,publique,muhini,pedagogie,FSDC,NORD-KIVU,H,55.0,22,61.7999992371,G,G,1.0,A
+2710,12208,privé,muhini,sociale,FSDC,NORD-KIVU,F,51.0,21,56.4000015259,G,G,1.0,G
+2714,6332,catholique,ziwa kivu,latin philo,FSDC,ORIENTALE,H,53.0,24,60.8333320618,G,E,3.0,G
+2715,8551,catholique,ziwa kivu,latin philo,FSDC,SUD-KIVU,H,61.0,24,55.5,G,G,1.0,G
+2717,10372,catholique,ziwa kivu,math-physique,FSDC,ORIENTALE,H,50.0,26,64.9500007629,G,G,2.0,D
+2719,12093,privé,ziwa kivu,pedagogie,FSDC,SUD-KIVU,H,65.0,24,60.5999984741,G,G,1.0,G
+2725,8517,musulman,mikeno islamique,sociale,FSDC,NORD-KIVU,F,51.0,27,46.0,G,A,1.0,G
+2731,9850,musulman,mikeno islamique,hotesse d'acceuil,FSDC,NORD-KIVU,H,50.0,22,62.6000003815,G,G,2.0,G
+2738,10337,musulman,mikeno islamique,sociale,FSDC,NORD-KIVU,F,51.0,23,40.0,G,A,1.0,G
+2744,7721,protestant,totoro,pedagogie,FSDC,NORD-KIVU,H,63.0,29,51.8999996185,G,D,2.0,G
+2749,9137,protestant,totoro,sociale,FSDC,NORD-KIVU,H,56.0,21,60.3666661581,G,G,3.0,G
+2751,9433,protestant,totoro,commmerciale et adm,FSDC,NORD-KIVU,H,57.0,22,56.5999984741,G,D,2.0,G
+2759,10794,protestant,totoro,sociale,FSDC,NORD-KIVU,F,51.0,21,59.5499992371,G,G,2.0,G
+2760,11303,protestant,totoro,sociale,FSDC,NORD-KIVU,F,50.0,20,55.0,G,G,1.0,G
+2770,11799,catholique,lwanga bobandana,sociale,FSDC,SUD-KIVU,F,54.0,20,55.5999984741,G,G,1.0,G
+2774,9048,catholique,bemba gombo,sociale,FSDC,NORD-KIVU,H,76.0,22,71.7333323161,A,G,3.0,E
+2775,9215,catholique,bemba gombo,sociale,FSDC,NORD-KIVU,H,52.0,23,63.3666648865,G,G,3.0,G
+2776,9922,catholique,bemba gombo,sociale,FSDC,NORD-KIVU,F,51.0,21,61.0500011444,G,G,2.0,D
+2780,11315,catholique,bemba gombo,sociale,FSDC,NORD-KIVU,F,60.0,20,63.2999992371,G,G,1.0,G
+2787,6383,protestant,sayuni,pedagogie,FSDC,NORD-KIVU,F,57.0,29,57.5999984741,G,G,1.0,G
+2789,7339,protestant,sayuni,pedagogie,FSDC,NORD-KIVU,F,54.0,27,57.5999984741,G,G,1.0,G
+2790,8199,protestant,sayuni,sociale,FSDC,NORD-KIVU,H,52.0,24,61.3999996185,G,G,2.0,G
+2806,11714,protestant,sayuni,nutr,FSDC,NORD-KIVU,F,62.0,24,61.5,G,G,1.0,G
+2808,12165,publique,sayuni,pedagogie,FSDC,NORD-KIVU,H,59.0,22,61.5,G,G,1.0,A
+2811,4710,publique,de bagira,pedagogie,FSDC,NORD-KIVU,H,50.0,30,44.5,G,A,2.0,G
+2824,4932,catholique,amani,bio-chimie,FSDC,NORD-KIVU,F,56.0,27,68.0249996185,G,G,4.0,A
+2825,4958,catholique,amani,pedagogie,FSDC,MANIEMA,H,50.0,35,59.9000015259,G,G,1.0,A
+2827,5703,catholique,amani,bio-chimie,FSDC,NORD-KIVU,F,53.0,26,61.75,G,G,2.0,G
+2832,6898,catholique,amani,bio-chimie,FSDC,NORD-KIVU,F,67.0,24,65.8500022889,G,G,2.0,G
+2833,6911,catholique,amani,bio-chimie,FSDC,NORD-KIVU,F,55.0,43,62.5,G,G,2.0,G
+2837,7436,catholique,amani,bio-chimie,FSDC,NORD-KIVU,F,63.0,25,65.0,G,G,3.0,E
+2838,7445,catholique,amani,bio-chimie,FSDC,NORD-KIVU,F,60.0,23,64.7000020345,G,G,3.0,C
+2844,7704,catholique,amani,bio-chimie,FSDC,NORD-KIVU,F,54.0,27,67.9500007629,G,G,2.0,A
+2845,8228,catholique,amani,bio-chimie,FSDC,NORD-KIVU,F,63.0,24,66.0333328247,G,G,3.0,C
+2877,11540,catholique,amani,bio-chimie,FSDC,NORD-KIVU,F,67.0,20,70.8000030518,A,G,1.0,A
+2893,10053,publique,kasali,pedagogie,FSDC,NORD-KIVU,H,57.0,25,65.8000030518,G,G,2.0,G
+2896,1847,publique,de bukavu,latin philo,FSDC,SUD-KIVU,F,59.0,32,60.5999984741,G,G,1.0,A
+2898,7331,publique,de bukavu,bio-chimie,FSDC,SUD-KIVU,H,51.0,27,63.6666679383,G,G,3.0,G
+2903,9240,publique,de bukavu,commerciale informatique,FSDC,SUD-KIVU,H,50.0,23,63.1666679382,G,G,3.0,E
+2915,9953,catholique,weza,pedagogie,FSDC,SUD-KIVU,H,54.0,24,60.0,G,G,2.0,G
+2918,2267,protestant,kyeshero,bio-chimie,FSDC,NORD-KIVU,H,53.0,30,61.7999992371,G,G,1.0,A
+2923,4664,protestant,kyeshero,bio-chimie,FSDC,NORD-KIVU,F,52.0,25,61.2000007629,G,G,1.0,G
+2925,4681,protestant,kyeshero,pedagogie,FSDC,NORD-KIVU,F,53.0,29,64.5,G,G,1.0,G
+2926,4757,protestant,kyeshero,bio-chimie,FSDC,NORD-KIVU,H,58.0,28,59.1000003815,G,G,2.0,G
+2927,4786,protestant,kyeshero,bio-chimie,FSDC,NORD-KIVU,H,52.0,27,63.0999984741,G,G,1.0,G
+2928,4788,protestant,kyeshero,pedagogie,FSDC,NORD-KIVU,H,52.0,30,57.7999992371,G,G,1.0,G
+2929,4793,protestant,kyeshero,pedagogie,FSDC,NORD-KIVU,H,53.0,28,41.5,G,A,2.0,G
+2930,4795,protestant,kyeshero,pedagogie,FSDC,NORD-KIVU,F,51.0,29,58.8999996185,G,G,2.0,D
+2931,4797,protestant,kyeshero,bio-chimie,FSDC,NORD-KIVU,H,50.0,27,59.4000015259,G,A,1.0,G
+2933,5218,protestant,kyeshero,pedagogie,FSDC,NORD-KIVU,H,51.0,30,49.5999984741,G,A,1.0,G
+2942,7358,protestant,kyeshero,bio-chimie,FSDC,NORD-KIVU,F,54.0,26,62.1999994914,G,G,3.0,G
+2943,7460,protestant,kyeshero,pedagogie,FSDC,BANDUNDU,H,50.0,27,56.9000002543,G,E,3.0,E
+2952,8625,protestant,kyeshero,bio-chimie,FSDC,NORD-KIVU,H,52.0,27,61.7000007629,G,G,3.0,G
+2971,9552,protestant,kyeshero,pedagogie,FSDC,NORD-KIVU,F,51.0,28,46.0,G,A,1.0,G
+3003,7518,catholique,mgr kataliko,bio-chimie,FSDC,NORD-KIVU,H,51.0,25,63.9666671753,G,G,3.0,G
+3005,8799,catholique,mgr kataliko,math-physique,FSDC,NORD-KIVU,F,62.0,37,66.8666687012,G,G,3.0,C
+3024,7394,catholique,saint andre,inconnu,FSDC,OUEST,F,56.8765221107,29,59.4000015259,G,G,1.0,G
+3025,7468,catholique,saint andre,bio-chimie,FSDC,SUD-KIVU,H,53.0,29,65.0,G,G,1.0,G
+3026,8521,catholique,saint andre,sociale,FSDC,NORD-KIVU,H,63.0,23,64.4499988555,G,G,4.0,D
+3027,9500,catholique,saint andre,sociale,FSDC,NORD-KIVU,H,58.0,24,54.5999997457,G,E,3.0,G
+3041,8560,privé,aigle de dieu,latin philo,FSDC,NORD-KIVU,H,61.0,25,61.0333340963,G,G,3.0,G
+3044,10693,privé,aigle de dieu,latin philo,FSDC,ORIENTALE,H,50.0,24,65.4500007629,G,G,2.0,D
+3087,5184,publique,tuungane,pedagogie,FSDC,NORD-KIVU,H,52.0,53,58.4000015259,G,G,1.0,A
+3090,8347,publique,tuungane,commmerciale et adm,FSDC,NORD-KIVU,F,52.0,24,60.933333079,G,G,3.0,G
+3099,11447,privé,tuungane,commmerciale et adm,FSDC,MANIEMA,F,50.0,21,62.9000015259,G,G,1.0,G
+3105,4939,protestant,kashenda,inconnu,FSDC,NORD-KIVU,F,51.0,27,50.566666921,G,C,3.0,G
+3108,6585,protestant,kashenda,nutr,FSDC,NORD-KIVU,H,61.0,25,58.433333079,G,E,3.0,G
+3109,7352,protestant,kashenda,nutr,FSDC,NORD-KIVU,F,50.0,25,59.9000015259,G,G,1.0,G
+3111,8461,protestant,kashenda,pedagogie,FSDC,SUD-KIVU,F,68.0,24,62.1999994914,G,G,3.0,G
+3122,3708,protestant,faraja,commmerciale et adm,FSDC,NORD-KIVU,F,52.0,28,58.0,G,G,1.0,G
+3125,4367,protestant,faraja,math-physique,FSDC,NORD-KIVU,H,51.0,31,61.5,G,G,1.0,G
+3134,4863,protestant,faraja,pedagogie,FSDC,NORD-KIVU,F,52.0,28,54.5499992371,G,D,2.0,G
+3136,5212,protestant,faraja,math-physique,FSDC,NORD-KIVU,H,59.0,28,56.7999992371,G,A,1.0,G
+3139,6381,protestant,faraja,bio-chimie,FSDC,NORD-KIVU,F,51.0,24,61.3999996185,G,G,2.0,G
+3140,6448,protestant,faraja,bio-chimie,FSDC,NORD-KIVU,H,50.0,26,64.2333335876,G,G,3.0,A
+3145,6892,protestant,faraja,pedagogie,FSDC,NORD-KIVU,F,52.0,29,51.25,G,D,2.0,G
+3151,7897,protestant,faraja,pedagogie,FSDC,NORD-KIVU,H,50.0,40,54.7000007629,G,D,2.0,G
+3159,8485,protestant,faraja,bio-chimie,FSDC,NORD-KIVU,F,52.0,23,58.9666659037,G,G,3.0,G
+3160,8542,protestant,faraja,pedagogie,FSDC,NORD-KIVU,H,50.0,34,42.0,G,A,1.0,G
+3163,8864,protestant,faraja,pedagogie,FSDC,NORD-KIVU,F,55.0,21,62.0,G,G,3.0,G
+3168,9188,protestant,faraja,commmerciale et adm,FSDC,NORD-KIVU,F,52.0,20,59.0333328247,G,G,3.0,G
+3169,9342,protestant,faraja,pedagogie,FSDC,NORD-KIVU,F,51.0,33,60.066666921,G,G,3.0,C
+3185,10210,protestant,faraja,pedagogie,FSDC,NORD-KIVU,H,55.0,21,52.1499996185,G,D,2.0,G
+3227,11377,publique,zawadi ya raisi,commmerciale et adm,FSDC,SUD-KIVU,F,50.0,19,58.5999984741,G,G,1.0,A
+3229,11772,publique,zawadi ya raisi,bio-chimie,FSDC,NORD-KIVU,F,51.0,20,58.5999984741,G,G,1.0,A
+3233,9611,privé,eistein ujuzi,pedagogie,FSDC,NORD-KIVU,F,50.0,23,62.3000005086,G,G,3.0,G
+3234,9919,privé,eistein ujuzi,pedagogie,FSDC,NORD-KIVU,H,50.0,24,48.3500003815,G,D,2.0,G
+3236,10923,privé,eistein ujuzi,pedagogie,FSDC,NORD-KIVU,H,50.0,23,59.0499992371,G,G,2.0,G
+3241,9208,protestant,shalom,commmerciale et adm,FSDC,NORD-KIVU,H,53.0,22,57.3000005086,G,E,3.0,G
+3245,11814,privé,shalom,bio-chimie,FSDC,NORD-KIVU,F,52.0,19,58.0,G,G,1.0,G
+3246,11857,privé,shalom,sociale,FSDC,SUD-KIVU,F,53.0,20,48.9000015259,G,A,1.0,G
+3250,3731,catholique,anuarite,pedagogie,FSDC,NORD-KIVU,F,52.0,43,67.7333348592,G,G,3.0,A
+3253,4493,catholique,anuarite,pedagogie,FSDC,NORD-KIVU,H,56.0,28,57.0999984741,G,A,1.0,G
+3256,6916,catholique,anuarite,pedagogie,FSDC,NORD-KIVU,F,59.0,26,59.0,G,G,1.0,G
+3262,7356,catholique,anuarite,pedagogie,FSDC,NORD-KIVU,F,72.0,26,63.7333323161,G,G,3.0,G
+3263,7387,catholique,anuarite,pedagogie,FSDC,NORD-KIVU,F,56.0,26,60.1999994914,G,G,3.0,G
+3264,7417,catholique,anuarite,pedagogie,FSDC,NORD-KIVU,F,75.0,27,58.5333340963,G,G,3.0,G
+3269,8352,catholique,anuarite,pedagogie,FSDC,NORD-KIVU,F,52.0,22,58.8999996185,G,G,2.0,G
+3275,9697,catholique,anuarite,bio-chimie,FSDC,ORIENTALE,F,53.0,27,62.1999994914,G,G,3.0,G
+3291,11829,catholique,anuarite,pedagogie,FSDC,NORD-KIVU,H,51.0,22,64.8000030518,G,G,1.0,A
+3296,7412,catholique,kilimani,pedagogie,FSDC,NORD-KIVU,H,58.0,23,63.4000002543,G,G,3.0,G
+3299,12209,catholique,kilimani,pedagogie,FSDC,NORD-KIVU,F,52.0,21,58.4000015259,G,G,1.0,G
+3300,10845,protestant,mandai,sociale,FSDC,NORD-KIVU,H,54.0,24,40.0,G,A,1.0,G
+3304,6589,privé,la fontaine,sociale,FSDC,NORD-KIVU,F,50.0,29,51.0,G,D,2.0,D
+3309,8376,privé,la fontaine,latin philo,FSDC,SUD-KIVU,F,56.0,24,60.6000010173,G,G,3.0,C
+3310,8503,privé,la fontaine,bio-chimie,FSDC,NORD-KIVU,H,56.0,24,63.8000005086,G,G,3.0,G
+3320,11131,privé,la fontaine,bio-chimie,FSDC,NORD-KIVU,F,57.0,24,61.6499996185,G,G,2.0,G
+3325,8879,privé,tupendane fec,sociale,FSDC,NORD-KIVU,H,55.0,24,62.8666661581,G,G,3.0,G
+3328,12018,privé,tupendane fec,sociale,FSDC,NORD-KIVU,F,51.0,21,51.5999984741,G,A,1.0,G
+3330,11620,protestant,amina,pedagogie,FSDC,NORD-KIVU,F,61.0,21,59.0,G,G,1.0,G
+3339,8125,autodidacte,autodidacte,pedagogie,FSDC,NORD-KIVU,F,62.0,22,63.8333333333,G,G,3.0,E
+3340,8142,autodidacte,autodidacte,sociale,FSDC,NORD-KIVU,H,57.0,27,53.6999994914,G,E,3.0,G
+3343,8464,autodidacte,autodidacte,bio-chimie,FSDC,SUD-KIVU,H,58.0,29,44.0,G,A,1.0,G
+3344,8562,autodidacte,autodidacte,pedagogie,FSDC,NORD-KIVU,F,57.0,26,57.3000005086,G,E,3.0,G
+3347,8575,autodidacte,autodidacte,pedagogie,FSDC,NORD-KIVU,F,65.0,24,65.2999992371,G,G,4.0,A
+3348,8644,autodidacte,autodidacte,pedagogie,FSDC,SUD-KIVU,H,72.0,24,60.3666674296,G,G,3.0,G
+3352,8812,autodidacte,autodidacte,pedagogie,FSDC,NORD-KIVU,F,50.0,22,62.8666674296,G,G,3.0,G
+3357,9269,autodidacte,autodidacte,pedagogie,FSDC,NORD-KIVU,F,63.0,25,42.0,G,A,1.0,G
+3362,9501,autodidacte,autodidacte,pedagogie,FSDC,NORD-KIVU,H,55.0,26,52.7999992371,G,A,1.0,G
+3383,7359,privé,icl,bio-chimie,FSDC,NORD-KIVU,H,57.0,27,59.6666679382,G,G,3.0,G
+3384,7437,privé,icl,pedagogie,FSDC,NORD-KIVU,F,51.0,25,55.5,G,E,3.0,G
+3390,8721,privé,icl,bio-chimie,FSDC,NORD-KIVU,F,52.0,23,59.9499998093,G,F,4.0,F
+3394,9567,privé,icl,pedagogie,FSDC,NORD-KIVU,F,50.0,23,59.3000005086,G,G,3.0,G
+3396,9832,privé,icl,sociale,FSDC,NORD-KIVU,H,52.0,23,61.5499992371,G,G,2.0,D
+3408,4129,catholique,pain de vie,pedagogie,FSDC,NORD-KIVU,F,50.0,30,44.0,G,A,1.0,G
+3415,9894,catholique,pain de vie,pedagogie,FSDC,NORD-KIVU,H,51.0,24,64.4500007629,G,G,2.0,A
+3416,10091,catholique,pain de vie,vétérinaire,FSDC,NORD-KIVU,H,56.0,22,62.8499984741,G,G,2.0,D
+3419,4823,catholique,saint michel,latin philo,FSDC,NORD-KIVU,F,51.0,27,52.7000007629,G,D,2.0,G
+3420,7764,catholique,saint michel,nutr,FSDC,NORD-KIVU,F,54.0,26,57.8333333333,G,E,3.0,G
+3421,8419,catholique,saint michel,nutr,FSDC,NORD-KIVU,F,59.0,24,60.2333348592,G,G,3.0,G
+3423,10205,catholique,saint michel,nutr,FSDC,NORD-KIVU,F,60.0,21,63.5,G,G,1.0,A
+3426,11534,catholique,saint michel,nutr,FSDC,NORD-KIVU,F,59.0,20,63.7999992371,G,G,1.0,A
+3428,11822,catholique,saint michel,nutr,FSDC,NORD-KIVU,F,61.0,21,43.0,G,A,1.0,G
+3431,3978,protestant,kirikiri,pedagogie,FSDC,SUD-KIVU,H,52.0,36,55.0,G,G,1.0,G
+3435,8955,protestant,kirikiri,pedagogie,FSDC,SUD-KIVU,H,51.0,26,53.5,G,A,1.0,G
+3444,11831,privé,communautaire du lac,pedagogie,FSDC,NORD-KIVU,H,64.0,21,64.9000015259,G,G,1.0,A
+3456,10770,protestant,kitsombiro,sociale,FSDC,NORD-KIVU,F,51.0,21,57.5,G,G,2.0,G
+3458,10840,protestant,kitsombiro,sociale,FSDC,NORD-KIVU,H,52.0,21,52.25,G,D,2.0,G
+3462,10212,privé,lukuga,sociale,FSDC,NORD-KIVU,F,55.0,21,60.1500015259,G,G,2.0,G
+3463,10483,privé,lukuga,sociale,FSDC,NORD-KIVU,H,59.0,24,44.0,G,A,1.0,G
+3474,8331,privé,gs lumière du progrès,pedagogie,FSDC,NORD-KIVU,F,52.0,24,57.3000005086,G,E,3.0,G
+3475,9079,privé,gs lumière du progrès,pedagogie,FSDC,NORD-KIVU,F,52.0,32,54.9000015259,G,A,1.0,G
+3476,9202,privé,gs lumière du progrès,sociale,FSDC,NORD-KIVU,F,50.0,26,46.0,G,A,1.0,G
+3481,7361,catholique,milima,latin philo,FSDC,ORIENTALE,F,60.53,24,65.0333353679,G,G,3.0,E
+3482,7388,catholique,milima,pedagogie,FSDC,NORD-KIVU,H,62.0,24,60.8333333333,G,G,3.0,G
+3498,3610,publique,gs kigali,bio-chimie,FSDC,KIGALI,F,50.0,27,60.6999988556,G,G,2.0,G
+3501,7329,publique,gs kigali,pedagogie,FSDC,NORD-KIVU,H,70.0,31,41.0,G,A,1.0,G
+3503,9355,publique,gs kigali,pedagogie,FSDC,NORD-KIVU,F,52.0,22,54.2999992371,G,A,1.0,G
+3504,9452,publique,gs kigali,sociale,FSDC,NORD-KIVU,H,50.0,24,47.0,G,A,1.0,G
+3514,4805,privé,mont sinai,sociale,FSDC,NORD-KIVU,H,51.0,30,45.0,G,A,1.0,G
+3519,7340,privé,mont sinai,sociale,FSDC,NORD-KIVU,H,55.0,27,50.6499996185,G,D,2.0,G
+3520,7375,privé,mont sinai,latin philo,FSDC,NORD-KIVU,F,52.0,27,57.2000007629,G,G,1.0,G
+3526,8809,privé,mont sinai,pedagogie,FSDC,NORD-KIVU,F,51.0,24,59.25,G,G,2.0,G
+3528,8982,privé,mont sinai,sociale,FSDC,NORD-KIVU,F,53.0,21,61.4000002543,G,G,3.0,E
+3529,9010,privé,mont sinai,pedagogie,FSDC,NORD-KIVU,F,51.0,32,52.75,G,D,2.0,G
+3532,9748,privé,mont sinai,pedagogie,FSDC,NORD-KIVU,H,59.0,25,61.6999994914,G,G,3.0,G
+3535,10101,privé,mont sinai,pedagogie,FSDC,NORD-KIVU,H,57.0,23,61.9000015259,G,G,1.0,G
+3544,10343,privé,complexe scolaire kyabo,sociale,FSDC,NORD-KIVU,F,52.0,21,64.8500022889,G,G,2.0,A
+3564,9495,publique,kiraku,pedagogie,FSDC,NORD-KIVU,H,66.0,24,43.5,G,A,2.0,G
+3566,11833,publique,kiraku,pedagogie,FSDC,NORD-KIVU,F,51.0,23,51.4000015259,G,A,1.0,G
+3576,1848,protestant,majengo,bio-chimie,FSDC,NORD-KIVU,F,52.0,32,66.1999969482,G,G,2.0,D
+3592,4806,protestant,majengo,bio-chimie,FSDC,NORD-KIVU,H,57.0,26,63.7999992371,G,G,1.0,A
+3594,4952,protestant,majengo,bio-chimie,FSDC,NORD-KIVU,F,59.0,30,63.1999988556,G,G,2.0,G
+3604,6550,protestant,majengo,bio-chimie,FSDC,NORD-KIVU,F,50.0,27,69.7000007629,D,G,2.0,G
+3610,7454,protestant,majengo,bio-chimie,FSDC,NORD-KIVU,F,53.0,26,58.5500011444,G,G,2.0,G
+3638,9190,protestant,majengo,bio-chimie,FSDC,NORD-KIVU,F,63.0,25,61.799999237,G,G,3.0,G
+3662,11307,protestant,majengo,commmerciale et adm,FSDC,NORD-KIVU,H,51.0,22,66.8000030518,G,G,1.0,A
+3678,3935,catholique,wima,coupe couture,FSDC,SUD-KIVU,F,52.0,41,40.0,G,A,1.0,G
+3685,7404,catholique,wima,pedagogie,FSDC,SUD-KIVU,F,65.0,26,62.633333842,G,G,3.0,C
+3700,10406,publique,bweremana,pedagogie,FSDC,NORD-KIVU,F,52.0,24,62.4499988556,G,G,2.0,D
+3701,11847,publique,bweremana,sociale,FSDC,NORD-KIVU,H,52.0,24,41.0,G,A,1.0,G
+3703,8116,privé,gs mont sinai,pedagogie,FSDC,NORD-KIVU,H,63.0,25,59.6666679382,G,G,3.0,G
+3704,9247,privé,gs mont sinai,sociale,FSDC,NORD-KIVU,F,58.0,25,56.0,G,A,1.0,G
+3719,4809,protestant,ndahura,pedagogie,FSDC,NORD-KIVU,F,55.0,27,60.7999992371,G,G,1.0,G
+3720,4908,protestant,ndahura,sociale,FSDC,NORD-KIVU,H,53.0,27,41.0,G,A,1.0,G
+3723,7337,protestant,ndahura,pedagogie,FSDC,NORD-KIVU,F,52.0,25,56.9000002543,G,E,3.0,G
+3724,7381,protestant,ndahura,sociale,FSDC,NORD-KIVU,H,51.0,29,59.133333842,G,G,3.0,G
+3725,7405,protestant,ndahura,sociale,FSDC,NORD-KIVU,F,57.0,24,45.0,G,A,2.0,G
+3728,8386,protestant,ndahura,sociale,FSDC,NORD-KIVU,H,50.0,24,61.9333343506,G,G,3.0,E
+3735,10323,protestant,ndahura,pedagogie,FSDC,NORD-KIVU,F,50.0,24,62.7999992371,G,G,2.0,D
+3802,4777,publique,jiwe,pedagogie,FSDC,NORD-KIVU,F,52.0,29,58.5999984741,G,G,1.0,G
+3807,6548,privé,tupendane,bio-chimie,FSDC,NORD-KIVU,H,52.0,27,60.6499996185,G,G,2.0,G
+3808,7129,privé,tupendane,bio-chimie,FSDC,NORD-KIVU,H,53.0,29,59.2666664123,G,G,3.0,G
+3809,8238,privé,tupendane,bio-chimie,FSDC,NORD-KIVU,F,51.0,25,62.8250007629,G,G,4.0,B
+3814,10234,privé,tupendane,bio-chimie,FSDC,NORD-KIVU,F,52.0,27,59.9499988556,G,G,2.0,D
+3819,11802,publique,tupendane,sociale,FSDC,NORD-KIVU,H,50.0,20,58.9000015259,G,G,1.0,G
+3820,11903,publique,tupendane,bio-chimie,FSDC,NORD-KIVU,F,55.0,20,58.0999984741,G,G,1.0,A
+3830,4728,catholique,saint paul,bio-chimie,FSDC,SUD-KIVU,H,50.0,29,62.9000015259,G,G,1.0,G
+3834,7711,catholique,saint paul,latin philo,FSDC,SUD-KIVU,H,56.0,30,56.2000007629,G,D,2.0,G
+3856,3936,protestant,bulera,pedagogie,FSDC,NORD-KIVU,F,51.0,45,44.0,G,A,1.0,G
+3857,4792,protestant,bulera,sociale,FSDC,NORD-KIVU,H,51.0,26,61.7999992371,G,G,1.0,G
+3858,4811,protestant,bulera,pedagogie,FSDC,NORD-KIVU,F,50.0,32,54.0999984741,G,A,1.0,G
+3867,7376,protestant,bulera,sociale,FSDC,NORD-KIVU,H,50.0,29,58.5,G,G,1.0,G
+3874,9101,protestant,bulera,pedagogie,FSDC,SUD-KIVU,H,57.0,22,60.0,G,G,3.0,G
+3875,9117,protestant,bulera,pedagogie,FSDC,NORD-KIVU,F,62.0,24,63.6333325704,G,G,3.0,C
+3879,9556,protestant,bulera,pedagogie,FSDC,NORD-KIVU,H,51.0,24,62.4666659037,G,G,3.0,C
+3883,11583,musulman,bulera,pedagogie,FSDC,NORD-KIVU,F,51.0,22,49.9000015259,G,A,1.0,G
+3890,6706,publique,fadhili,pedagogie,FSDC,SUD-KIVU,H,55.0,25,62.2999992371,G,G,2.0,G
+3904,4783,publique,kalangala,sociale,FSDC,NORD-KIVU,H,53.0,27,60.0,G,G,1.0,G
+3906,12149,publique,kalangala,pedagogie,FSDC,NORD-KIVU,H,53.0,22,56.2000007629,G,G,1.0,G
+3913,1963,inconnu,kitumaini,math-physique,FSDC,SUD-KIVU,H,58.0,41,49.0,G,A,1.0,G
+3914,2271,inconnu,lumiere,pedagogie,FSDC,inconnu,F,60.0,34,41.0,G,A,1.0,G
+3930,3656,inconnu,mikeno isl,sociale,FSDC,NORD-KIVU,F,51.0,30,60.0,G,G,1.0,G
+3940,4023,inconnu,I LWANGA,bio-chimie,FSDC,SUD-KIVU,H,54.0,30,53.5333328247,G,E,3.0,G
+3944,4128,inconnu,jikaze,commmerciale et adm,FSDC,NORD-KIVU,F,50.0,39,62.5,G,G,1.0,A
+3953,4245,inconnu,tumaini letu,pedagogie,FSDC,SUD-KIVU,H,54.0,29,51.2999992371,G,D,2.0,G
+3958,4363,inconnu,mikeno isl,sociale,FSDC,NORD-KIVU,F,52.0,30,58.5999984741,G,G,1.0,G
+3970,4602,inconnu,la releve,pedagogie,FSDC,KASAI ORIENTAL,H,54.0,35,54.9000015259,G,A,1.0,G
+3971,4628,inconnu,oicha,math-physique,FSDC,NORD-KIVU,H,52.0,29,60.5999984741,G,G,1.0,G
+3972,4630,inconnu,mikeno isl,sociale,FSDC,NORD-KIVU,H,56.0,28,59.1499996185,G,D,2.0,G
+3973,4631,inconnu,macha,sociale,FSDC,NORD-KIVU,H,58.0,32,62.4000015259,G,G,1.0,G
+3980,4691,inconnu,maadibisho,pedagogie,FSDC,NORD-KIVU,F,60.0,27,57.4000015259,G,G,1.0,G
+3981,4701,inconnu,LWANGA,bio-chimie,FSDC,SUD-KIVU,H,54.0,26,67.3000030518,G,G,1.0,G
+3985,4733,inconnu,MUGUNGA,sociale,FSDC,NORD-KIVU,H,55.0,28,44.0,G,A,1.0,G
+3986,4751,inconnu,de beni,sociale,FSDC,NORD-KIVU,H,52.0,30,45.5,G,A,2.0,G
+3987,4760,inconnu,mikeno isl,sociale,FSDC,NORD-KIVU,H,55.0,30,47.5,G,A,2.0,G
+3988,4768,inconnu,gs 8 mars,pedagogie,FSDC,NORD-KIVU,F,56.0,45,66.4000015259,G,G,1.0,G
+3990,4778,inconnu,nyabibwe,pedagogie,FSDC,NORD-KIVU,H,50.0,27,58.2999992371,G,A,1.0,G
+3991,4791,inconnu,edap/upn,pedagogie,FSDC,KINSHASA,H,50.0,29,55.3500003815,G,D,2.0,G
+3992,4808,inconnu,de kalamu,coupe couture,FSDC,KINSHASA,F,57.0,47,65.0999984741,G,G,1.0,G
+3997,4864,inconnu,luapula,pedagogie,FSDC,NORD-KIVU,H,53.0,30,62.3333333334,G,G,3.0,G
+4001,4895,inconnu,katana,pedagogie,FSDC,SUD-KIVU,F,56.0,47,65.0999984741,G,G,1.0,A
+4004,4941,inconnu,L MWANDU,bio-chimie,FSDC,NORD-KIVU,F,51.0,26,60.9666671753,G,G,3.0,E
+4005,4942,inconnu,petits génies,nutr,FSDC,NORD-KIVU,F,52.0,26,57.0999984741,G,G,1.0,G
+4006,4980,inconnu,kasika,pedagogie,FSDC,NORD-KIVU,F,55.0,31,44.0,G,A,1.0,G
+4007,4984,inconnu,rutoboko,sociale,FSDC,NORD-KIVU,H,60.0,29,42.0,G,A,1.0,G
+4008,4989,inconnu,it bugabo,sociale,FSDC,SUD-KIVU,H,55.0,28,62.5500011444,G,G,2.0,G
+4009,4998,inconnu,ruwenzori,sociale,FSDC,NORD-KIVU,F,52.0,31,60.0,G,G,1.0,G
+4015,5116,inconnu,lumiere,pedagogie,FSDC,SUD-KIVU,F,53.0,30,55.0999984741,G,A,1.0,G
+4020,5170,inconnu,bagira,sociale,FSDC,SUD-KIVU,H,55.0,30,52.2000007629,G,D,2.0,G
+4021,5182,inconnu,itm tulizeni/kyondo,inconnu,FSDC,NORD-KIVU,F,64.0,56,65.4000015259,G,G,1.0,A
+4022,5183,inconnu,mugeri,latin philo,FSDC,SUD-KIVU,H,53.0,46,61.9000015259,G,G,1.0,A
+4035,5850,inconnu,itav bbo,nutr,FSDC,NORD-KIVU,F,53.0,27,61.0,G,G,1.0,G
+4038,6213,inconnu,rufunda,pedagogie,FSDC,NORD-KIVU,H,53.0,26,61.4500007629,G,G,2.0,G
+4041,6258,inconnu,tujikaze,pedagogie,FSDC,SUD-KIVU,F,50.0,25,63.2000007629,G,G,2.0,G
+4053,6430,inconnu,luka,pedagogie,FSDC,SUD-KIVU,H,68.0,24,64.0666681926,G,G,3.0,G
+4054,6434,inconnu,st michel,nutr,FSDC,NORD-KIVU,F,50.0,28,59.2999992371,G,G,1.0,G
+4059,6559,inconnu,de beni,sociale,FSDC,NORD-KIVU,F,51.0,28,53.3333333333,G,E,3.0,G
+4060,6577,inconnu,LWANGA,sociale,FSDC,SUD-KIVU,F,51.0,27,54.7999992371,G,A,2.0,G
+4065,6606,inconnu,auto,pedagogie,FSDC,SUD-KIVU,H,52.0,26,62.7999992371,G,G,2.0,G
+4066,6608,inconnu,mutambala,pedagogie,FSDC,NORD-KIVU,H,58.0,27,61.9500007629,G,G,2.0,G
+4072,6674,inconnu,i katwa,pedagogie,FSDC,NORD-KIVU,H,53.0,28,65.5999984741,D,G,2.0,D
+4080,6746,inconnu,1uto,pedagogie,FSDC,NORD-KIVU,F,50.0,32,63.7000007629,G,G,1.0,G
+4088,6912,inconnu,mwajengo,bio-chimie,FSDC,NORD-KIVU,F,52.0,28,61.5999984741,G,G,2.0,G
+4091,6942,inconnu,itcb,pedagogie,FSDC,SUD-KIVU,F,50.0,28,58.8999996185,G,G,2.0,G
+4094,6977,inconnu,itm kizito,hospitalière,FSDC,NORD-KIVU,F,56.8765221107,37,43.0,G,A,1.0,G
+4095,6980,inconnu,bugarula,pedagogie,FSDC,NORD-KIVU,H,50.0,35,48.0,G,A,1.0,G
+4096,6987,inconnu,kirumba,latin philo,FSDC,NORD-KIVU,H,55.0,39,67.1999969482,G,G,1.0,A
+4097,6989,inconnu,itm,inconnu,FSDC,NORD-KIVU,H,56.8765221107,59,71.3000030518,A,G,1.0,A
+4098,6995,publique,edap/isp bukavu,bio-chimie,FSDC,SUD-KIVU,F,53.0,25,63.3999977111,G,G,2.0,A
+4122,7288,inconnu,mikeno isl,sociale,FSDC,NORD-KIVU,F,56.0,25,51.7000007629,G,A,1.0,G
+4126,7327,inconnu,kaoze,latin philo,FSDC,KATANGA,H,76.0,23,65.1666653951,G,G,3.0,G
+4127,7349,inconnu,kanzulinzuli,sociale,FSDC,NORD-KIVU,H,52.0,29,60.0,G,G,3.0,G
+4128,7364,inconnu,hekima,pedagogie,FSDC,SUD-KIVU,F,65.0,27,57.866666158,G,E,3.0,G
+4129,7368,inconnu,uaminifu,pedagogie,FSDC,NORD-KIVU,F,57.0,46,60.4000015259,G,G,1.0,G
+4130,7369,inconnu,moliere,pedagogie,FSDC,NORD-KIVU,H,52.0,26,59.8333333333,G,G,3.0,G
+4131,7374,inconnu,salama,pedagogie,FSDC,NORD-KIVU,F,51.0,24,53.5,G,A,1.0,G
+4132,7393,inconnu,famila dei,nutr,FSDC,SUD-KIVU,F,51.0,25,59.5333328247,G,G,3.0,G
+4133,7396,inconnu,mikeno isl,sociale,FSDC,NORD-KIVU,F,53.0,27,58.3000011444,G,G,2.0,G
+4134,7403,inconnu,cirezi,pedagogie,FSDC,SUD-KIVU,F,55.0,25,65.3666661581,G,G,3.0,C
+4135,7416,inconnu,le germe,pedagogie,FSDC,NORD-KIVU,F,50.0,26,44.0,G,A,1.0,G
+4136,7424,inconnu,la vision,pedagogie,FSDC,SUD-KIVU,H,57.0,25,64.1333325704,G,G,3.0,A
+4137,7427,inconnu,totro,pedagogie,FSDC,NORD-KIVU,F,51.0,28,56.5,G,E,3.0,G
+4138,7447,inconnu,les petits génies,nutr,FSDC,NORD-KIVU,F,51.0,26,60.6666666667,G,G,3.0,E
+4139,7452,inconnu,cirezi,bio-chimie,FSDC,SUD-KIVU,F,58.0,25,62.9666659037,G,G,3.0,G
+4183,7889,inconnu,gs de la salle,bio-chimie,FSDC,inconnu,F,56.8765221107,28,58.7999992371,G,G,1.0,G
+4184,7890,inconnu,rutoboko,commmerciale et adm,FSDC,inconnu,F,52.0,22,61.2000007629,G,G,1.0,G
+4185,7898,inconnu,nidunga,sociale,FSDC,SUD-KIVU,H,65.0,31,55.0999984741,G,D,2.0,G
+4188,8102,inconnu,gs la promise,pedagogie,FSDC,NORD-KIVU,F,51.0,25,45.5,G,A,2.0,G
+4190,8123,inconnu,gs la promise,pedagogie,FSDC,NORD-KIVU,F,51.0,25,60.6000003815,G,G,2.0,G
+4191,8147,inconnu,bagira,pedagogie,FSDC,SUD-KIVU,H,56.0,25,54.8000005086,G,E,3.0,G
+4198,8225,inconnu,hekima,pedagogie,FSDC,NORD-KIVU,F,59.0,24,61.5499992371,G,G,2.0,G
+4204,8280,inconnu,kiribunye,pedagogie,FSDC,NORD-KIVU,H,64.0,24,61.2000007629,G,G,3.0,G
+4218,8416,inconnu,itcb,pedagogie,FSDC,SUD-KIVU,H,57.0,26,50.8999996185,G,D,2.0,G
+4220,8439,inconnu,Lwanga,pedagogie,FSDC,NORD-KIVU,H,60.0,26,59.3999996185,G,G,2.0,G
+4225,8476,inconnu,kiribunye,pedagogie,FSDC,NORD-KIVU,H,60.0,24,40.0,G,A,1.0,G
+4227,8486,inconnu,karhale,pedagogie,FSDC,SUD-KIVU,H,62.0,27,58.7333335876,G,G,3.0,G
+4229,8498,inconnu,ITM DE BOGA,vétérinaire,FSDC,ORIENTALE,H,71.0,45,72.4333343506,A,G,3.0,A
+4235,8566,inconnu,61,math-physique,FSDC,NORD-KIVU,F,56.8765221107,24,61.4000002543,G,G,3.0,E
+4244,8619,inconnu,kabalaka,nutr,FSDC,NORD-KIVU,F,57.0,25,61.2666651408,G,G,3.0,G
+4245,8622,inconnu,st augustin,sociale,FSDC,NORD-KIVU,H,51.0,22,64.3250017166,G,G,4.0,B
+4247,8628,inconnu,sauvetage,sociale,FSDC,NORD-KIVU,F,51.0,25,62.75,G,G,2.0,D
+4250,8632,inconnu,molende,bio-chimie,FSDC,KINSHASA,F,52.0,25,48.0,G,A,2.0,G
+4254,8647,inconnu,kavanda,pedagogie,FSDC,NORD-KIVU,H,51.0,33,50.1666666667,G,C,3.0,G
+4258,8670,inconnu,isingo,pedagogie,FSDC,SUD-KIVU,F,62.0,21,63.6999988556,G,G,2.0,G
+4263,8698,inconnu,butumba,pedagogie,FSDC,SUD-KIVU,F,54.0,27,56.8666674296,G,E,3.0,G
+4265,8709,inconnu,katana,pedagogie,FSDC,SUD-KIVU,H,52.0,36,64.3999996185,G,G,2.0,G
+4273,8768,inconnu,taraja,pedagogie,FSDC,SUD-KIVU,F,50.0,28,48.1000003815,G,A,2.0,G
+4274,8773,inconnu,lunya,commmerciale et adm,FSDC,BANDUNDU,F,56.0,25,59.9333343506,G,G,3.0,E
+4282,8846,inconnu,kipushi,pedagogie,FSDC,KATANGA,F,51.0,26,58.6999994914,G,G,3.0,G
+4284,8865,inconnu,gs consulaire congolaise/rwanda,bio-chimie,FSDC,NORD-KIVU,H,63.0,22,61.3666687012,G,G,3.0,E
+4291,8925,inconnu,gs 8 mars,pedagogie,FSDC,NORD-KIVU,H,51.0,23,59.433333079,G,G,3.0,E
+4299,8957,inconnu,rutoboko,sociale,FSDC,NORD-KIVU,F,52.0,24,46.0,G,A,1.0,G
+4301,8966,inconnu,de la gombe,bio-chimie,FSDC,KINSHASA,F,51.0,31,62.6666666667,G,G,3.0,E
+4303,8991,inconnu,mululu,sociale,FSDC,NORD-KIVU,H,52.0,25,61.3666674296,G,G,3.0,G
+4306,9041,inconnu,nyantende,latin philo,FSDC,SUD-KIVU,H,54.0,22,41.0,G,A,1.0,G
+4314,9089,inconnu,wapole,sociale,FSDC,NORD-KIVU,F,50.0,25,56.2000007629,G,A,1.0,G
+4315,9097,inconnu,hekima,sociale,FSDC,NORD-KIVU,F,50.0,22,58.5999984741,G,G,2.0,G
+4316,9104,inconnu,kamole,pedagogie,FSDC,SUD-KIVU,F,50.0,34,59.5,G,G,3.0,G
+4330,9180,inconnu,hodari,pedagogie,FSDC,SUD-KIVU,F,57.0,24,41.0,G,A,1.0,G
+4338,9221,inconnu,mashauri,pedagogie,FSDC,SUD-KIVU,F,65.0,24,59.3333333333,G,G,3.0,G
+4339,9223,inconnu,patemo,sociale,FSDC,NORD-KIVU,H,50.0,22,61.0999984741,G,G,3.0,E
+4343,9238,inconnu,gs asteria urafiki,pedagogie,FSDC,NORD-KIVU,F,54.0,25,59.9666659037,G,G,3.0,G
+4346,9248,inconnu,Mwanda,sociale,FSDC,SUD-KIVU,F,52.0,24,62.6666666667,G,G,3.0,G
+4348,9259,inconnu,bustani,vétérinaire,FSDC,NORD-KIVU,H,55.0,22,60.0333328247,G,G,3.0,G
+4355,9315,inconnu,singa,pedagogie,FSDC,NORD-KIVU,H,52.0,33,61.066666921,G,G,3.0,G
+4356,9322,inconnu,Lycée Mwandu,coupe couture,FSDC,NORD-KIVU,F,51.0,21,62.566666921,G,G,3.0,G
+4359,9335,inconnu,hekima,sociale,FSDC,NORD-KIVU,F,52.0,22,57.9000015259,G,G,1.0,G
+4361,9356,inconnu,mama onja,pedagogie,FSDC,SUD-KIVU,H,50.0,25,54.8000005086,G,E,3.0,G
+4363,9360,inconnu,lyliane,pedagogie,FSDC,NORD-KIVU,F,50.0,23,58.1666666667,G,G,3.0,G
+4368,9375,inconnu,imara,pedagogie,FSDC,SUD-KIVU,H,56.0,23,58.0333328247,G,E,3.0,G
+4376,9438,inconnu,mgr guido maria conforti,pedagogie,FSDC,SUD-KIVU,H,59.0,21,59.0333328247,G,G,3.0,E
+4378,9451,inconnu,bibwe,pedagogie,FSDC,NORD-KIVU,H,51.0,49,67.3333333333,G,G,3.0,C
+4391,9532,inconnu,katasoire,sociale,FSDC,NORD-KIVU,F,50.0,28,58.6666653951,G,G,3.0,G
+4413,9756,inconnu,la releve,pedagogie,FSDC,SUD-KIVU,F,64.0,23,61.4999987284,G,G,3.0,E
+4414,9763,publique,makyase,bio-chimie,FSDC,BANDUNDU,H,50.0,35,59.8333333333,G,G,3.0,E
+4418,9819,inconnu,mboga,sociale,FSDC,NORD-KIVU,F,53.0,20,42.0,G,A,1.0,G
+4419,9827,inconnu,edap isp bkv,bio-chimie,FSDC,SUD-KIVU,F,55.0,23,67.0499992371,G,G,2.0,D
+4424,9846,inconnu,malula,bio-chimie,FSDC,KINSHASA,F,62.0,20,68.5499992371,G,G,2.0,D
+4429,9912,inconnu,kabalaka,nutr,FSDC,NORD-KIVU,H,57.0,22,61.9500007629,G,G,2.0,D
+4434,9964,inconnu,patemo,sociale,FSDC,NORD-KIVU,F,56.0,23,58.8500003815,G,G,2.0,G
+4438,9996,inconnu,imani panzi,pedagogie,FSDC,NORD-KIVU,F,51.0,23,61.1000003815,G,G,2.0,G
+4445,10031,inconnu,rutoboko,sociale,FSDC,NORD-KIVU,F,52.0,20,60.5,G,G,2.0,G
+4452,10076,inconnu,weza2,pedagogie,FSDC,SUD-KIVU,F,60.0,23,65.2999992371,G,G,2.0,D
+4454,10083,inconnu,lyliane,pedagogie,FSDC,NORD-KIVU,F,51.0,23,58.0,G,G,2.0,G
+4457,10087,inconnu,petits génies,agrecole,FSDC,BANDUNDU,F,54.0,21,52.6000003815,G,D,2.0,G
+4459,10119,inconnu,st augustin,sociale,FSDC,NORD-KIVU,H,51.0,21,45.0,G,A,1.0,G
+4464,10136,inconnu,les petits génies,latin philo,FSDC,ORIENTALE,F,51.0,22,57.5,G,G,2.0,G
+4465,10154,inconnu,maendeleo de oicha,sociale,FSDC,NORD-KIVU,F,56.0,32,67.2000007629,G,G,2.0,A
+4474,10223,inconnu,maadibisho,pedagogie,FSDC,NORD-KIVU,F,53.0,22,60.1499996185,G,G,2.0,G
+4476,10236,inconnu,de beni,sociale,FSDC,NORD-KIVU,F,53.0,20,67.0999984741,G,G,2.0,D
+4480,10270,inconnu,petits génies,latin philo,FSDC,ORIENTALE,F,56.0,23,54.7999992371,G,A,1.0,G
+4485,10282,inconnu,complexe scolaire mulezi,pedagogie,FSDC,NORD-KIVU,F,52.0,22,61.5499992371,G,G,2.0,G
+4487,10297,inconnu,mululu,sociale,FSDC,NORD-KIVU,H,51.0,25,63.25,G,G,2.0,G
+4489,10307,inconnu,complexe scolaire mulezi,pedagogie,FSDC,NORD-KIVU,F,56.8765221107,21,64.1000022889,G,G,2.0,G
+4499,10357,inconnu,katudwe,pedagogie,FSDC,NORD-KIVU,H,52.0,23,60.4499988556,G,G,2.0,G
+4525,10532,inconnu,mama sarah,pedagogie,FSDC,ORIENTALE,H,54.0,23,64.2000007629,G,G,2.0,G
+4543,10601,inconnu,les petits génies,nutr,FSDC,NORD-KIVU,F,51.0,23,62.9499988555,G,G,2.0,G
+4546,10622,inconnu,nidunga,sociale,FSDC,SUD-KIVU,F,50.0,22,61.2999992371,G,G,2.0,G
+4550,10650,inconnu,complexe scolaire de l'unité,sociale,FSDC,NORD-KIVU,F,51.0,22,44.0,G,A,1.0,G
+4561,10684,inconnu,mont sionii,sociale,FSDC,NORD-KIVU,F,51.0,20,57.2000007629,G,G,1.0,G
+4562,10687,inconnu,mont sionii,sociale,FSDC,NORD-KIVU,H,52.0,24,57.2999992371,G,G,1.0,G
+4569,10721,inconnu,kayadja,pedagogie,FSDC,SUD-KIVU,H,68.0,22,60.7999992371,G,G,2.0,G
+4575,10747,inconnu,Alleluya,sociale,FSDC,NORD-KIVU,F,53.0,21,60.2999992371,G,G,1.0,G
+4589,10832,inconnu,hekima,sociale,FSDC,SUD-KIVU,H,54.0,22,46.0,G,A,1.0,G
+4599,10870,inconnu,itm kizito,hospitalière,FSDC,NORD-KIVU,F,55.0,36,56.5999984741,G,D,2.0,G
+4601,10879,inconnu,itm kizito,hospitalière,FSDC,NORD-KIVU,F,71.0,38,64.5,G,G,2.0,A
+4602,10896,protestant,mbolitini,sociale,FSDC,ORIENTALE,F,55.0,26,60.8500003815,G,G,2.0,D
+4610,11326,privé,les dibobol,pedagogie,FSDC,KINSHASA,F,51.0,25,63.4000015259,G,G,1.0,A
+4633,11483,catholique,imoteyiti,bio-chimie,FSDC,KINSHASA,H,54.0,21,56.5999984741,G,G,1.0,G
+4636,11500,catholique,luanga,pedagogie,FSDC,SUD-KIVU,F,51.0,21,58.0999984741,G,G,1.0,G
+4637,11521,privé,Institut BWANGA,pedagogie,FSDC,NORD-KIVU,F,59.0,19,60.0,G,G,1.0,G
+4647,11656,privé,safina,pedagogie,FSDC,NORD-KIVU,H,51.0,27,59.5,G,G,1.0,G
+4652,11728,inconnu,loyola,commmerciale et adm,FSDC,NORD-KIVU,F,59.0,21,60.0,G,G,1.0,A
+4659,11816,publique,matengenezo,bio-chimie,FSDC,NORD-KIVU,F,55.0,22,62.5999984741,G,G,1.0,A
+4665,11872,protestant,bwito,pedagogie,FSDC,NORD-KIVU,F,50.0,31,60.0,G,G,1.0,A
+4673,11908,privé,goupe scolaire mont sinai,latin philo,FSDC,NORD-KIVU,F,52.0,24,60.2999992371,G,G,1.0,G
+4677,11977,privé,bethsaida,pedagogie,FSDC,NORD-KIVU,F,54.0,24,58.4000015259,G,G,1.0,A
+4699,12138,publique,katarina,bio-chimie,FSDC,NORD-KIVU,F,57.0,20,53.5,G,A,1.0,G
