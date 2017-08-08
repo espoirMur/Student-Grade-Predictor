@@ -5,12 +5,6 @@ in the chapter of my machine learning project ,
 it will train differents modele, encode data,scale data, and so on
   """
   def __init__(self,dataset,encoderFunction):
-    from sklearn.linear_model import Ridge
-    from sklearn.model_selection import cross_val_score
-    from sklearn.model_selection import StratifiedShuffleSplit
-    from sklearn.svm import LinearSVR
-    from sklearn.svm import SVR
-    from sklearn.metrics import mean_squared_error
     if isinstance(dataset,pd.DataFrame):
       self.dataset=dataset
       self.training_set=pd.DataFrame()
@@ -26,9 +20,14 @@ it will train differents modele, encode data,scale data, and so on
       ridge_reg=Ridge(alpha=1, solver="cholesky")
       linSVM_reg=LinearSVR(dual=False,fit_intercept=False,loss='squared_epsilon_insensitive' )
       rbfSVM_reg=SVR(verbose=True)
+      lasso_reg=Lasso(alpha=1e-05,max_iter=10000)
+      elastic_reg=ElasticNet(alpha=1e-05,max_iter=10000,l1_ratio=1)
       self.predictiveModels[ridge_reg.__class__.__name__]=ridge_reg
       self.predictiveModels[linSVM_reg.__class__.__name__]=linSVM_reg
       self.predictiveModels[rbfSVM_reg.__class__.__name__]=rbfSVM_reg
+      self.predictiveModels[lasso_reg.__class__.__name__]=lasso_reg
+      self.predictiveModels[elastic_reg.__class__.__name__]=elastic_reg
+
     else:
       raise TypeError('need only a DataFrame')
   def scale(self,numCols):
@@ -40,15 +39,15 @@ it will train differents modele, encode data,scale data, and so on
     """the function will split the dataset into a train and a test one" and return X_train and X_Test"""
     split = StratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
     for train_index, test_index in split.split(self.dataset_bin, self.dataset_bin.EchecRatio):
-      dataset_Train_bin=self.dataset_bin.loc[train_index]
-      dataset_Test_bin=self.dataset_bin.loc[test_index]
-      dataset_Train_bin.set_index(keys='ID',inplace=True)
-      dataset_Test_bin.set_index(keys='ID',inplace=True)
-    self.Y_train=dataset_Train_bin.CGPA
-    self.X_train=dataset_Train_bin.drop(labels=['CGPA','EchecRatio'],axis=1)
-    self.Y_test=dataset_Test_bin.CGPA
-    self.X_Test=dataset_Test_bin.drop(labels=['CGPA','EchecRatio'],axis=1)  
-    return dataset_Train_bin.describe()[['DIPPERC','CGPA']],dataset_Test_bin.describe()[['DIPPERC','CGPA']]
+      self.training_set=self.dataset_bin.loc[train_index]
+      self.test_set=self.dataset_bin.loc[test_index]
+      self.training_set.set_index(keys='ID',inplace=True)
+      self.test_set.set_index(keys='ID',inplace=True)
+    self.Y_train=self.training_set.CGPA
+    self.X_train=self.training_set.drop(labels=['CGPA','EchecRatio'],axis=1)
+    self.Y_test= self.test_set.CGPA
+    self.X_test= self.test_set.drop(labels=['CGPA','EchecRatio'],axis=1)  
+    return self.training_set.describe()[['DIPPERC','CGPA']],self.test_set.describe()[['DIPPERC','CGPA']]
   def train(self):
     """will train diverents models with X , Y pass in parametes"""
     predictions={}
@@ -58,6 +57,15 @@ it will train differents modele, encode data,scale data, and so on
     predictedVal=pd.DataFrame.from_dict(predictions,dtype=np.float)
     predictedVal.set_index(self.Y_train.index,inplace=True)
     predictedVal.loc[:,'RealValue']=self.Y_train
+    return predictedVal
+  def predictTest(self):
+    """evaluate the model on test set"""
+    predictions={}
+    for clf in self.predictiveModels.values():
+      predictions[clf.__class__.__name__]= clf.predict(self.X_test)
+    predictedVal=pd.DataFrame.from_dict(predictions,dtype=np.float)
+    predictedVal.set_index(self.Y_test.index,inplace=True)
+    predictedVal.loc[:,'RealValue']=self.Y_test
     return predictedVal
   def evaluate (self,model,on):
     """ this function will first do a evaluation of a mdels and return the RMSE score of it and some datat and their labesl
@@ -86,4 +94,18 @@ it will train differents modele, encode data,scale data, and so on
     scores = cross_val_score(self.predictiveModels[model], self.X_train, self.Y_train,scoring="neg_mean_squared_error", cv=10)
     rmse_scores = np.sqrt(-scores)
     return rmse_scores,rmse_scores.std(),rmse_scores.mean()
-
+  def ensembelMethods(self,predictedValues):
+    """ this method will get a dataframe of predicted values by diffrents classifier and will return 
+    the value compute by  a linear regression between the 3 values and RMSE
+    """
+    stacker= LinearRegression(normalize=True)
+    stacker.fit(predictedValues.drop(labels="RealValue",axis=1), predictedValues.RealValue)
+    finalPredict=stacker.predict(predictedValues.drop(labels="RealValue",axis=1))
+    predictedValues.loc[:,'finalPredict']=finalPredict
+    rmseEnsemble=np.sqrt(mean_squared_error(predictedValues.RealValue, finalPredict))
+    return predictedValues, rmseEnsemble
+  def saveModels(self,departement):
+    """after all job we will save the models"""
+    for reg in self.predictiveModels.values():
+      name=departement+reg.__class__.__name__
+      joblib.dump(reg, "../predictivesModels/"+name+".pkl")
