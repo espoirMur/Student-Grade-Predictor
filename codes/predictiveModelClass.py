@@ -1,6 +1,6 @@
 class PredictiveModelByilding(object):
   """docstring for PredictiveModelByilding
-this class will handle all pipeline for a preeictive modèle building 
+this class will handle all pipeline for a preeictive modèle building
 in the chapter of my machine learning project ,
 it will train differents modele, encode data,scale data, and so on
   """
@@ -14,20 +14,20 @@ it will train differents modele, encode data,scale data, and so on
       self.X_test=pd.DataFrame()
       self.Y_train=pd.Series()
       self.Y_test=pd.Series()
-      self.dataset_bin=encoderFunction(dataset,catCol=['SCHOOL_RIGHT', 'OPTION_RIGHT'],numCol=['DIPPERC','CGPA','EchecRatio'])
+      self.dataset_bin,self.encoders=encoderFunction(dataset,catCol=['SCHOOL_RIGHT', 'OPTION_RIGHT'],numCol=['DIPPERC','CGPA','EchecRatio'])
       self.dataset_bin.reset_index(inplace=True)
       ### init all models
-      ridge_reg=Ridge(alpha=1, solver="cholesky")
+      ridge_reg=Ridge(alpha=1, solver="cholesky",fit_intercept=False)
       linSVM_reg=LinearSVR(dual=False,fit_intercept=False,loss='squared_epsilon_insensitive' )
       rbfSVM_reg=SVR(verbose=True)
-      lasso_reg=Lasso(alpha=1e-05,max_iter=10000)
-      elastic_reg=ElasticNet(alpha=1e-05,max_iter=10000,l1_ratio=1)
+      lasso_reg=Lasso(alpha=1e-05,max_iter=10000,fit_intercept=False)
+      elastic_reg=ElasticNet(alpha=1e-05,max_iter=10000,l1_ratio=0.5)
       self.predictiveModels[ridge_reg.__class__.__name__]=ridge_reg
       self.predictiveModels[linSVM_reg.__class__.__name__]=linSVM_reg
       self.predictiveModels[rbfSVM_reg.__class__.__name__]=rbfSVM_reg
       self.predictiveModels[lasso_reg.__class__.__name__]=lasso_reg
       self.predictiveModels[elastic_reg.__class__.__name__]=elastic_reg
-
+      self.stacker= LinearRegression(normalize=True)
     else:
       raise TypeError('need only a DataFrame')
   def scale(self,numCols):
@@ -46,7 +46,7 @@ it will train differents modele, encode data,scale data, and so on
     self.Y_train=self.training_set.CGPA
     self.X_train=self.training_set.drop(labels=['CGPA','EchecRatio'],axis=1)
     self.Y_test= self.test_set.CGPA
-    self.X_test= self.test_set.drop(labels=['CGPA','EchecRatio'],axis=1)  
+    self.X_test= self.test_set.drop(labels=['CGPA','EchecRatio'],axis=1)
     return self.training_set.describe()[['DIPPERC','CGPA']],self.test_set.describe()[['DIPPERC','CGPA']]
   def train(self):
     """will train diverents models with X , Y pass in parametes"""
@@ -66,6 +66,27 @@ it will train differents modele, encode data,scale data, and so on
     predictedVal=pd.DataFrame.from_dict(predictions,dtype=np.float)
     predictedVal.set_index(self.Y_test.index,inplace=True)
     predictedVal.loc[:,'RealValue']=self.Y_test
+    return predictedVal
+  def predictNew(self,newStData):
+    """this call will handle predictions for new values,but frirst it will endcode them nand then try to predict"""
+    #start first by handling categorical values
+    optionEnc=self.encoders['OPTION_RIGHT']
+    schoolEnc=self.encoders['SCHOOL_RIGHT']
+    Options=pd.DataFrame(data=dict(zip(optionEnc.classes_,optionEnc.transform(newStData[['OPTION_RIGHT']])[0])),
+             index=newStData.index, columns=optionEnc.classes_)
+    Schools=pd.DataFrame(data=dict(zip(schoolEnc.classes_,schoolEnc.transform(newStData[['SCHOOL_RIGHT']])[0])),
+             index=newStData.index, columns=schoolEnc.classes_)
+    Schools.reset_index(inplace=True)
+    Options.reset_index(inplace=True)
+    X=pd.merge(Options,Schools,on='index')
+    X['DIPPERC']=newStData['DIPPERC']
+    X.set_index(keys=['index'],inplace=True)
+    predictions={}
+    for clf in self.predictiveModels.values():
+      predictions[clf.__class__.__name__]= clf.predict(X)
+    predictedVal=pd.DataFrame.from_dict(predictions,dtype=np.float)
+    predictedVal.set_index(X.index,inplace=True)
+    predictedVal.loc[:,'finalOutput']=self.stacker.predict(predictedVal)
     return predictedVal
   def evaluate (self,model,on):
     """ this function will first do a evaluation of a mdels and return the RMSE score of it and some datat and their labesl
@@ -95,12 +116,11 @@ it will train differents modele, encode data,scale data, and so on
     rmse_scores = np.sqrt(-scores)
     return rmse_scores,rmse_scores.std(),rmse_scores.mean()
   def ensembelMethods(self,predictedValues):
-    """ this method will get a dataframe of predicted values by diffrents classifier and will return 
+    """ this method will get a dataframe of predicted values by diffrents classifier and will return
     the value compute by  a linear regression between the 3 values and RMSE
     """
-    stacker= LinearRegression(normalize=True)
-    stacker.fit(predictedValues.drop(labels="RealValue",axis=1), predictedValues.RealValue)
-    finalPredict=stacker.predict(predictedValues.drop(labels="RealValue",axis=1))
+    self.stacker.fit(predictedValues.drop(labels="RealValue",axis=1), predictedValues.RealValue)
+    finalPredict=self.stacker.predict(predictedValues.drop(labels="RealValue",axis=1))
     predictedValues.loc[:,'finalPredict']=finalPredict
     rmseEnsemble=np.sqrt(mean_squared_error(predictedValues.RealValue, finalPredict))
     return predictedValues, rmseEnsemble
@@ -109,3 +129,4 @@ it will train differents modele, encode data,scale data, and so on
     for reg in self.predictiveModels.values():
       name=departement+reg.__class__.__name__
       joblib.dump(reg, "../predictivesModels/"+name+".pkl")
+    joblib.dump(self, "../predictivesModels/"+self.__class__.name+name+".pkl")
