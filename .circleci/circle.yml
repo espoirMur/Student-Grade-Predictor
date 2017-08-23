@@ -6,7 +6,7 @@ general:
   branches:
     only:
       - GradePredictorAppBuilding # will build only GradePredictorAppBuilding branch
-  build_dir: GradePredictorApp/
+  build_dir: GradePredictorA/
 dependencies:
   override:
     - pip install -r requirements.txt
