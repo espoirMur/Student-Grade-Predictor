@@ -1,4 +1,4 @@
-# this is the configuration file for the deployement of the app use versià1
+# this is the configuration file for the deployement of the app
 machine:
   python:
     version: 2.7.13
@@ -6,10 +6,10 @@ general:
   branches:
     only:
       - GradePredictorAppBuilding # will build only GradePredictorAppBuilding branch
-  build_dir: GradePredictorApp
+  build_dir: GradePredictorApp/
 dependencies:
   override:
-    - pip install -r requirements.txt #requirements neededs
+    - pip install -r requirements.txt
 test:
   override:
     - nosetests tests.py #for running the test
