@@ -1,4 +1,4 @@
-# this is the configuration file for the deployement of the app
+# this is the configuration file for the deployement of the app use versià1
 machine:
   python:
     version: 2.7.13
