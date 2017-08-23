@@ -62,7 +62,7 @@ class GradePredictorTestCase(unittest.TestCase):
 
         this method will test if the app can predict good values
         of students grades by goods values I mean grades betweens 30-100
-        percents
+        percents .
 
         """
         new_student_data = {'DIPPERC':0.60, 'SCHOOL_RIGHT':'itfm/bukavu', 'OPTION_RIGHT':'elec indust', 'CGPA':0}
