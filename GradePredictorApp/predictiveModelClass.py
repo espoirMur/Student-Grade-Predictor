@@ -67,6 +67,7 @@ it will train differents modele, encode data,scale data, and so on
     predictedVal.set_index(self.Y_test.index,inplace=True)
     predictedVal.loc[:,'RealValue']=self.Y_test
     return predictedVal
+
   def predictNew(self,newStData):
     """this call will handle predictions for new values,but frirst it will endcode them nand then try to predict"""
     #start first by handling categorical values
@@ -86,8 +87,9 @@ it will train differents modele, encode data,scale data, and so on
       predictions[clf.__class__.__name__]= clf.predict(X)
     predictedVal=pd.DataFrame.from_dict(predictions,dtype=np.float)
     predictedVal.set_index(X.index,inplace=True)
-    predictedVal.loc[:,'finalOutput']=self.stacker.predict(predictedVal)
+    predictedVal.loc[:,'finalOutput'] = self.stacker.predict(predictedVal)
     return predictedVal
+
   def evaluate (self,model,on):
     """ this function will first do a evaluation of a mdels and return the RMSE score of it and some datat and their labesl
     """
@@ -129,4 +131,4 @@ it will train differents modele, encode data,scale data, and so on
     for reg in self.predictiveModels.values():
       name=departement+reg.__class__.__name__
       joblib.dump(reg, "../predictivesModels/"+name+".pkl")
-    joblib.dump(self, "../predictivesModels/"+self.__class__.name+name+".pkl")
+    joblib.dump(self, "../predictivesModels/Classes/"+self.__class__.name+name+".pkl")
