@@ -11,5 +11,7 @@ dependencies:
   override:
     - pip install -r requirements.txt
 test:
+  pre:
+    source ~/virtualenvs/venv-2.7.13/bin/activate
   override:
     - nosetests tests.py #for running the test
