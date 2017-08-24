@@ -156,7 +156,7 @@ class PredictiveModelBuilding(object):
         rmse_scores = np.sqrt(-scores)
         return rmse_scores, rmse_scores.std(), rmse_scores.mean()
 
-    def ensembel_methods(self, predicted_values):
+    def ensemble_methods(self, predicted_values):
         """
         this method will get a dataframe of predicted values by diffrents classifier and will return
         the value compute by  a linear regression between the 3 values and RMSE
@@ -170,9 +170,10 @@ class PredictiveModelBuilding(object):
         return predicted_values, rmse_ensemble
 
     def save_models(self, departement):
-        """after all job we will save the models"""
-        name = ''
-        for reg in self.predictive_models.values():
-            name = departement+reg.__class__.__name__
-            joblib.dump(reg, "../predictivesModels/"+name+".pkl")
+        """
+
+        after all job we will save the class with the models for
+        deployement
+
+        """
         joblib.dump(self, "../predictivesModels/Classes/"+departement+".pkl")
