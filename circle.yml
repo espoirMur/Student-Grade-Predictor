@@ -12,4 +12,4 @@ dependencies:
     - pip install -r requirements.txt
 test:
   override:
-    - nosetests GradePredictorApp/tests.py #for running the test
+    - nosetests tests.py #for running the test
