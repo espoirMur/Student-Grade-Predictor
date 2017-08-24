@@ -19,7 +19,11 @@ class GradePredictorTestCase(unittest.TestCase):
 
     def setUp(self):
         """this method will make all initialisation for ours tests"""
-        self.app = create_app(config_name="testing")
+
+        if os.getenv('CIRCLECI'): #if we are in CIRCLECI environement
+            self.app = create_app(config_name="CIRCLECI")
+        else:
+            self.app = create_app(config_name="testing")
         self.client = self.app.test_client
         self.directory = TempDirectory(
             path='../predictivesModels/',
