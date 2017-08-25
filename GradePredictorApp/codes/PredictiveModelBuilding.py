@@ -222,7 +222,6 @@ def final_job(dataframe):
 
     #first we iterate over the whole dataset to get each departement
 
-    departement_names = ['droit', 'medecine', 'psycologie', 'sante', 'economie','technologie', 'theologie']
     results = {}
     predicted_resuts = {}
     for departement, datas in dataframe.groupby('FAC'):

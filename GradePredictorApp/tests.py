@@ -4,6 +4,7 @@ import sys
 sys.path.insert(0,"codes/")
 import json
 import unittest
+import pandas as pd
 from predictiveModelBuilding import PredictiveModelBuilding
 from app import create_app
 from testfixtures import TempDirectory
@@ -50,7 +51,7 @@ class GradePredictorTestCase(unittest.TestCase):
             ], reverse=True), path='Classes/')
 
 
-    def test_step_one(self):
+    def step_one(self):
         """
 
         test that the app can read the model from saved floders
@@ -60,10 +61,8 @@ class GradePredictorTestCase(unittest.TestCase):
         """
         path = '../predictivesModels/Classes/'
         for filename in os.listdir(path):
-            print '-------------before load--------------'
             model = joblib.load(path+filename)
             self.predictives_models.append(model)
-            print '-------------after load--------------'
             self.assertIsInstance(model, PredictiveModelBuilding)
 
     def step_two(self):
@@ -75,12 +74,12 @@ class GradePredictorTestCase(unittest.TestCase):
 
         """
         #check if the model can handle unknow schools
-        new_student_data = {'DIPPERC':0.60, 'SCHOOL_RIGHT':'itfm/bukavu', 'OPTION_RIGHT':'elec indust', 'CGPA':0}
-        self.assertTrue(new_student_data['DIPPERC'] >= 0.50)
+        new_student = {'DIPPERC':0.60, 'SCHOOL_RIGHT':'itfm/bukavu', 'OPTION_RIGHT':'elec indust'}
+        new_student_data = pd.DataFrame(new_student, columns=new_student.keys(), index=range(1))
         for dept in self.predictives_models:
             predicted_grades = dept.predict_new(new_student_data)
-            final_grade = predicted_grades['finalOutput']
-            self.assertTrue(final_grade in range(30, 100))
+            final_grade = predicted_grades[0]
+            self.assertTrue((final_grade >= .3 or final_grade < .10) and (new_student_data['DIPPERC'][0] >= 0.50))
 
     def _steps(self):
         for name in sorted(dir(self)): #attributes of a object
