@@ -268,13 +268,14 @@ def build_final_dataset(results):
         index=range(0, 35))
     results_tab_2.reset_index(inplace=True)
     results_tab.reset_index(inplace=True)
+    final_dataframes = []
     next_index = 2 #index where we want to put the values in tab_2
     for name , val in results.items():
         results_data = pd.DataFrame.from_dict(val[1], orient='index')
         cv_score_mean = []
         cv_score_std = []
         for ind in results_data[2].index:
-            cv_mean = (str("%.2f" % results_data[2][ind][0])) + "  : " + str("%.2f" % results_data[2][ind][1]) + '%'
+            cv_mean = (str("%.3f" % results_data[2][ind][0])) + "  : " + str("%.2f" % results_data[2][ind][1]) + '%'
             cv_score_std.append("%.4f" % results_data[2][ind][2])
             cv_score_mean.append(cv_mean)
 
@@ -297,8 +298,11 @@ def build_final_dataset(results):
         results_tab_2.STACK_RES[next_index] = final_score
         results_tab_2.Dimensions[next_index] = str(results.get(name)[0])
         results_tab_2.Faculte[next_index] = name
-        results_data = results_data.append(results_data)
+        final_dataframes.append(results_data[[u'CVSCORE Mean', u'CVSCORE Std', u'RMSE Train', u'RMSE Test']])
         next_index += 5
-        results_data = results_data.append(results_data)
-        results_data = results_data[['CVSCORE Mean', 'CVSCORE Std', 'RMSE Train', 'RMSE Test']]
-    return results_tab_2, results_data
+    results_data = pd.concat(final_dataframes)
+    results_data.reset_index(inplace=True)
+    results_data.rename(columns={'index':'MODEL'}, inplace=True)
+    results_data.reset_index(inplace=True)
+    final = pd.merge(results_tab_2, results_data, on='index')
+    return final
