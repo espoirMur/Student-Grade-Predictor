@@ -6,6 +6,7 @@ from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.svm import LinearSVR,SVR
 from sklearn.metrics import mean_squared_error
 from sklearn.externals import joblib
+from sklearn.preprocessing import LabelBinarizer
 
 class PredictiveModelBuilding(object):
     """
@@ -27,7 +28,7 @@ class PredictiveModelBuilding(object):
             self.x_test = pd.DataFrame()
             self.y_train = pd.Series()
             self.y_test = pd.Series()
-            self.dataset_bin, self.encoders=encoderFunction(dataset, catCol=['SCHOOL_RIGHT', 'OPTION_RIGHT'], numCol=['DIPPERC', 'CGPA', 'EchecRatio'])
+            self.dataset_bin, self.encoders = encoderFunction(dataset, cat_col=['SCHOOL_RIGHT', 'OPTION_RIGHT'], numCol=['DIPPERC', 'CGPA', 'EchecRatio'])
             self.dataset_bin.reset_index(inplace=True)
             ridge_reg = Ridge(alpha=1, solver="cholesky", fit_intercept=False)
             linSVM_reg = LinearSVR(dual=False, fit_intercept=False,loss='squared_epsilon_insensitive')
@@ -109,7 +110,7 @@ class PredictiveModelBuilding(object):
         options = pd.DataFrame(
         data=dict(zip(option_encoder.classes_, option_encoder.transform(new_student_data[['OPTION_RIGHT']])[0])),
             index=new_student_data.index, columns=option_encoder.classes_)
-        schools = pd.DataFrame(data=dict(zip(school_encoder.classes_, school_encoder.transform(new_student_data[['SCHOOL_RIGHT']])[0])),index=new_student_data.index, columns=school_encoder.classes_)
+        schools = pd.DataFrame(data=dict(zip(school_encoder.classes_, school_encoder.transform(new_student_data[['SCHOOL_RIGHT']])[0])), index=new_student_data.index, columns=school_encoder.classes_)
         schools.reset_index(inplace=True)
         options.reset_index(inplace=True)
         new_dataset = pd.merge(options, schools, on='index')
@@ -121,13 +122,13 @@ class PredictiveModelBuilding(object):
         predicted_values = pd.DataFrame.from_dict(predictions, dtype=np.float)
         predicted_values.set_index(new_dataset.index, inplace=True)
         predicted_values.loc[:, 'finalOutput'] = self.stacker.predict(predicted_values)
-        return predicted_values
+        return predicted_values['finalOutput']
 
     def evaluate(self, model, sur):
         """
 
         this function will first do a evaluation of a model and return
-        the RMSE score of it and some data and their labels the function
+        the rmse score of it and some data and their labels the function
         can evaluate on trainset and also on test_set
 
         """
@@ -159,7 +160,7 @@ class PredictiveModelBuilding(object):
     def ensemble_methods(self, predicted_values):
         """
         this method will get a dataframe of predicted values by diffrents classifier and will return
-        the value compute by  a linear regression between the 3 values and RMSE
+        the value compute by  a linear regression between the 3 values and rmse
         """
         labels = ['ElasticNet', 'Lasso', 'LinearSVR', 'Ridge', 'SVR']
         x_new = predicted_values[labels]
@@ -178,3 +179,77 @@ class PredictiveModelBuilding(object):
 
         """
         joblib.dump(self, "../predictivesModels/Classes/"+departement+".pkl")
+
+
+def convert_cat(dataset, cat_col, num_col):
+    """
+
+    this function will binarize a dataset given in parametrer and
+    return the dataset with categorical columns binarise by one-hot
+    encoding
+
+    """
+    encs = {}
+    x_train_1 = dataset[cat_col]
+    x_new = dataset[num_col]
+    cat_col = x_train_1.columns
+    for col in cat_col:
+        data = dataset[[col]]
+        enc = LabelBinarizer()
+        enc.fit(data)
+        # Fitting One Hot Encoding on train data
+        temp = enc.transform(dataset[[col]])
+        # Changing the encoded features into a data frame with new column names
+        temp = pd.DataFrame(temp, columns=enc.classes_)
+        # In side by side concatenation index values should be same
+        # Setting the index values similar to the X_train data frame
+        temp = temp.set_index(dataset.index)
+        # adding the new One Hot Encoded varibales to the train data frame
+
+        x_new = pd.merge(temp, x_new, right_index=True, left_index=True)
+        #saving the encoder into a dict for others operations
+        encs[col] = enc
+    return x_new, encs
+
+
+def final_job(dataframe):
+    """"
+
+    this method will handle all the task related to training models in
+    each departement and in final they will return a dataset with
+
+    """
+
+    #first we iterate over the whole dataset to get each departement
+
+    departement_names = ['droit', 'medecine', 'psycologie', 'sante', 'economie','techonologie', 'theologie']
+    results = {}
+    for departement, datas in dataframe.groupby('FAC'):
+        results[departement] = []
+        predictive_model = PredictiveModelBuilding(dataset=datas, encoderFunction=convert_cat)
+        predictive_model.scale(['DIPPERC', 'CGPA'])
+        train_des, test_des = predictive_model.split()
+        results[departement].append(predictive_model.dataset_bin.shape)
+        print train_des
+        print test_des
+        predicted_values = predictive_model.train() #trainig the models
+        rmse = {}
+        for name, model in predictive_model.predictive_models:
+            cgpa_mean = predictive_model.dataset_bin.CGPA.mean()
+            rmse = predictive_model.evaluate(model=model, sur='train') #rmse of each model
+            rmse[name] = [rmse, rmse*100/cgpa_mean]
+            scores, score_std, score_mean = predictive_model.cross_evaluate(model=model)
+            cv_score = [score_mean, score_mean*100/cgpa_mean, score_std]
+            rmse[name].append(cv_score)
+            print (model, scores)
+            rmse_test = predictive_model.evaluate(model=model, sur='test') #rmse of each model
+            rmse[name].append([rmse_test, rmse_test*100/cgpa_mean])
+        final_predict, final_rmse = predictive_model.ensemble_methods(predicted_values)
+        print final_predict.head(5)
+        new_student = {'DIPPERC':0.60, ' SCHOOL_RIGHT':'itfm/bukavu', 'OPTION_RIGHT':'elec indust'}
+        new_student_data = pd.DataFrame(new_student, columns=new_student.keys(), index=range(1))
+        print predictive_model.predict_new(new_student_data)
+        results[departement].append(rmse)
+        results[departement].append(final_rmse)
+        predictive_model.save_models(departement)
+    return results
