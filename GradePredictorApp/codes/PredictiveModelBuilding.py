@@ -28,13 +28,13 @@ class PredictiveModelBuilding(object):
             self.x_test = pd.DataFrame()
             self.y_train = pd.Series()
             self.y_test = pd.Series()
-            self.dataset_bin, self.encoders = encoderFunction(dataset, cat_col=['SCHOOL_RIGHT', 'OPTION_RIGHT'], numCol=['DIPPERC', 'CGPA', 'EchecRatio'])
+            self.dataset_bin, self.encoders = encoderFunction(dataset, cat_col=['SCHOOL_RIGHT', 'OPTION_RIGHT'], num_col=['DIPPERC', 'CGPA', 'EchecRatio'])
             self.dataset_bin.reset_index(inplace=True)
-            ridge_reg = Ridge(alpha=1, solver="cholesky", fit_intercept=False)
-            linSVM_reg = LinearSVR(dual=False, fit_intercept=False,loss='squared_epsilon_insensitive')
-            rbfSVM_reg = SVR(verbose=True)
-            lasso_reg = Lasso(alpha=1e-05, max_iter=10000, fit_intercept=False)
-            elastic_reg = ElasticNet(alpha=1e-05, max_iter=10000, l1_ratio=0.5)
+            ridge_reg = Ridge(alpha=1, solver="cholesky", fit_intercept=False, max_iter=20000)
+            linSVM_reg = LinearSVR(dual=False, fit_intercept=False,loss='squared_epsilon_insensitive', max_iter=20000)
+            rbfSVM_reg = SVR(verbose=True, max_iter=20000)
+            lasso_reg = Lasso(alpha=1e-05, max_iter=20000, fit_intercept=False)
+            elastic_reg = ElasticNet(alpha=1e-05, max_iter=20000, l1_ratio=0.5)
             self.predictive_models[ridge_reg.__class__.__name__] = ridge_reg
             self.predictive_models[linSVM_reg.__class__.__name__] = linSVM_reg
             self.predictive_models[rbfSVM_reg.__class__.__name__] = rbfSVM_reg
@@ -135,8 +135,8 @@ class PredictiveModelBuilding(object):
         if sur == 'train':
             some_data = self.x_train.iloc[:5]
             some_labels = self.y_train.iloc[:5]
-            print("Predictions:\t", self.predictive_models[model].predict(some_data))
-            print("Labels:\t\t", list(some_labels))
+            print ("Predictions:\t", self.predictive_models[model].predict(some_data))
+            print ("Labels:\t\t", list(some_labels))
             cgpa_predictions = self.predictive_models[model].predict(self.x_train)
             lin_mse = mean_squared_error(self.y_train, cgpa_predictions)
             lin_rmse = np.sqrt(lin_mse)
@@ -144,8 +144,8 @@ class PredictiveModelBuilding(object):
         elif sur == 'test':
             some_data = self.x_test.iloc[:5]
             some_labels = self.y_test.iloc[:5]
-            print("Predictions:\t", self.predictive_models[model].predict(some_data))
-            print("Labels:\t\t", list(some_labels))
+            print ("Predictions:\t", self.predictive_models[model].predict(some_data))
+            print ("Labels:\t\t", list(some_labels))
             cgpa_predictions = self.predictive_models[model].predict(self.x_test)
             lin_mse = mean_squared_error(self.y_test, cgpa_predictions)
             lin_rmse = np.sqrt(lin_mse)
@@ -217,13 +217,14 @@ def final_job(dataframe):
 
     this method will handle all the task related to training models in
     each departement and in final they will return a dataset with
-
+    all types of erros .
     """
 
     #first we iterate over the whole dataset to get each departement
 
-    departement_names = ['droit', 'medecine', 'psycologie', 'sante', 'economie','techonologie', 'theologie']
+    departement_names = ['droit', 'medecine', 'psycologie', 'sante', 'economie','technologie', 'theologie']
     results = {}
+    predicted_resuts = {}
     for departement, datas in dataframe.groupby('FAC'):
         results[departement] = []
         predictive_model = PredictiveModelBuilding(dataset=datas, encoderFunction=convert_cat)
@@ -234,22 +235,70 @@ def final_job(dataframe):
         print test_des
         predicted_values = predictive_model.train() #trainig the models
         rmse = {}
-        for name, model in predictive_model.predictive_models:
+        for name, model in predictive_model.predictive_models.items():
             cgpa_mean = predictive_model.dataset_bin.CGPA.mean()
-            rmse = predictive_model.evaluate(model=model, sur='train') #rmse of each model
-            rmse[name] = [rmse, rmse*100/cgpa_mean]
-            scores, score_std, score_mean = predictive_model.cross_evaluate(model=model)
+            rmse_train = predictive_model.evaluate(model=name, sur='train') #rmse of each model
+            rmse[name] = [rmse_train, rmse_train*100/cgpa_mean]
+            scores, score_std, score_mean = predictive_model.cross_evaluate(model=name)
             cv_score = [score_mean, score_mean*100/cgpa_mean, score_std]
             rmse[name].append(cv_score)
             print (model, scores)
-            rmse_test = predictive_model.evaluate(model=model, sur='test') #rmse of each model
+            rmse_test = predictive_model.evaluate(model=name, sur='test') #rmse of each model
             rmse[name].append([rmse_test, rmse_test*100/cgpa_mean])
         final_predict, final_rmse = predictive_model.ensemble_methods(predicted_values)
         print final_predict.head(5)
-        new_student = {'DIPPERC':0.60, ' SCHOOL_RIGHT':'itfm/bukavu', 'OPTION_RIGHT':'elec indust'}
+        new_student = {'DIPPERC':0.60, 'SCHOOL_RIGHT':'itfm/bukavu', 'OPTION_RIGHT':'elec indust'}
         new_student_data = pd.DataFrame(new_student, columns=new_student.keys(), index=range(1))
-        print predictive_model.predict_new(new_student_data)
+        predicted_resuts[departement] = predictive_model.predict_new(new_student_data)
         results[departement].append(rmse)
-        results[departement].append(final_rmse)
+        results[departement].append([final_rmse, final_rmse*100/cgpa_mean])
         predictive_model.save_models(departement)
-    return results
+    return results, predicted_resuts
+
+
+def build_final_dataset(results):
+    """
+
+    this methods will help us to build the final dataset for our report
+
+    """
+    results_tab = pd.DataFrame(columns=[0, 1, 2, 3, 'CVSCORE Mean', u'CVSCORE Std', u'RMSE Train', u'RMSE Test'], index=range(0, 7))
+    results_tab_2 = pd.DataFrame(
+        columns=['STACK_RES', 'Dimensions', 'Faculte'],
+        index=range(0, 35))
+    results_tab_2.reset_index(inplace=True)
+    results_tab.reset_index(inplace=True)
+    next_index = 2 #index where we want to put the values in tab_2
+    for name , val in results.items():
+        results_data = pd.DataFrame.from_dict(val[1], orient='index')
+        cv_score_mean = []
+        cv_score_std = []
+        for ind in results_data[2].index:
+            cv_mean = (str("%.2f" % results_data[2][ind][0])) + "  : " + str("%.2f" % results_data[2][ind][1]) + '%'
+            cv_score_std.append("%.4f" % results_data[2][ind][2])
+            cv_score_mean.append(cv_mean)
+
+        results_data['CVSCORE Mean'] = cv_score_mean
+        results_data['CVSCORE Std'] = cv_score_std
+        rmse_score_mean = []
+
+        for ind in results_data[[0, 1]].index:
+            rmse_mean = (str("%.2f" % results_data [0][ind])) + " : " + str("%.2f" % results_data [1][ind]) + '%'
+            rmse_score_mean.append(rmse_mean)
+        results_data['RMSE Train'] = rmse_score_mean
+        rmse_score_mean_test = []
+
+        for ind in results_data[3].index:
+            rmse_mean = (str("%.2f" % results_data [3][ind][0])) + " : " + str("%.3f" % results_data [3][ind][1]) + '%'
+            rmse_score_mean_test.append(rmse_mean)
+        results_data['RMSE Test'] = rmse_score_mean_test
+        final_score = (str("%.3f" % results.get(name)[2][0])) + " : " + str("%.3f" % results.get(name)[2][1]) + '%'
+
+        results_tab_2.STACK_RES[next_index] = final_score
+        results_tab_2.Dimensions[next_index] = str(results.get(name)[0])
+        results_tab_2.Faculte[next_index] = name
+        results_data = results_data.append(results_data)
+        next_index += 5
+        results_data = results_data.append(results_data)
+        results_data = results_data[['CVSCORE Mean', 'CVSCORE Std', 'RMSE Train', 'RMSE Test']]
+    return results_tab_2, results_data

@@ -40,13 +40,13 @@ class GradePredictorTestCase(unittest.TestCase):
 
         """
         self.directory.compare(sorted([
-            'medecine.pkl',
-            'technologie.pkl',
-            'droit.pkl',
-            'sante.pkl',
-            'economie.pkl',
-            'psycologie.pkl',
-            'theologie.pkl'
+            'FM.pkl',
+            'FSTA.pkl',
+            'FD.pkl',
+            'FSDC.pkl',
+            'FSEG.pkl',
+            'FPSE.pkl',
+            'FT.pkl'
             ], reverse=True), path='Classes/')
 
 
@@ -76,6 +76,7 @@ class GradePredictorTestCase(unittest.TestCase):
         """
         #check if the model can handle unknow schools
         new_student_data = {'DIPPERC':0.60, 'SCHOOL_RIGHT':'itfm/bukavu', 'OPTION_RIGHT':'elec indust', 'CGPA':0}
+        self.assertTrue(new_student_data['DIPPERC'] >= 0.50)
         for dept in self.predictives_models:
             predicted_grades = dept.predict_new(new_student_data)
             final_grade = predicted_grades['finalOutput']
