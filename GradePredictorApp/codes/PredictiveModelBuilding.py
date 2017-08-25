@@ -66,7 +66,7 @@ class PredictiveModelBuilding(object):
             self.test_set = self.dataset_bin.loc[test_index]
         self.training_set.set_index(keys='ID', inplace=True)
         self.test_set.set_index(keys='ID', inplace=True)
-        self.x_train = self.training_set.CGPA
+        self.y_train = self.training_set.CGPA
         self.x_train = self.training_set.drop(labels=['CGPA', 'EchecRatio'], axis=1)
         self.y_test = self.test_set.CGPA
         self.x_test = self.test_set.drop(labels=['CGPA', 'EchecRatio'], axis=1)
@@ -161,12 +161,13 @@ class PredictiveModelBuilding(object):
         this method will get a dataframe of predicted values by diffrents classifier and will return
         the value compute by  a linear regression between the 3 values and RMSE
         """
-        x_new = predicted_values.drop(labels="RealValue", axis=1)
+        labels = ['ElasticNet', 'Lasso', 'LinearSVR', 'Ridge', 'SVR']
+        x_new = predicted_values[labels]
         y_new = predicted_values.RealValue
         self.stacker.fit(x_new, y_new)
-        final_predict = self.stacker.predict(predicted_values.drop(labels="RealValue", axis=1))
+        final_predict = self.stacker.predict(x_new)
         predicted_values.loc[:, 'finalPredict'] = final_predict
-        rmse_ensemble = np.sqrt(mean_squared_error(predicted_values.RealValue, final_predict))
+        rmse_ensemble = np.sqrt(mean_squared_error(y_new, final_predict))
         return predicted_values, rmse_ensemble
 
     def save_models(self, departement):

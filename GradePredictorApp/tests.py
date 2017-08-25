@@ -1,9 +1,11 @@
 
 import os
+import sys
+sys.path.insert(0,"codes/")
 import json
 import unittest
+from predictiveModelBuilding import PredictiveModelBuilding
 from app import create_app
-from codes.PredictiveModelBuilding import PredictiveModelBuilding
 from testfixtures import TempDirectory
 from sklearn.externals import joblib
 
@@ -33,21 +35,22 @@ class GradePredictorTestCase(unittest.TestCase):
     def test_model_exist(self):
         """
 
-        the following testcase will vertify is predictives models
+        the following testcase will vertify if predictives models
         exist in the floder classes
 
         """
-        self.directory.compare([
-            'Medecine.pkl',
-            'Technologie.pkl'
-            'Econolie.pkl',
-            'Droit.pkl',
-            'Sante.pkl',
+        self.directory.compare(sorted([
+            'medecine.pkl',
+            'technologie.pkl',
+            'droit.pkl',
+            'sante.pkl',
+            'economie.pkl',
+            'psycologie.pkl',
             'theologie.pkl'
-            ], path='Classes/')
+            ], reverse=True), path='Classes/')
 
 
-    def step_one(self):
+    def test_step_one(self):
         """
 
         test that the app can read the model from saved floders
@@ -57,8 +60,10 @@ class GradePredictorTestCase(unittest.TestCase):
         """
         path = '../predictivesModels/Classes/'
         for filename in os.listdir(path):
+            print '-------------before load--------------'
             model = joblib.load(path+filename)
             self.predictives_models.append(model)
+            print '-------------after load--------------'
             self.assertIsInstance(model, PredictiveModelBuilding)
 
     def step_two(self):
@@ -69,6 +74,7 @@ class GradePredictorTestCase(unittest.TestCase):
         percents .
 
         """
+        #check if the model can handle unknow schools
         new_student_data = {'DIPPERC':0.60, 'SCHOOL_RIGHT':'itfm/bukavu', 'OPTION_RIGHT':'elec indust', 'CGPA':0}
         for dept in self.predictives_models:
             predicted_grades = dept.predict_new(new_student_data)
