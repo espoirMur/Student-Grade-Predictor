@@ -5,23 +5,23 @@ class Users(Base):
         id = Column(Integer, primary_key=True)
         bio = Column(String(300))
         picture = Column(String(80))
-    
-    
+
+
 class Category(Base):
         __tablename__ = 'category'
         name = Column(String(80), nullable=False)
         id = Column(Integer, primary_key=True)
         user = Column(Integer, ForeignKey(Users.id))
         users = relationship(Users)
-    
+
         @property
         def serialize(self):
             return{
                 'id': self.id,
                 'name': self.name
             }
-    
-    
+
+
 class Artisan(Base):
         __tablename__ = 'artisan'
         name = Column(String(80), nullable=False)
@@ -32,7 +32,7 @@ class Artisan(Base):
         user = Column(Integer, ForeignKey(Users.id))
         id_no = Column(Integer, nullable=False)
         users = relationship(Users)
-    
+
         @property
         def serialize(self):
             return{
@@ -42,10 +42,10 @@ class Artisan(Base):
                 'category': self.category,
                 'bio': self.bio,
                 'id_no': self.id_no
-    
+
             }
-    
-    
+
+
 class Portfolio(Base):
         __tablename__ = 'portfolio'
         title = Column(String(80), nullable=False)
@@ -54,7 +54,7 @@ class Portfolio(Base):
         artisan = Column(Integer, ForeignKey(Artisan.id))
         user = Column(Integer, ForeignKey(Users.id))
         users = relationship(Users)
-    
+
         @property
         def serialize(self):
             return{
@@ -62,8 +62,8 @@ class Portfolio(Base):
                 'title': self.title,
                 'details': self.details
             }
-    
-    
+
+
 class Endorsements(Base):
         __tablename__ = 'endorsements'
         title = Column(String(80), nullable=False)
@@ -72,7 +72,7 @@ class Endorsements(Base):
         artisan = Column(Integer, ForeignKey(Artisan.id))
         user = Column(Integer, ForeignKey(Users.id))
         users = relationship(Users)
-    
+
         @property
         def serialize(self):
             return{
@@ -80,8 +80,8 @@ class Endorsements(Base):
                 'title': self.title,
                 'details': self.details
             }
-    
-    
+
+
 class Address(Base):
         __tablename__ = 'address'
         building = Column(String(80), nullable=False)
@@ -95,7 +95,7 @@ class Address(Base):
         artisan = Column(Integer, ForeignKey(Artisan.id))
         user = Column(Integer, ForeignKey(Users.id))
         users = relationship(Users)
-    
+
         @property
         def serialize(self):
             return{
@@ -105,6 +105,6 @@ class Address(Base):
                 'kwetu_address': self.kwetu_address,
                 'artisan': self.artisan
             }
-    
-    
-    
+
+
+

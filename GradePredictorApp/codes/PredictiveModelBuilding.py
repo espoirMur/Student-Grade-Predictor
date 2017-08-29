@@ -178,7 +178,7 @@ class PredictiveModelBuilding(object):
         deployement
 
         """
-        joblib.dump(self, "../predictivesModels/Classes/"+departement+".pkl")
+        joblib.dump(self, "../app/static/classes"+departement+".pkl")
 
 
 def convert_cat(dataset, cat_col, num_col):

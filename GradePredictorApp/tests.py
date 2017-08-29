@@ -2,14 +2,16 @@
 import os
 import sys
 sys.path.insert(0,"codes/")
+reload(sys)
+sys.setdefaultencoding('utf8') #for ascii decoder in notes
 import json
 import unittest
 import pandas as pd
 from predictiveModelBuilding import PredictiveModelBuilding
 from app import create_app
 from testfixtures import TempDirectory
+from flask import jsonify
 from sklearn.externals import joblib
-
 
 
 class GradePredictorTestCase(unittest.TestCase):
@@ -29,9 +31,10 @@ class GradePredictorTestCase(unittest.TestCase):
             self.app = create_app(config_name="testing")
         self.client = self.app.test_client
         self.directory = TempDirectory(
-            path='../predictivesModels/',
+            path='app/static',
             create=False)        #initialisation of temporary directory
         self.predictives_models = []
+        self.new_student = {'DIPPERC':0.60, 'SCHOOL_RIGHT':'itfm/bukavu', 'OPTION_RIGHT':'elec indust'}
 
     def test_model_exist(self):
         """
@@ -48,10 +51,25 @@ class GradePredictorTestCase(unittest.TestCase):
             'FSEG.pkl',
             'FPSE.pkl',
             'FT.pkl'
-            ], reverse=True), path='Classes/')
+            ], reverse=True), path='classes/')
 
 
-    def step_one(self):
+
+    def step_1_can_connect_post(self):
+        """
+
+        Test API can create a  (POST request)
+
+        """
+
+
+        res = self.client().post('predictions/predict/', data=json.dumps(self.new_student), content_type='application/json')
+
+        self.assertEqual(res.status_code, 201)
+        #self.assertIn('welcome to grade ', str(res.data))
+
+
+    def step_2_can_load_models(self):
         """
 
         test that the app can read the model from saved floders
@@ -59,13 +77,13 @@ class GradePredictorTestCase(unittest.TestCase):
         and check if there are instances of preictives models class
 
         """
-        path = '../predictivesModels/Classes/'
+        path = 'app/static/classes/'
         for filename in os.listdir(path):
             model = joblib.load(path+filename)
             self.predictives_models.append(model)
             self.assertIsInstance(model, PredictiveModelBuilding)
 
-    def step_two(self):
+    def step_3_can_predict(self):
         """
 
         this method will test if the app can predict good values
@@ -74,12 +92,12 @@ class GradePredictorTestCase(unittest.TestCase):
 
         """
         #check if the model can handle unknow schools
-        new_student = {'DIPPERC':0.60, 'SCHOOL_RIGHT':'itfm/bukavu', 'OPTION_RIGHT':'elec indust'}
-        new_student_data = pd.DataFrame(new_student, columns=new_student.keys(), index=range(1))
+        new_student_data = pd.DataFrame(self.new_student, columns=self.new_student.keys(), index=range(1))
         for dept in self.predictives_models:
             predicted_grades = dept.predict_new(new_student_data)
             final_grade = predicted_grades[0]
             self.assertTrue((final_grade >= .3 or final_grade < .10) and (new_student_data['DIPPERC'][0] >= 0.50))
+
 
     def _steps(self):
         for name in sorted(dir(self)): #attributes of a object
@@ -95,8 +113,12 @@ class GradePredictorTestCase(unittest.TestCase):
                 self.fail("{} {} failed ({}: {})".format(step, name, type(exception), exception))
 
     def tearDown(self):
-        """the method will remove all variables used for the tests"""
-        pass
+
+        """
+        the method will remove all variables
+        used for the tests
+        """
+
 
 if __name__ == "__main__":
     unittest.main()

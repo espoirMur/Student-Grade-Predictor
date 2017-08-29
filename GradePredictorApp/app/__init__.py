@@ -1,7 +1,14 @@
 import os
+import pandas as pd
+import sys
+sys.path.insert(0, "/Users/espyMur/Desktop/Memory-WorkingDir/Memory-Working-Dir/GradePredictorApp/codes/")
 from flask_api import FlaskAPI
-
+from flask import render_template
+from predictiveModelBuilding import PredictiveModelBuilding
 from config import app_config
+from sklearn.externals import joblib
+from flask import request, abort, jsonify
+from app.predictions import predictions
 
 
 def create_app(config_name):
@@ -16,4 +23,25 @@ def create_app(config_name):
         app = FlaskAPI(__name__, instance_relative_config=True)
         app.config.from_object(app_config[config_name])
         app.config.from_pyfile('config.py')
+    from .predictions import predictions as predictions_blueprint
+    app.register_blueprint(predictions_blueprint)
+
+    @app.route('/')
+    def home():
+        return 'hello world from home '
+    @app.errorhandler(403)
+    def forbidden(error):
+        return render_template('errors/403.html', title='Forbidden'), 403
+
+    @app.errorhandler(404)
+    def page_not_found(error):
+        return render_template('errors/404.html', title='Page Not Found'), 404
+
+    @app.errorhandler(500)
+    def internal_server_error(error):
+        return render_template('errors/500.html', title='Server Error'), 500
+
+    @app.errorhandler(400)
+    def internal_server_error(error):
+        return render_template('errors/400.html', title='Server Error'), 400
     return app
