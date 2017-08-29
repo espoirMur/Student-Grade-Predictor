@@ -7,7 +7,7 @@ sys.setdefaultencoding('utf8') #for ascii decoder in notes
 import json
 import unittest
 import pandas as pd
-from predictiveModelBuilding import PredictiveModelBuilding
+from codes.predictiveModelBuilding import PredictiveModelBuilding
 from app import create_app
 from testfixtures import TempDirectory
 from flask import jsonify
@@ -31,7 +31,7 @@ class GradePredictorTestCase(unittest.TestCase):
             self.app = create_app(config_name="testing")
         self.client = self.app.test_client
         self.directory = TempDirectory(
-            path='app/static',
+            path='../app/static',
             create=False)        #initialisation of temporary directory
         self.predictives_models = []
         self.new_student = {'DIPPERC':0.60, 'SCHOOL_RIGHT':'itfm/bukavu', 'OPTION_RIGHT':'elec indust'}
@@ -77,11 +77,11 @@ class GradePredictorTestCase(unittest.TestCase):
         and check if there are instances of preictives models class
 
         """
-        path = 'app/static/classes/'
+        path = '../app/static/classes/'
         for filename in os.listdir(path):
             model = joblib.load(path+filename)
             self.predictives_models.append(model)
-            self.assertIsInstance(model, PredictiveModelBuilding)
+            self.assertTrue(model.__class__, 'PredictiveModelBuilding' and model.__module__ == 'predictiveModelBuilding')
 
     def step_3_can_predict(self):
         """

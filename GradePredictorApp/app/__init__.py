@@ -25,10 +25,8 @@ def create_app(config_name):
         app.config.from_pyfile('config.py')
     from .predictions import predictions as predictions_blueprint
     app.register_blueprint(predictions_blueprint)
-
-    @app.route('/')
-    def home():
-        return 'hello world from home '
+    from .home import home as home_blueprint
+    app.register_blueprint(home_blueprint)
     @app.errorhandler(403)
     def forbidden(error):
         return render_template('errors/403.html', title='Forbidden'), 403
