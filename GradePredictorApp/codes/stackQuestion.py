@@ -1,110 +1,27 @@
-class Users(Base):
-        __tablename__ = 'users'
-        name = Column(String(80), nullable=False)
-        email = Column(String(80), nullable=False)
-        id = Column(Integer, primary_key=True)
-        bio = Column(String(300))
-        picture = Column(String(80))
+db = SQLAlchemy()
+
+class Sites(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100))
+    site_code = db.Column(db.String(10))
+    site_type = db.Column(db.String(100))
+    datas = db.relationship("Data", uselist=False, back_populates="sites_codes")
+
+    def __init__(self, name, site_code, site_type):
+        self.name = name
+        self.site_code = site_code
+        self.site_type = site_type
+
+class Data(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    site_code = db.Column(db.Integer, db.ForeignKey('sites.site_code'))
+    time = db.Column(db.String(100))
+    site_type = db.Column(db.String(100))
+    site_codes = db.relationship("Sites", back_populates="datas")
 
 
-class Category(Base):
-        __tablename__ = 'category'
-        name = Column(String(80), nullable=False)
-        id = Column(Integer, primary_key=True)
-        user = Column(Integer, ForeignKey(Users.id))
-        users = relationship(Users)
-
-        @property
-        def serialize(self):
-            return{
-                'id': self.id,
-                'name': self.name
-            }
-
-
-class Artisan(Base):
-        __tablename__ = 'artisan'
-        name = Column(String(80), nullable=False)
-        skill = Column(String(80), nullable=False)
-        id = Column(Integer, primary_key=True)
-        bio = Column(String(300))
-        category = Column(Integer, ForeignKey(Category.id))
-        user = Column(Integer, ForeignKey(Users.id))
-        id_no = Column(Integer, nullable=False)
-        users = relationship(Users)
-
-        @property
-        def serialize(self):
-            return{
-                'id': self.id,
-                'name': self.name,
-                'skill': self.skill,
-                'category': self.category,
-                'bio': self.bio,
-                'id_no': self.id_no
-
-            }
-
-
-class Portfolio(Base):
-        __tablename__ = 'portfolio'
-        title = Column(String(80), nullable=False)
-        details = Column(String(300), nullable=False)
-        id = Column(Integer, primary_key=True)
-        artisan = Column(Integer, ForeignKey(Artisan.id))
-        user = Column(Integer, ForeignKey(Users.id))
-        users = relationship(Users)
-
-        @property
-        def serialize(self):
-            return{
-                'id': self.id,
-                'title': self.title,
-                'details': self.details
-            }
-
-
-class Endorsements(Base):
-        __tablename__ = 'endorsements'
-        title = Column(String(80), nullable=False)
-        details = Column(String(300), nullable=False)
-        id = Column(Integer, primary_key=True)
-        artisan = Column(Integer, ForeignKey(Artisan.id))
-        user = Column(Integer, ForeignKey(Users.id))
-        users = relationship(Users)
-
-        @property
-        def serialize(self):
-            return{
-                'id': self.id,
-                'title': self.title,
-                'details': self.details
-            }
-
-
-class Address(Base):
-        __tablename__ = 'address'
-        building = Column(String(80), nullable=False)
-        floor = Column(String(80), nullable=False)
-        house_no = Column(String(80), nullable=False)
-        telephone = Column(String(80), nullable=False)
-        kwetu_address = Column(String(80), nullable=False)
-        id = Column(Integer, primary_key=True)
-        lat = Column(String(25))
-        lng = Column(String(25))
-        artisan = Column(Integer, ForeignKey(Artisan.id))
-        user = Column(Integer, ForeignKey(Users.id))
-        users = relationship(Users)
-
-        @property
-        def serialize(self):
-            return{
-                'id': self.id,
-                'lat': self.lat,
-                'lng': self.lng,
-                'kwetu_address': self.kwetu_address,
-                'artisan': self.artisan
-            }
-
-
-
+    def __init__(self, site_code, site_type, temperature, name):
+        self.name = name
+        self.site_code = site_code
+        self.site_type = site_type
+        self.temperature = temperature

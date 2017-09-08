@@ -28,7 +28,7 @@ def predict():
         model = joblib.load(app_floder+'/classes/'+filename+'.pkl')
         predictives_models.append(model)
 
-    new_student = request.get_json()
+    new_student = request.data
     new_student_data = pd.DataFrame(new_student, columns=new_student.keys(), index=range(1))
     for dept, name in zip(predictives_models, model_names):
         predicted_grade = dept.predict_new(new_student_data)

@@ -40,7 +40,6 @@ class TestViews(TestBase):
         Test that homepage is accessible without login
         """
         response = self.client().get('/')
-        print '-------------------------------------'
         self.assertEqual(response.status_code, 200)
         self.assertIn('welcome to grade ', str(response.data))
 
