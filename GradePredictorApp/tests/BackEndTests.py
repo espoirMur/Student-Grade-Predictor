@@ -65,7 +65,7 @@ class GradePredictorTestCase(unittest.TestCase):
 
         res = self.client().post('predictions/predict/', data=json.dumps(self.new_student), content_type='application/json')
 
-        self.assertEqual(res.status_code, 201)
+        self.assertEqual(res.status_code, 200)
         #self.assertIn('welcome to grade ', str(res.data))
 
 
