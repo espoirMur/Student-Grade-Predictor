@@ -30,36 +30,11 @@ def create_app(config_name):
     app.register_blueprint(predictions_blueprint)
     from .home import home as home_blueprint
     app.register_blueprint(home_blueprint)
-    @app.route('/predictions/predict/', methods=['GET', 'POST'])
-    @csrf.exempt
-    def predict():
-        """
-
-        the main methode use to predict
-
-        """
-
-        predictives_models = []
-        predicted_grades = {}
-        model_names = ['FM', 'FSTA', 'FD', 'FSDC', 'FSEG', 'FPSE', 'FT']
-        app_floder = predictions.root_path.replace('predictions', 'static/')
-        for filename in model_names:
-            model = joblib.load(app_floder+'/classes/'+filename+'.pkl')
-            predictives_models.append(model)
-        print "hello----------------------"
-        print request.get_json(force=True)
-        return "done "
-    #new_student_data = pd.DataFrame(new_student, columns=new_student.keys(), index=range(1))
-    #print new_student_data
-    """
-    for dept, name in zip(predictives_models, model_names):
-        predicted_grade = dept.predict_new(new_student_data)
-        final_grade = predicted_grade[0]
-        predicted_grades[name] = final_grade
-    response = jsonify(predicted_grades)
-    response.status_code = 201
-
-    """
+    @app.route('/busses')
+    def busses():
+        bus_type = ['AC', 'NON-AC', 'Sleeper', 'NON-Sleeper']
+        bus_info = ['1010', '2020', '3030', '4040']
+        return render_template('busses.html', jnjbus_info=zip(bus_type, bus_info))
 
     @app.errorhandler(403)
     def forbidden(error):

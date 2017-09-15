@@ -1,27 +1,44 @@
-db = SQLAlchemy()
+from flask import render_template
+from app import app
 
-class Sites(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(100))
-    site_code = db.Column(db.String(10))
-    site_type = db.Column(db.String(100))
-    datas = db.relationship("Data", uselist=False, back_populates="sites_codes")
+import sqlite3, json
 
-    def __init__(self, name, site_code, site_type):
-        self.name = name
-        self.site_code = site_code
-        self.site_type = site_type
+@app.route('/')
+@app.route('/index')
+def index():
+    table_names = nav_bar()
+    return render_template('index.html',title='Homepage',table_names = table_name)
+def nav_bar():
+    connection = sqlite3.connect('C:\\SQLite\\Databases\\testPython.db')
+    cursor = connection.cursor()
 
-class Data(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    site_code = db.Column(db.Integer, db.ForeignKey('sites.site_code'))
-    time = db.Column(db.String(100))
-    site_type = db.Column(db.String(100))
-    site_codes = db.relationship("Sites", back_populates="datas")
+    cursor.execute('SELECT NAME FROM sqlite_master WHERE TYPE = \'table\';')
+        #ORDER BY NAME ASC
+        #tableNames = cursor.fetchall()
 
+    connection.close()
 
-    def __init__(self, site_code, site_type, temperature, name):
-        self.name = name
-        self.site_code = site_code
-        self.site_type = site_type
-        self.temperature = temperature
+    table_names = json.dumps(cursor.fetchall()).replace("\"], [\"", " ").replace("[[\"","").replace("\"]]","").replace("access_","").split()
+
+    return table_names
+
+@app.route('/', methods=['GET','POST'])
+def home():
+    error = ''
+    try:
+        c, conn = connection()
+        if request.method == "POST":
+            data = c.execute("SELECT * FROM users WHERE username=(%s)", thwart(request.form["username"]))
+            data = c.fetchone()[2]
+            if sha256_crypt.veryify(request.form['password'], data):
+                session['logged_in'] = True
+                session['username'] = request.form['username']
+                flash("You are now logged in")
+                return redirect(url_for("home"))
+            else:
+                error = "Invalid try again"
+        gc.collect()
+        return render_template("index.html", error=error)
+    except Exception as e:
+        flash(e)
+        return render_template("index.html", error=error)

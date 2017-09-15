@@ -1,0 +1,15 @@
+<table style="width:100%">
+    <tr>
+        <th>Bus Type</th>
+        <th>Bus Information</th>
+    </tr>
+
+    {% for bus, info  in jnjbus_info %}
+        <tr>
+
+
+            <td>{{bus}}</td>
+            <td>{{info}}</td>
+        </tr>
+        {% endfor %}
+</table>
