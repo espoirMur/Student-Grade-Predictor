@@ -1,1 +1,56 @@
-here is your resultes {{grades}}
+{% extends "base.html" %}
+{% block title %} Results forms {% endblock %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+{% block content %}
+<section class="module">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <h4 class="font-alt mb-0">Voici Nos Predictions</h4>
+                <hr class="divider-w mt-10 mb-20">
+                <h6 class="font-alt"><span class="fa fa-gavel"></span>
+                  Droit
+                </h6>
+                <div class="progress">
+                  <div class="progress-bar pb-dark" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
+                </div>
+                <h6 class="font-alt"><span class="fa fa-money"></span>
+                  Economie
+                </h6>
+                <div class="progress">
+                  <div class="progress-bar pb-dark" aria-valuenow="80" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
+                </div>
+                <h6 class="font-alt"><span class="fa fa-child"></span> Psycologie
+                </h6>
+                <div class="progress">
+                  <div class="progress-bar pb-dark" aria-valuenow="50" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
+                </div>
+                <h6 class="font-alt"><span class="fa fa-book"></span>
+                  Theologie
+                </h6>
+                <div class="progress">
+                  <div class="progress-bar pb-dark" aria-valuenow="90.555" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
+                </div>
+                <h6 class="font-alt"><span class="fa fa-thermometer-quarter"></span> Medecine
+                </h6>
+                <div class="progress">
+                  <div class="progress-bar pb-dark" aria-valuenow="90.555" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
+                </div>
+                <h6 class="font-alt"><span class="fa fa-venus-double"></span> Sante
+                </h6>
+                <div class="progress">
+                  <div class="progress-bar pb-dark" aria-valuenow="90.555" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
+                </div>
+                <h6 class="font-alt"><span class="fa fa-laptop"></span> Technologie
+                </h6>
+                <div class="progress">
+                  <div class="progress-bar pb-dark" aria-valuenow="90.555" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+{% endblock %}
