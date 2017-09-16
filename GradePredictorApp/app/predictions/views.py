@@ -49,4 +49,5 @@ def predict():
 @predictions.route('/predictions/results/<results>', methods=['GET'])
 def view_results(results):
     """ display the predicted results """
-    return render_template('predictions/results.html', grades=results)
+    results = json.loads(results)
+    return render_template('predictions/results.html', results=results)
