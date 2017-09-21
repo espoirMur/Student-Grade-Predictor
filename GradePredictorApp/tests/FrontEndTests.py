@@ -7,8 +7,11 @@ from config import app_config
 
 from app import create_app
 
-class TestBase(unittest.TestCase):
 
+
+
+class TestBase(unittest.TestCase):
+    """this is the base case for ours tests"""
 
     def setUp(self):
         """this method will make all initialisation for ours tests"""
@@ -41,8 +44,16 @@ class TestViews(TestBase):
         """
         response = self.client().get('/')
         self.assertEqual(response.status_code, 200)
-        self.assertIn('welcome to grade ', str(response.data))
+        self.assertIn('Welcome to grade ', str(response.data))
 
+
+    def test_form_view(self):
+        """
+        Test if form is accesible
+        """
+        response = self.client().get('/predictions/predict_form/')
+        self.assertEqual(response.status_code, 200)
+        self.assertIn('Remplisssez et Voyez', str(response.data))
 
 
     def test_results_view(self):
@@ -86,7 +97,6 @@ class TestErrorPages(TestBase):
         @self.app.route('/400')
         def internal_server_error():
             abort(400)
-
         response = self.client().get('/400')
         self.assertEqual(response.status_code, 400)
         self.assertTrue("400 Error" in response.data)

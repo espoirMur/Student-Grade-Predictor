@@ -16,6 +16,8 @@ class TestingConfig(Config):
     TESTING = True
     SQLALCHEMY_DATABASE_URI = ''
     DEBUG = True
+    WTF_CSRF_CHECK_DEFAULT = False
+    WTF_CSRF_ENABLED = False
 
 class StagingConfig(Config):
     """Configurations for Staging."""
