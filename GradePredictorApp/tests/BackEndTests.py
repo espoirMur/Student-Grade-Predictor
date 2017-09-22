@@ -1,7 +1,5 @@
 import os
 import sys
-"""cwd = os.getcwd()
-sys.path.insert(0,cwd+"/codes/")"""
 reload(sys)
 sys.setdefaultencoding('utf8') #for ascii decoder in notes
 import json
