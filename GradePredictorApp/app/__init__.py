@@ -3,7 +3,7 @@ import pandas as pd
 import sys
 from flask_api import FlaskAPI
 from flask import render_template
-from codes.predictiveModelBuilding import PredictiveModelBuilding
+from codes import predictiveModelBuilding
 from config import app_config
 from sklearn.externals import joblib
 from flask import request, abort, jsonify
