@@ -1,8 +1,8 @@
 import os
 import pandas as pd
 import sys
-cwd = os.getcwd()
-sys.path.insert(0,cwd+"/codes/")
+"""cwd = os.getcwd()
+sys.path.insert(0,cwd+"/codes/")"""
 from flask_api import FlaskAPI
 from flask import render_template
 from predictiveModelBuilding import PredictiveModelBuilding
