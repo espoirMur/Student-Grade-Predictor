@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.externals import joblib
 reload(sys)
 sys.setdefaultencoding('utf8')
-from predictiveModelBuilding import PredictiveModelBuilding
+from codes import predictiveModelBuilding
 from flask import request, abort, jsonify, url_for, render_template,redirect
 from . import predictions
 
