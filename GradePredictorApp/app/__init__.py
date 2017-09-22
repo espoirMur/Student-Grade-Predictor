@@ -3,7 +3,7 @@ import pandas as pd
 import sys
 from flask_api import FlaskAPI
 from flask import render_template
-from codes.PredictiveModelBuilding import PredictiveModelBuilding
+from codes.predictiveModelBuilding import PredictiveModelBuilding
 from config import app_config
 from sklearn.externals import joblib
 from flask import request, abort, jsonify
@@ -29,6 +29,12 @@ def create_app(config_name):
     app.register_blueprint(predictions_blueprint)
     from .home import home as home_blueprint
     app.register_blueprint(home_blueprint)
+    @app.route('/busses')
+    def busses():
+        bus_type = ['AC', 'NON-AC', 'Sleeper', 'NON-Sleeper']
+        bus_info = ['1010', '2020', '3030', '4040']
+        return render_template('busses.html', jnjbus_info=zip(bus_type, bus_info))
+
     @app.errorhandler(403)
     def forbidden(error):
         return render_template('errors/403.html', title='Forbidden'), 403
