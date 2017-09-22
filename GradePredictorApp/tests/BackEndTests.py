@@ -29,9 +29,10 @@ class GradePredictorTestCase(unittest.TestCase):
             self.app = create_app(config_name="CIRCLECI")
         else:
             self.app = create_app(config_name="testing")
+        self.app_floder = self.app.root_path
         self.client = self.app.test_client
         self.directory = TempDirectory(
-            path='../app/static',
+            path=self.app_floder+'/static',
             create=False)        #initialisation of temporary directory
         self.predictives_models = []
         self.new_student = {'DIPPERC':0.60, 'SCHOOL_RIGHT':'itfm/bukavu', 'OPTION_RIGHT':'elec indust'}
@@ -77,7 +78,7 @@ class GradePredictorTestCase(unittest.TestCase):
         and check if there are instances of preictives models class
 
         """
-        path = '../app/static/classes/'
+        path = self.app_floder+'/static/classes/'
         for filename in os.listdir(path):
             model = joblib.load(path+filename)
             self.predictives_models.append(model)

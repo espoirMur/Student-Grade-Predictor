@@ -1,0 +1,12 @@
+language: python
+python:
+  - "2.7"
+# command to swich to the project directory
+before_script: cd GradePredictorApp/
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+# command to run tests
+script:
+  - nosetests tests/BackEndTests.py
+  - nosetests tests/FrontEndTests.py
