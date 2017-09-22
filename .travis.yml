@@ -2,7 +2,11 @@ language: python
 python:
   - "2.7"
 # command to swich to the project directory
-before_script: cd GradePredictorApp/
+before_script:
+  - cd GradePredictorApp/codes
+  - export PYTHONPATH=$PYTHONPATH:$(pwd)
+  - cd ..
+
 # command to install dependencies
 install:
   - pip install -r requirements.txt
