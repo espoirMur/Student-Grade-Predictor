@@ -1,9 +1,5 @@
 
 import os
-import sys
-sys.path.insert(0,"codes/")
-reload(sys)
-sys.setdefaultencoding('utf8') #for ascii decoder in notes
 import json
 import unittest
 import pandas as pd

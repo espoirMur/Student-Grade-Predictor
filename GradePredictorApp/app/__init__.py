@@ -1,7 +1,5 @@
 import os
 import pandas as pd
-import sys
-sys.path.insert(0, "/Users/espyMur/Desktop/Memory-WorkingDir/Memory-Working-Dir/GradePredictorApp/codes/")
 from flask_api import FlaskAPI
 from flask import render_template
 from predictiveModelBuilding import PredictiveModelBuilding
