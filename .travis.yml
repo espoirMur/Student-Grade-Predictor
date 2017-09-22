@@ -8,6 +8,6 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  _ python import.py
+  - python import.py
   - nosetests tests/BackEndTests.py
   - nosetests tests/FrontEndTests.py
