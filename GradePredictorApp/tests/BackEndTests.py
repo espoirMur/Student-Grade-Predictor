@@ -5,7 +5,7 @@ sys.setdefaultencoding('utf8') #for ascii decoder in notes
 import json
 import unittest
 import pandas as pd
-from codes.predictiveModelBuilding import PredictiveModelBuilding
+import predictiveModelBuilding
 from app import create_app
 from testfixtures import TempDirectory
 from flask import jsonify

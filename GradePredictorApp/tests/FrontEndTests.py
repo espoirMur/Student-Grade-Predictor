@@ -4,7 +4,7 @@ import json
 from flask import abort, url_for, Flask
 import unittest
 from config import app_config
-from codes.predictiveModelBuilding import PredictiveModelBuilding
+import predictiveModelBuilding
 from app import create_app
 
 
