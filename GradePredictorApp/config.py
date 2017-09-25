@@ -9,6 +9,7 @@ class Config(object):
 class DevelopmentConfig(Config):
     """Configurations for Development."""
     DEBUG = True
+    WHOOSH_ENABLED = os.environ.get('HEROKU') is None
 
 
 class TestingConfig(Config):
@@ -18,6 +19,7 @@ class TestingConfig(Config):
     DEBUG = True
     WTF_CSRF_CHECK_DEFAULT = False
     WTF_CSRF_ENABLED = False
+    WHOOSH_ENABLED = os.environ.get('HEROKU') is None
 
 class StagingConfig(Config):
     """Configurations for Staging."""

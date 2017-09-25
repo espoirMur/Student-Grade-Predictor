@@ -1,15 +1,18 @@
 language: python
 python:
-  - "2.7"
-# command to swich to the project directory
+- '2.7'
 before_install:
-  - cd GradePredictorApp/codes
-# command to install dependencies
+- cd GradePredictorApp/codes
 install:
-  - pip install -r ../../requirements.txt
-  - python setup.py install
-  - cd ..
-# command to run tests
+- pip install -r ../../requirements.txt
+- python setup.py install
+- cd ..
+- export APP_CONFIG='production'
 script:
-  - nosetests tests/BackEndTests.py
-  - nosetests tests/FrontEndTests.py
+- nosetests tests/BackEndTests.py
+- nosetests tests/FrontEndTests.py
+deploy:
+  provider: heroku
+  api_key:
+    secure: "qmPhp+KaHFfngSmNibH2BNg5dAhK8mX8axg5EZcDqyFxWLfkmRK5AFsPLu1PujoEjOGnF9RFIBJig2MHAgMbYjvhJWcgMIfxGAylyemvWnzT53MBmz5TdxxF/BxxMvtmNJCh6X4FemR9mBTi1jwc81sEACA2cvYY6nuvZZ+ZUkKtubINM7LgoihjlgCpjbuRB+bx4xVEd5iJeAYZVpMXgEHj83Mevlesqg+MrsJVPQRhvgLIeOqkhUnNp7kZEsE3ulUXBYBz7xNdnFnftY+VqVroXqUUSJudkjCGN3ZmTYf3VqH7Z4awStLoPzEHgjlhFJYHrxOPB7MsWbCRqelOWYc3px/LL3TzyYBdTl6KRfx3mqFz8BfjvYjEwI7qGuEjsUECdtWayxgfkU3Vx6rtSOEt6l//UaDeIeypVuBTx/sm5WqQF5HU8m1uv3Q5Vt81QsUCpIs0/YGhdvUuIZA0z0sG1AGBv7Qo3Lhh90CqB7++RqNvk2MpdF3N39I/T1mWJJL5aprrZTqGtnQd4Ag/kDkg7sMV86G+N1hzLeOHLMXJGxET843afp/hshMIgGW9aOKxC8Ib/LJvwVUL578xOrctDLgc6ewMl9fBQgAv1+FGMtyhf6NXyCyzXu7bGgu993IucMKqxXLAsDT9uRrYB0e7yHjWMVZNoo1tA1U/jHQ="
+  app : grade-predictor-app
