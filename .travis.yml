@@ -19,6 +19,6 @@ deploy:
   on:
     all_branches: true
     tags: false
-  python : 2.7 #the pyhton version we want to deploy
+  python : 2.7
   strategy: git
 
