@@ -1,1 +1,1 @@
-web: gunicorn GradePredictorApp.run
+web: gunicorn GradePredictorApp/run.py
