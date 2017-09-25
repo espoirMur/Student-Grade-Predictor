@@ -9,7 +9,6 @@ from app import create_app
 
 
 
-
 class TestBase(unittest.TestCase):
     """this is the base case for ours tests"""
 
