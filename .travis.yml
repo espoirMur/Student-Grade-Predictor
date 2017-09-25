@@ -20,5 +20,5 @@ deploy:
     all_branches: true
     tags: false
    python : 2.7
-   strategy: git
+   strategy: api
 
