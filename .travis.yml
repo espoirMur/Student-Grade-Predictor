@@ -21,3 +21,4 @@ deploy:
     tags: false
   python : 2.7 #the pyhton version we want to deploy
   strategy: git
+
