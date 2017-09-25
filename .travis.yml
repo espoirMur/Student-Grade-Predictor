@@ -15,10 +15,10 @@ deploy:
    provider: heroku
    api_key:
     secure: Zl11fkpzoSMMEpUIHdML9Qu0VMYhk740rfY7Sh3PKU7RGx2JiZ7rCIFlkpLGxOWsRQaAVVfoMEA7R7IpVnXIOE1r4ux/sJxqTv3q4fAPfJo9Tqnvv7JKjfGj6XeS5GW+rgyi5e9KDhfUXqjcMt6Wk65hWgbFQl2z2M/OE4CFrTGBwfbEiVStq2tKoPYt9GA1BBI8mTMoILYVWQsNVPVKJdqn2HWRcYSRE8AJzANMy5H3nEsdE7wqfN/ZtImeD1+qBNuYUfk2a/K39VcGlAjj+yN256eVOKi0PPRTeQOmn1AMHYCkSuO+6W5l9vGqL6QPtOy4ywVDeZf47IGGx8fWBrB7gxnw0SYBiLjBeeXkydMBwxVXNruHkGbMC/zNCKCdZhbVoNNpyiPKPkP8HPCLkrTRTy7pmGo9hjm2JC+Me9jhpPzTlm5offTPsrhafRe6GbiENyuPhckHkQ1ZXgxLt27OLlgJi54KLDQVrdp7KWWStKM5IuAP//Frk9Lyypr5S6BQm5DBxXkpaDtMcwgHuwoP2oPl+sUD5Etf6A8DK2uZdkWCT1FZO9nU8CfKofsbdpSs3vwuxOK3QtvJ4ADolCFQRB5bXmworxpS5rDe29BgPAhT7gAbDMv328saVDnmmzEP0e3+DzHlree937/qZmStcPNOHE8To4e6f7yqexU=
-  app: grade-predictor-app
-  on:
+   app: grade-predictor-app
+   on:
     all_branches: true
     tags: false
-  python : 2.7
-  strategy: git
+   python : 2.7
+   strategy: git
 
