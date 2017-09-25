@@ -1,1 +1,1 @@
-web: gunicorn GradePredictorApp/run.py
+web: gunicorn --chdir GradePredictorApp run:app
