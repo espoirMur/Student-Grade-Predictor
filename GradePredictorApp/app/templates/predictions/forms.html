@@ -11,13 +11,22 @@
                 <h4 class="font-alt mb-0">Remplisssez et Voyez</h4>
                 <hr class="divider-w mt-10 mb-20">
                 <form id="predict-form" method="POST" action="{{url_for('predictions.predict')}}" class="form" role="form">
-                <div class="form-group">
     <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+    <div class="form-group">
     <input class="typeahead form-control input-lg"  type="text" name="SCHOOL_RIGHT" id="SCHOOL_RIGHT" minlength="3" placeholder="(votre ecole de provenance)" data-provide="typeahead" autocomplete="off" required>
+    </div>
+    <div class="col-sm-8">
+            <small id="error_school" class="text-danger">
+            </small>
     </div>
 <div class="form-group">
   <input class="typeahead form-control input-lg"
        name="OPTION_RIGHT" id="OPTION_RIGHT" data-provide="typeahead" placeholder="(choisissez votre option )" required>
+  <div class="col-sm-8">
+            <small id="error_option" class="text-danger">
+            </small>
+  </div>
+
 </div>
 <div class="form-group">
   <input  class="form-control input-lg" type="number" name="DIPPERC" min="50" max="100" id="DIPPERC" placeholder="(Poucentage du

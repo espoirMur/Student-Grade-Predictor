@@ -1,79 +1,3 @@
-// Auto resize input
-function resizeInput() {
-    $(this).attr('size', $(this).val().length);
-}
-
-$('input[type="text"], input[type="email"]')
-    // event handler
-    .keyup(resizeInput)
-    // resize on page load
-    .each(resizeInput);
-
-
-console.clear();
-// Adapted from georgepapadakis.me/demo/expanding-textarea.html
-(function(){
-
-  var textareas = document.querySelectorAll('.expanding'),
-
-      resize = function(t) {
-        t.style.height = 'auto';
-        t.style.overflow = 'hidden'; // Ensure scrollbar doesn't interfere with the true height of the text.
-        t.style.height = (t.scrollHeight + t.offset ) + 'px';
-        t.style.overflow = '';
-      },
-
-      attachResize = function(t) {
-        if ( t ) {
-          console.log('t.className',t.className);
-          t.offset = !window.opera ? (t.offsetHeight - t.clientHeight) : (t.offsetHeight + parseInt(window.getComputedStyle(t, null).getPropertyValue('border-top-width')));
-
-
-
-          resize(t);
-
-          if ( t.addEventListener ) {
-            t.addEventListener('input', function() { resize(t); });
-            t.addEventListener('mouseup', function() { resize(t); }); // set height after user resize
-          }
-
-          t['attachEvent'] && t.attachEvent('onkeyup', function() { resize(t); });
-        }
-      };
-
-  // IE7 support
-  if ( !document.querySelectorAll ) {
-
-    function getElementsByClass(searchClass,node,tag) {
-      var classElements = new Array();
-      node = node || document;
-      tag = tag || '*';
-      var els = node.getElementsByTagName(tag);
-      var elsLen = els.length;
-      var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
-      for (i = 0, j = 0; i < elsLen; i++) {
-        if ( pattern.test(els[i].className) ) {
-          classElements[j] = els[i];
-          j++;
-        }
-      }
-      return classElements;
-    }
-
-    textareas = getElementsByClass('expanding');
-  }
-
-  for (var i = 0; i < textareas.length; i++ ) {
-    attachResize(textareas[i]);
-  }
-
-})();
-
-
-
-// for the autocomplete function
-
-
  $(document).ready(function() {
   // the basics
   // ----------
@@ -102,6 +26,49 @@ console.clear();
       cb(matches);
     };
   };
+// validate the school name and option according to the
+
+
+var error_school = document.getElementById("error_school");
+var message_error_school ="veuillez choisir une école dans la liste  ne mettez pas institut, collège ou Lycée entrée directement le non de l'ecole p.ex: mwanga, metanoia"
+// for option as the user is typing and for the form validation
+
+var error_option = document.getElementById("error_option");
+var message_error_option =  "Choissez votre option dans la liste ne mettez pas la section ex: pedagogie, math-physique"
+
+$('input').on('input propertychange change', function(event){
+  if (event.target.id=="SCHOOL_RIGHT"){
+    var school_name = event.target;
+    error_school.innerHTML=message_error_school;
+    console.log(school_name.value.toLowerCase());
+  if (schools.includes(school_name.value.toLowerCase())) {
+    console.log(school_name.value.toLowerCase());
+    error_school.innerHTML="ok";
+    error_school.className="text-success";
+    school_name.setCustomValidity("");
+  } else {
+    error_school.innerHTML=message_error_school;
+    error_school.className="text-danger";
+    school_name.setCustomValidity(message_error_school);
+  }
+  }
+  else if (event.target.id=="OPTION_RIGHT"){
+    var option_name = event.target;
+  error_option.innerHTML=message_error_option;
+    console.log(option_name.value.toLowerCase());
+  if (options.includes(option_name.value.toLowerCase())){
+    console.log(option_name.value.toLowerCase());
+     error_option.innerHTML="ok";
+     error_option.className="text-success";
+     option_name.setCustomValidity("");
+  } else {
+    error_option.innerHTML=message_error_option;
+    error_option.className="text-danger";
+    option_name.setCustomValidity(message_error_option);
+  }
+  }
+
+});
 
 
   $('#SCHOOL_RIGHT').typeahead({
