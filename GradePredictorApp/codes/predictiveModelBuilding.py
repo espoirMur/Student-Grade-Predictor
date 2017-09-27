@@ -178,7 +178,13 @@ class PredictiveModelBuilding(object):
         deployement
 
         """
-        joblib.dump(self, "../app/static/classes"+departement+".pkl")
+        try:
+            joblib.dump(self, "../GradePredictorApp/app/static/classes/"+departement+".pkl")
+        except Exception as exception:
+            raise TypeError("model floder not found "+str(exception))
+        finally:
+            joblib.dump(self, departement+".pkl")
+
 
 
 def convert_cat(dataset, cat_col, num_col):
