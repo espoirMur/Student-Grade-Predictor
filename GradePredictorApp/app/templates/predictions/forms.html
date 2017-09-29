@@ -46,13 +46,13 @@ var form = document.getElementById("predict-form");
 form.onsubmit = function (e) {
 // stop the regular form submission
 e.preventDefault();
-
+data = {}
 // collect the form data while iterating over the inputs
-var formEntries = new FormData(form).entries();
-var data = Object.assign(...Array.from(formEntries, ([x,y]) => ({[x]:y})));
+/**var formEntries = new FormData(form).entries();
+var data = Object.assign(...Array.from(formEntries, ([x,y]) => ({[x]:y})));*/
+$(this).serializeArray().map(function(x){data[x.name] = x.value;});
 delete data["csrf_token"];
 data["DIPPERC"] = data["DIPPERC"]/100.0
-
 console.log(data);
 // construct an HTTP request
 var xhr = new XMLHttpRequest();
