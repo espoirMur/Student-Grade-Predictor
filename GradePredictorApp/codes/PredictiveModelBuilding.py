@@ -8,17 +8,35 @@ from sklearn.metrics import mean_squared_error
 from sklearn.externals import joblib
 from sklearn.preprocessing import LabelBinarizer
 
+
+
 class PredictiveModelBuilding(object):
     """
 
-    docstring for PredictiveModelByilding
+
     this class will handle all pipeline for a preeictive modele building
     in the chapter of my machine learning project ,
-    it will train differents modele, encode data,scale data, and so on
-
+    it will train differents models, encode data,scale data, and predict
     """
     def __init__(self, dataset, encoderFunction):
+        """
 
+        Parameters
+        ----------
+        dataframe : pandas dataframe
+        this if the dataframe we will use to train the model
+        encoderFunction : function
+        the function used to encode categorical data in the dataframe
+
+        Returns
+        -------
+        the dataset:
+        training set : the training set of our dataset
+        test_set : the test set
+        preidictive_models : the models we will use to predict the new
+        data
+        stacker : the satcker of our 5 predictives models
+        """
         if isinstance(dataset, pd.DataFrame):
             self.dataset = dataset
             self.training_set = pd.DataFrame()
@@ -59,6 +77,11 @@ class PredictiveModelBuilding(object):
         """
         the function will split the dataset into a train and a test one"
          and return x_train and x_Test
+        Returns
+        -------
+        the dataset:
+        training set : the training set description
+        and the test set descriptions
 
         """
         split = StratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=4)
@@ -76,7 +99,14 @@ class PredictiveModelBuilding(object):
         return train_descrption, test_description
 
     def train(self):
-        """will train diverents models with x , y pass in parametes"""
+        """
+
+        this  will fit our predictives models with x_train and
+        y_train, and make predictions with them
+        Return:
+        -------
+        the function will return the dataset of predicted values
+        """
         predictions = {}
         for clf in self.predictive_models.values():
             clf.fit(self.x_train, self.y_train)
@@ -87,7 +117,15 @@ class PredictiveModelBuilding(object):
         return predicted_values
 
     def predict_test(self):
-        """predict values from the test set"""
+        """
+
+        this  will fit our predictives models with x_test and
+        y_test, and make predictions with them
+        Return:
+        -------
+        the function will return the dataset of predicted values
+
+        """
 
         predictions = {}
         for clf in self.predictive_models.values():
@@ -98,10 +136,21 @@ class PredictiveModelBuilding(object):
         return predicted_values
 
     def predict_new(self, new_student_data):
+
         """
-        this call will handle predictions for new values,
-        but frirst it will endcode them nand then try to predict
-        start first by handling categorical values
+        the function will handle predicting data on new data
+
+        the data will be received as json object and it will be encoded
+        Parameters
+        ----------
+        new_student_data : the new student data as a dict
+        Description of arg1
+
+
+        Returns
+        -------
+        double
+        the final predicted value
 
         """
 
@@ -125,11 +174,25 @@ class PredictiveModelBuilding(object):
         return predicted_values['finalOutput']
 
     def evaluate(self, model, sur):
+
         """
 
         this function will first do a evaluation of a model and return
         the rmse score of it and some data and their labels the function
-        can evaluate on trainset and also on test_set
+        can evaluate on the training set  and also on test_set
+
+        Parameters
+        ----------
+        sur : string
+        [test,or train] to tell on which dataframe the model will be
+        evaluated
+        model : predictive model
+        the model to evaluate
+
+        Returns
+        -------
+        RMSE_SCORE
+        teh root mean square error
 
         """
         if sur == 'train':
@@ -152,16 +215,43 @@ class PredictiveModelBuilding(object):
             return lin_rmse
 
     def cross_evaluate(self, model):
-        """this one will perfom a cross validation of the model"""
+        """
+
+        this one will perfom a cross validation of the model
+
+
+        Parameters
+        ----------
+        model : predictive model
+        the model to evaluate
+
+        Returns
+        -------
+        RMSE_SCORE : tuple
+        teh root mean square errors, theirs mean, and std deviation
+
+        """
         scores = cross_val_score(self.predictive_models[model], self.x_train, self.y_train, scoring="neg_mean_squared_error", cv=10)
         rmse_scores = np.sqrt(-scores)
         return rmse_scores, rmse_scores.std(), rmse_scores.mean()
 
     def ensemble_methods(self, predicted_values):
+
         """
         this method will get a dataframe of predicted values by diffrents classifier and will return
         the value compute by  a linear regression between the 3 values and rmse
+
+        Parameters
+        ---------
+        predicted_values : pandas dataframe : the dataframe of
+        predicted values
+
+        Return
+        ------
+        predicted_values : the final results
+        rmse_ensemble : the root mean square error of ensemble models
         """
+
         labels = ['ElasticNet', 'Lasso', 'LinearSVR', 'Ridge', 'SVR']
         x_new = predicted_values[labels]
         y_new = predicted_values.RealValue
@@ -176,7 +266,9 @@ class PredictiveModelBuilding(object):
 
         after all job we will save the class with the models for
         deployement
-
+        Parameters
+        ---------
+        departement : string : name of departement
         """
         try:
             joblib.dump(self, "../GradePredictorApp/app/static/classes/"+departement+".pkl")
@@ -186,13 +278,21 @@ class PredictiveModelBuilding(object):
             joblib.dump(self, departement+".pkl")
 
 
-
 def convert_cat(dataset, cat_col, num_col):
     """
 
     this function will binarize a dataset given in parametrer and
     return the dataset with categorical columns binarise by one-hot
     encoding
+
+    Parameters
+    ---------
+        cat_col : string : name of catgorical columns
+        num_col :string : num of numerical columns
+    Return
+        ------
+        x_new : dataset with encoded columns
+        enc : the encoder for each departement
 
     """
     encs = {}
@@ -211,7 +311,6 @@ def convert_cat(dataset, cat_col, num_col):
         # Setting the index values similar to the X_train data frame
         temp = temp.set_index(dataset.index)
         # adding the new One Hot Encoded varibales to the train data frame
-
         x_new = pd.merge(temp, x_new, right_index=True, left_index=True)
         #saving the encoder into a dict for others operations
         encs[col] = enc
@@ -227,6 +326,7 @@ def final_job(dataframe):
     """
 
     #first we iterate over the whole dataset to get each departement
+
 
     results = {}
     predicted_resuts = {}
