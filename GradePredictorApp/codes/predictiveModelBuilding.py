@@ -12,8 +12,6 @@ from sklearn.preprocessing import LabelBinarizer
 
 class PredictiveModelBuilding(object):
     """
-
-
     this class will handle all pipeline for a preeictive modele building
     in the chapter of my machine learning project ,
     it will train differents models, encode data,scale data, and predict

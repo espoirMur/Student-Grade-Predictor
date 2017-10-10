@@ -1,1 +1,19 @@
-400 Error
+{% extends "base.html" %}
+{% block title %} Results forms {% endblock %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+{% block content %}
+      <section class="home-section home-parallax home-fade home-full-height bg-dark bg-dark-30" id="home" data-background="assets/images/section-4.jpg">
+        <div class="titan-caption">
+          <div class="caption-content">
+            <div class="font-alt mb-30 titan-title-size-4">400 Error</div>
+            <div class="font-alt">There is a problem with your request try to reload the page or contact me.
+            </div>
+            <div class="font-alt mt-30"><a class="btn btn-border-w btn-round" href="{{url_for('home.homepage')}}">Back to home page</a></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+{% endblock %}

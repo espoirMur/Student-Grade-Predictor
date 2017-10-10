@@ -1,1 +1,24 @@
-403 Error
+{% extends "base.html" %}
+{% block title %} Results forms {% endblock %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+{% block content %}
+<body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+    <main>
+      <div class="page-loader">
+        <div class="loader">Loading...</div>
+      </div>
+      <section class="home-section home-parallax home-fade home-full-height bg-dark bg-dark-30" id="home" data-background="assets/images/section-4.jpg">
+        <div class="titan-caption">
+          <div class="caption-content">
+            <div class="font-alt mb-30 titan-title-size-4">403 Error</div>
+            <div class="font-alt">You are not allowed to see this page
+            </div>
+            <div class="font-alt mt-30"><a class="btn btn-border-w btn-round" href="{{url_for('home.homepage')}}">Back to home page</a></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+{% endblock %}
